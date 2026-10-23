@@ -1,11 +1,8 @@
 node_modules/
 dist/
-build/
-.next/
 .astro/
-.vercel/
-.env
-.env.*
-!.env.example
 .DS_Store
 *.log
+.env*
+# design handoff is unpacked in design/
+*.zip

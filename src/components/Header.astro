@@ -1,0 +1,77 @@
+---
+import Sprite from './Sprite.astro';
+
+export type Page = 'home' | 'support' | 'privacy';
+
+interface Props {
+  page: Page;
+}
+
+const { page } = Astro.props;
+
+// The home page links to its own sections; the other pages link back home.
+const links =
+  page === 'home'
+    ? [
+        { href: '#helpers', label: 'Helpers' },
+        { href: '#parents', label: 'For parents' },
+        { href: '/support', label: 'Support' },
+        { href: '/privacy', label: 'Privacy' },
+      ]
+    : [
+        { href: '/', label: 'Home' },
+        { href: '/support', label: 'Support', page: 'support' },
+        { href: '/privacy', label: 'Privacy', page: 'privacy' },
+      ];
+---
+
+<header class="night">
+  <div class="container bar">
+    <a href="/" class="brand">
+      <Sprite name="crown" class="crown" />
+      <span class="pixel">WHERE'S MY CROWN?</span>
+    </a>
+    <nav aria-label="Main" class="ui">
+      {links.map((l) => (
+        <a href={l.href} aria-current={l.page === page ? 'page' : undefined}>
+          {l.label}
+        </a>
+      ))}
+    </nav>
+  </div>
+</header>
+
+<style>
+  header { border-bottom: 4px solid var(--night-deep); }
+
+  .bar {
+    padding-top: 18px;
+    padding-bottom: 18px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+  }
+
+  .brand {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: var(--gold);
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 1.4;
+  }
+  .brand :global(.crown) { width: 48px; }
+
+  nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    font-size: 20px;
+  }
+  nav a { color: var(--on-night-2); text-decoration: none; }
+  nav a:hover,
+  nav a[aria-current='page'] { color: var(--gold); }
+</style>

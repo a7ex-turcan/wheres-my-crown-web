@@ -1,0 +1,156 @@
+---
+import Base from '../layouts/Base.astro';
+import Faq from '../components/Faq.astro';
+
+// Keep the in-app paths in these answers in sync with the real app.
+const email = '[SUPPORT EMAIL]';
+---
+
+<Base page="support" title="Where's My Crown? – Support" description="Help and answers for Where's My Crown?">
+  <section class="night">
+    <div class="container narrow hero">
+      <h1 class="title">SUPPORT</h1>
+      <p>Stuck in the maze, or something not working as it should? Start with the answers below, or write to us.</p>
+    </div>
+  </section>
+
+  <section aria-labelledby="contact-h">
+    <div class="container narrow contact-wrap">
+      <div class="contact">
+        <div class="contact-copy">
+          <h2 id="contact-h" class="ui">Contact us</h2>
+          <p>
+            Email us and a real person will reply. If you're reporting a problem, please tell us your device
+            (for example iPad 10th generation) and iOS version.
+          </p>
+        </div>
+        <a href={`mailto:${email}`} class="pixel email">{email}</a>
+      </div>
+    </div>
+  </section>
+
+  <section aria-labelledby="faq-h">
+    <div class="container narrow faq">
+      <h2 id="faq-h" class="section-title">Common questions</h2>
+
+      <Faq q="How do you play?">
+        <p>
+          Help the princess walk through the maze to her crown. Tap any spot on the path and she walks there by
+          herself, or use the big arrow buttons, or swipe. Watch out for the dragon: if it catches her, she loses a
+          heart and hops back to a safe spot. Finding the crown unlocks the next maze.
+        </p>
+      </Faq>
+
+      <Faq q="What are helpers?">
+        <p>
+          Before each maze you can bring a helper. The unicorn chases the dragon away (and can be ridden), the fairy
+          puts it to sleep, and the owl shows the way to the crown. In the free version a helper costs one short ad;
+          with the Royal Pass every helper is free.
+        </p>
+      </Faq>
+
+      <Faq q="Why is there a maths question?">
+        <p>
+          That's the grown-up gate. Purchases and settings are behind a quick multiplication question so little ones
+          can't buy anything or change settings by accident.
+        </p>
+      </Faq>
+
+      <Faq q="I bought the Royal Pass. How do I restore it on a new device?">
+        <p>
+          Sign in with the same Apple Account you used to buy it. Then on the title screen tap
+          <strong>For grown-ups</strong>, answer the question, open <strong>Royal Pass</strong> and tap
+          <strong>Restore purchase</strong>.
+        </p>
+      </Faq>
+
+      <Faq q="How do I get a refund?">
+        <p>
+          Purchases are handled by Apple, so refunds are too. You can request one at
+          <a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a>. If something went wrong with your
+          purchase, email us as well and we'll help.
+        </p>
+      </Faq>
+
+      <Faq q="How do I turn off the sound or the reading voice?">
+        <p>
+          On the title screen tap <strong>For grown-ups</strong>, answer the question, then switch
+          <strong>Sound</strong> or <strong>Read aloud</strong> off.
+        </p>
+      </Faq>
+
+      <Faq q="How do I start the mazes over?">
+        <p>
+          Tap <strong>For grown-ups</strong> on the title screen, answer the question and choose
+          <strong>Reset maze progress</strong>. All mazes except the first one lock again. Your Royal Pass and
+          dress-up choices are kept.
+        </p>
+      </Faq>
+
+      <Faq q="It's a bit too hard for my child. Any tips?">
+        <p>
+          Try bringing the fairy or the unicorn: both deal with the dragon so the maze becomes a calm walk. The owl is
+          great for children who get lost, because it draws arrows all the way to the crown.
+        </p>
+      </Faq>
+
+      <p class="after">Looking for how we handle data? Read our <a href="/privacy">Privacy Policy</a>.</p>
+    </div>
+  </section>
+</Base>
+
+<style>
+  .hero {
+    padding-top: 56px;
+    padding-bottom: 64px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  h1 { font-size: clamp(26px, 4vw, 40px); line-height: 1.3; }
+  .hero p { font-size: 20px; line-height: 1.6; color: var(--on-night-lead); max-width: 40rem; }
+
+  .contact-wrap { padding-top: 48px; }
+  .contact {
+    background: var(--card);
+    box-shadow: 0 0 0 4px var(--ink), 8px 8px 0 4px var(--gold);
+    padding: 28px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  .contact-copy {
+    flex: 1 1 360px;
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  .contact h2 { font-size: 28px; }
+  .contact p { font-size: 18px; line-height: 1.55; }
+  .email {
+    display: inline-flex;
+    align-items: center;
+    min-height: 52px;
+    padding: 0 24px;
+    background: var(--gold);
+    color: var(--ink);
+    text-decoration: none;
+    font-size: 13px;
+    line-height: 1.4;
+    box-shadow: inset -4px -4px 0 var(--gold-deep), 0 0 0 4px var(--ink);
+  }
+  .email:hover { color: var(--ink); }
+
+  .faq {
+    padding-top: 56px;
+    padding-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  .faq h2 { font-size: clamp(18px, 2.4vw, 24px); margin-bottom: 8px; }
+  .after { margin-top: 16px; font-size: 18px; line-height: 1.6; }
+</style>

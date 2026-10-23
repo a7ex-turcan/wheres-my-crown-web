@@ -1,0 +1,69 @@
+/* Base */
+*, *::before, *::after { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+
+body {
+  margin: 0;
+  min-width: 0;
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, p, ul, figure { margin: 0; }
+
+a { color: var(--link); }
+a:hover { color: var(--link-hover); }
+a:focus-visible,
+summary:focus-visible {
+  outline: 3px solid var(--link);
+  outline-offset: 3px;
+}
+
+/* Bands: full-width sections that alternate night and cream */
+.night { background: var(--night); color: var(--on-night); }
+.cream { background: var(--cream); color: var(--ink); }
+.night a:focus-visible { outline-color: var(--gold); }
+
+/* Page background behind the bands (and below a short page) */
+.page-night { background: var(--night); }
+.page-cream { background: var(--cream); color: var(--ink); }
+
+/* --container is the content width; the gutters sit outside it */
+.container {
+  max-width: calc(var(--container) + 2 * var(--gutter));
+  margin: 0 auto;
+  padding: 0 var(--gutter);
+}
+.container.narrow { max-width: calc(var(--container-narrow) + 2 * var(--gutter)); }
+
+/* Type */
+.pixel { font-family: var(--font-pixel); font-weight: 400; }
+.ui { font-family: var(--font-ui); font-weight: 700; }
+
+/* Section heading: "Take a peek", "For parents", ... */
+.section-title {
+  font-family: var(--font-pixel);
+  font-weight: 400;
+  font-size: clamp(18px, 2.4vw, 26px);
+  line-height: 1.5;
+}
+.night .section-title { color: var(--gold); }
+
+/* Page title: gold with a hard ember drop shadow */
+.title {
+  font-family: var(--font-pixel);
+  font-weight: 400;
+  color: var(--gold);
+  text-shadow: 4px 4px 0 var(--ember);
+}
+
+/* 1-pixel idle bob, stepped like the game */
+@keyframes bob {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-4%); }
+}
+.bob { animation: bob 1s steps(1) infinite; }
+@media (prefers-reduced-motion: reduce) { .bob { animation: none; } }

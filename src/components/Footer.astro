@@ -1,0 +1,53 @@
+---
+import type { Page } from './Header.astro';
+
+interface Props {
+  page: Page;
+}
+
+const { page } = Astro.props;
+
+const links = [
+  { href: '/', label: 'Home', page: 'home' },
+  { href: '/support', label: 'Support', page: 'support' },
+  { href: '/privacy', label: 'Privacy Policy', page: 'privacy' },
+].filter((l) => l.page !== page);
+---
+
+<footer>
+  <div class="container bar">
+    <p>© {new Date().getFullYear()} Nutrx Labs</p>
+    <nav aria-label="Footer">
+      {links.map((l) => <a href={l.href}>{l.label}</a>)}
+      <a href="https://nutrx-labs.com">nutrx-labs.com</a>
+    </nav>
+  </div>
+</footer>
+
+<style>
+  footer {
+    background: var(--night-deep);
+    border-top: 4px solid var(--panel-line);
+    color: var(--on-night-muted);
+    font-size: 16px;
+  }
+
+  .bar {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+  }
+
+  nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+  }
+  a { color: var(--on-night-2); }
+  a:hover { color: var(--gold); }
+  a:focus-visible { outline-color: var(--gold); }
+</style>

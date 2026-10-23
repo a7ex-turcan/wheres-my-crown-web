@@ -1,0 +1,215 @@
+---
+import Base from '../layouts/Base.astro';
+
+const email = '[SUPPORT EMAIL]';
+
+const short = [
+  { title: 'No accounts', text: 'Nobody signs up or logs in.' },
+  { title: 'No personal data', text: "We don't collect names, photos, locations or contacts." },
+  { title: 'No tracking', text: 'No analytics or tracking tools follow your child around.' },
+  { title: 'Stays on the device', text: 'Game progress and settings live only on your iPhone or iPad.' },
+];
+---
+
+<Base page="privacy" title="Where's My Crown? – Privacy Policy" description="How Where's My Crown? handles your family's information.">
+  <section class="night">
+    <div class="container narrow hero">
+      <h1 class="title">PRIVACY POLICY</h1>
+      <p>Effective date: [DATE]</p>
+    </div>
+  </section>
+
+  <!-- Remove this banner once the policy has been reviewed. -->
+  <div class="container narrow draft-wrap">
+    <p role="note" class="draft">
+      <strong>Draft:</strong> this policy describes how the app is designed to work. Fill in the bracketed details
+      and have it reviewed by someone qualified before publishing; children's apps have extra legal requirements
+      (such as COPPA in the US and GDPR in the EU and UK).
+    </p>
+  </div>
+
+  <section aria-labelledby="short-h">
+    <div class="container narrow short">
+      <h2 id="short-h" class="pixel">The short version</h2>
+      <div class="cards">
+        {short.map((s) => (
+          <div class="card">
+            <p class="ui">{s.title}</p>
+            <p>{s.text}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <article class="container narrow policy">
+    <section>
+      <h2 class="ui">Who we are</h2>
+      <p>
+        Where's My Crown? ("the app") is made by [LEGAL NAME OF DEVELOPER], trading as Nutrx Labs ("we", "us"). You
+        can reach us at <a href={`mailto:${email}`}>{email}</a> or [POSTAL ADDRESS].
+      </p>
+    </section>
+
+    <section>
+      <h2 class="ui">What the app keeps on your device</h2>
+      <p>To work, the app saves a few things on the device itself. They are never sent to us:</p>
+      <ul>
+        <li>which mazes are unlocked;</li>
+        <li>settings such as sound and read-aloud on or off;</li>
+        <li>dress-up choices (dress and hair colours, and whether the little sister comes along);</li>
+        <li>whether the Royal Pass has been bought.</li>
+      </ul>
+      <p>Deleting the app deletes this information.</p>
+    </section>
+
+    <section>
+      <h2 class="ui">Purchases</h2>
+      <p>
+        The Royal Pass is bought through Apple's App Store. Apple handles the payment; we never see your name,
+        payment card or Apple Account details. Apple tells the app only whether the purchase was made, so it can
+        unlock the helpers. Purchases sit behind a grown-up question so children can't buy by accident.
+      </p>
+    </section>
+
+    <section>
+      <h2 class="ui">Advertising</h2>
+      <p class="choose">[CHOOSE ONE BEFORE PUBLISHING]</p>
+      <p>
+        <strong>If the app shows ads:</strong> in the free version, a short ad plays only when a player chooses to
+        bring a helper. Ads are provided by [AD NETWORK NAME], which is certified for apps used by children. Ads are
+        contextual only: they are not based on your child's behaviour, and no advertising identifier or personal
+        information is used to target them. [AD NETWORK NAME]'s own privacy policy is at [LINK]. Buying the Royal
+        Pass removes ads completely.
+      </p>
+      <p><strong>If the app has no ads:</strong> the app contains no advertising of any kind.</p>
+    </section>
+
+    <section>
+      <h2 class="ui">Read aloud</h2>
+      <p>
+        The voice that reads messages aloud is [built into the app as recorded audio / produced by your device's own
+        speech feature]. Nothing your child does is recorded, and the app does not use the microphone or camera.
+      </p>
+    </section>
+
+    <section>
+      <h2 class="ui">Children's privacy</h2>
+      <p>
+        The app is made for young children. We do not knowingly collect personal information from children, and the
+        app has no chat, sharing or social features. If you believe a child has sent us personal information (for
+        example by email), contact us and we will delete it.
+      </p>
+    </section>
+
+    <section>
+      <h2 class="ui">If you email us</h2>
+      <p>
+        If you write to us for support, we use your email address and message only to answer you. We keep support
+        emails for [PERIOD] and then delete them. You can ask us to delete them sooner at any time.
+      </p>
+    </section>
+
+    <section>
+      <h2 class="ui">This website</h2>
+      <p>
+        This website does not use cookies or analytics. [UPDATE IF THAT CHANGES, OR NAME YOUR HOSTING PROVIDER IF IT
+        KEEPS SERVER LOGS.]
+      </p>
+    </section>
+
+    <section>
+      <h2 class="ui">Your rights</h2>
+      <p>
+        Depending on where you live, you may have rights to ask what information we hold about you, to correct it or
+        to have it deleted. Because the app doesn't collect personal information, the only information we might hold
+        is a support email you sent us. Write to <a href={`mailto:${email}`}>{email}</a> and we'll help.
+      </p>
+    </section>
+
+    <section>
+      <h2 class="ui">Changes to this policy</h2>
+      <p>
+        If we change how the app handles information, we'll update this page and the effective date at the top before
+        the change takes effect. If a change would mean collecting any personal information from children, we would
+        ask for a parent's permission first, as the law requires.
+      </p>
+    </section>
+
+    <p>Questions? See <a href="/support">Support</a> or email <a href={`mailto:${email}`}>{email}</a>.</p>
+  </article>
+</Base>
+
+<style>
+  .hero {
+    padding-top: 56px;
+    padding-bottom: 64px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  h1 { font-size: clamp(22px, 3.6vw, 36px); line-height: 1.35; }
+  .hero p { font-size: 18px; color: var(--on-night-2); }
+
+  .draft-wrap { padding-top: 40px; }
+  .draft {
+    padding: 16px 20px;
+    background: #FFE3EF;
+    box-shadow: 0 0 0 3px #B8407A;
+    font-size: 17px;
+    line-height: 1.55;
+    color: #5A1F3A;
+  }
+
+  .short {
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .short h2 { font-size: clamp(16px, 2.2vw, 22px); line-height: 1.5; }
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(240px, 100%), 1fr));
+    gap: 16px;
+  }
+  .card {
+    background: var(--card);
+    box-shadow: 0 0 0 3px var(--ink);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    font-size: 17px;
+    line-height: 1.5;
+  }
+  .card .ui { font-size: 22px; line-height: normal; }
+
+  .policy {
+    padding-top: 48px;
+    padding-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+    font-size: 18px;
+    line-height: 1.65;
+  }
+  .policy section {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .policy h2 { font-size: 28px; }
+  .policy ul {
+    margin: 0;
+    padding-left: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+  .choose {
+    padding: 12px 16px;
+    background: #FFF1C9;
+    box-shadow: inset 4px 0 0 var(--gold-deep);
+  }
+</style>

@@ -1,0 +1,48 @@
+/*
+  Where's My Crown? — design tokens
+  One theme, taken from the game: night purple and cream bands, gold titles.
+*/
+
+:root {
+  color-scheme: light;
+
+  /* Surfaces */
+  --night: #2A2150;         /* dark bands, header */
+  --night-deep: #1B1538;    /* header rule, footer, ground shadow */
+  --panel: #3B3170;         /* cards on night (helpers, screenshot slots) */
+  --panel-line: #6B5BA8;    /* panel inset border, footer rule */
+  --cream: #FFF8E6;         /* light bands */
+  --card: #FFFFFF;          /* cards on cream */
+
+  /* Text on night */
+  --on-night: #FFFFFF;
+  --on-night-lead: #ECE8FF; /* big intro paragraphs */
+  --on-night-2: #D9D2F5;    /* body copy, nav links */
+  --on-night-muted: #B8ADEA;
+
+  /* Text on cream */
+  --ink: #2A2150;
+  --link: #5B3FD6;
+  --link-hover: #3A22A8;
+
+  /* Game colours */
+  --gold: #FFD25A;          /* titles, focus ring on night */
+  --gold-deep: #C98B00;     /* gold button bevel */
+  --ember: #C2410C;         /* title drop shadow */
+  --pink: #FFB3C7;
+  --sky: #9EE7FF;
+  --mint: #9FE3A8;
+  --lilac: #8576C7;         /* App Store button ring */
+  --stone: #9C8EDC;         /* maze wall top */
+  --stone-deep: #5E4F9C;    /* maze wall front */
+
+  /* Type */
+  --font-pixel: 'Press Start 2P', 'Courier New', monospace;  /* titles, buttons */
+  --font-ui: 'Pixelify Sans', 'Courier New', monospace;      /* sub-headings, nav */
+  --font-body: 'Nunito', 'Trebuchet MS', sans-serif;
+
+  /* Layout */
+  --container: 1120px;
+  --container-narrow: 880px;
+  --gutter: 24px;
+}

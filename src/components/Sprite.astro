@@ -1,0 +1,37 @@
+---
+/*
+  A game sprite from src/data/sprites.json, drawn as crisp inline SVG.
+  Size it with CSS (width; height follows the sprite's aspect ratio).
+  Pass `label` for a meaningful image, otherwise it's hidden from screen readers.
+*/
+import type { HTMLAttributes } from 'astro/types';
+import { spriteLayers, type SpriteName } from '../lib/sprites';
+
+interface Props extends HTMLAttributes<'svg'> {
+  name: SpriteName;
+  palette?: Record<string, string>;
+  label?: string;
+}
+
+const { name, palette, label, class: className, ...rest } = Astro.props;
+const { width, height, layers } = spriteLayers(name, palette);
+---
+
+<svg
+  viewBox={`0 0 ${width} ${height}`}
+  class:list={['sprite', className]}
+  role={label ? 'img' : undefined}
+  aria-label={label}
+  aria-hidden={label ? undefined : 'true'}
+  {...rest}
+>
+  {layers.map((l) => <path d={l.d} fill={l.fill} />)}
+</svg>
+
+<style>
+  .sprite {
+    display: block;
+    height: auto;
+    shape-rendering: crispEdges;
+  }
+</style>
