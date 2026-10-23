@@ -1,32 +1,24 @@
 ---
 import Base from '../layouts/Base.astro';
 
-const email = '[SUPPORT EMAIL]';
+// The same policy as content/legal/privacy-policy.md in the game's repo; change both together.
+const email = 'support@nutrx-labs.com';
 
 const short = [
+  { title: 'Nothing collected', text: 'No names, photos, locations, contacts or usage data. Nothing leaves the device.' },
+  { title: 'No ads, no tracking', text: 'No advertising and no analytics or tracking tools of any kind.' },
   { title: 'No accounts', text: 'Nobody signs up or logs in.' },
-  { title: 'No personal data', text: "We don't collect names, photos, locations or contacts." },
-  { title: 'No tracking', text: 'No analytics or tracking tools follow your child around.' },
   { title: 'Stays on the device', text: 'Game progress and settings live only on your iPhone or iPad.' },
 ];
 ---
 
-<Base page="privacy" title="Where's My Crown? – Privacy Policy" description="How Where's My Crown? handles your family's information.">
+<Base page="privacy" title="Where's My Crown? – Privacy Policy" description="How Where's My Crown? handles your family's information: it collects nothing.">
   <section class="night">
     <div class="container narrow hero">
       <h1 class="title">PRIVACY POLICY</h1>
-      <p>Effective date: [DATE]</p>
+      <p>Effective date: 23 October 2026</p>
     </div>
   </section>
-
-  <!-- Remove this banner once the policy has been reviewed. -->
-  <div class="container narrow draft-wrap">
-    <p role="note" class="draft">
-      <strong>Draft:</strong> this policy describes how the app is designed to work. Fill in the bracketed details
-      and have it reviewed by someone qualified before publishing; children's apps have extra legal requirements
-      (such as COPPA in the US and GDPR in the EU and UK).
-    </p>
-  </div>
 
   <section aria-labelledby="short-h">
     <div class="container narrow short">
@@ -46,75 +38,86 @@ const short = [
     <section>
       <h2 class="ui">Who we are</h2>
       <p>
-        Where's My Crown? ("the app") is made by [LEGAL NAME OF DEVELOPER], trading as Nutrx Labs ("we", "us"). You
-        can reach us at <a href={`mailto:${email}`}>{email}</a> or [POSTAL ADDRESS].
+        Where's My Crown? ("the app") is a maze game for young children made by Nutrx Labs ("we", "us"). You can
+        reach us at <a href={`mailto:${email}`}>{email}</a>.
+      </p>
+    </section>
+
+    <section>
+      <h2 class="ui">What we collect</h2>
+      <p>
+        Nothing. The app has no accounts, no sign-in, no analytics, no advertising and no tracking, and it contains no
+        third-party code that collects data. We never see who plays it, how they play or where they are.
       </p>
     </section>
 
     <section>
       <h2 class="ui">What the app keeps on your device</h2>
-      <p>To work, the app saves a few things on the device itself. They are never sent to us:</p>
+      <p>To remember where your child got to, the app saves a few things on the device itself. They are never sent to us or anyone else:</p>
       <ul>
-        <li>which mazes are unlocked;</li>
-        <li>settings such as sound and read-aloud on or off;</li>
+        <li>which mazes are open, and the stars earned in each;</li>
         <li>dress-up choices (dress and hair colours, and whether the little sister comes along);</li>
-        <li>whether the Royal Pass has been bought.</li>
+        <li>the Sound and Read aloud settings from the grown-ups' area;</li>
+        <li>the day the free unicorn was last used (without the Royal Pass, the unicorn comes along once a day).</li>
       </ul>
-      <p>Deleting the app deletes this information.</p>
+      <p>
+        Deleting the app deletes all of this. <strong>Reset maze progress</strong> in the grown-ups' area clears the
+        mazes and stars.
+      </p>
     </section>
 
     <section>
       <h2 class="ui">Purchases</h2>
       <p>
-        The Royal Pass is bought through Apple's App Store. Apple handles the payment; we never see your name,
-        payment card or Apple Account details. Apple tells the app only whether the purchase was made, so it can
-        unlock the helpers. Purchases sit behind a grown-up question so children can't buy by accident.
+        The Royal Pass is a one-time in-app purchase made through Apple's App Store. Apple handles the payment and
+        your Apple Account; we never see your name, payment card or any other personal information. The app doesn't
+        keep its own record of the purchase: it asks Apple, on the device, whether the pass is owned, so it can unlock
+        the helpers. Purchases sit behind a grown-up question so children can't buy by accident. Apple's
+        <a href="https://www.apple.com/legal/privacy/">privacy policy</a> covers the purchase itself.
       </p>
     </section>
 
     <section>
       <h2 class="ui">Advertising</h2>
-      <p class="choose">[CHOOSE ONE BEFORE PUBLISHING]</p>
-      <p>
-        <strong>If the app shows ads:</strong> in the free version, a short ad plays only when a player chooses to
-        bring a helper. Ads are provided by [AD NETWORK NAME], which is certified for apps used by children. Ads are
-        contextual only: they are not based on your child's behaviour, and no advertising identifier or personal
-        information is used to target them. [AD NETWORK NAME]'s own privacy policy is at [LINK]. Buying the Royal
-        Pass removes ads completely.
-      </p>
-      <p><strong>If the app has no ads:</strong> the app contains no advertising of any kind.</p>
+      <p>The app contains no advertising of any kind.</p>
     </section>
 
     <section>
-      <h2 class="ui">Read aloud</h2>
+      <h2 class="ui">Read aloud and permissions</h2>
       <p>
-        The voice that reads messages aloud is [built into the app as recorded audio / produced by your device's own
-        speech feature]. Nothing your child does is recorded, and the app does not use the microphone or camera.
+        The voice that reads messages aloud is recorded audio built into the app. The app doesn't use the microphone,
+        camera, location, contacts or photos, and doesn't send notifications. Nothing your child says or does is
+        recorded.
       </p>
     </section>
 
     <section>
       <h2 class="ui">Children's privacy</h2>
       <p>
-        The app is made for young children. We do not knowingly collect personal information from children, and the
-        app has no chat, sharing or social features. If you believe a child has sent us personal information (for
-        example by email), contact us and we will delete it.
+        The app is made for children of about 3 to 6 and is listed in the App Store's Kids Category. We don't
+        knowingly collect personal information from anyone, including children, in line with the Children's Online
+        Privacy Protection Act (COPPA) and the GDPR's rules for children. The app has no chat, sharing or social
+        features. Everything meant for grown-ups (the settings, the Royal Pass and the link to this page) sits behind
+        a parental gate, and the child's side of the game never shows a price, a store or a link out of the app. If
+        you believe a child has sent us personal information (for example by email), contact us and we will delete
+        it.
       </p>
     </section>
 
     <section>
       <h2 class="ui">If you email us</h2>
       <p>
-        If you write to us for support, we use your email address and message only to answer you. We keep support
-        emails for [PERIOD] and then delete them. You can ask us to delete them sooner at any time.
+        If you write to us for support, we use your email address and message only to answer you. We delete support
+        emails within 12 months, or sooner if you ask.
       </p>
     </section>
 
     <section>
       <h2 class="ui">This website</h2>
       <p>
-        This website does not use cookies or analytics. [UPDATE IF THAT CHANGES, OR NAME YOUR HOSTING PROVIDER IF IT
-        KEEPS SERVER LOGS.]
+        This website uses no cookies, analytics or third-party requests: its fonts and pictures are served from the
+        site itself. It's hosted on GitHub Pages, which may keep standard server logs (such as IP addresses) for
+        security, under <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub's privacy statement</a>.
       </p>
     </section>
 
@@ -151,15 +154,6 @@ const short = [
   h1 { font-size: clamp(22px, 3.6vw, 36px); line-height: 1.35; }
   .hero p { font-size: 18px; color: var(--on-night-2); }
 
-  .draft-wrap { padding-top: 40px; }
-  .draft {
-    padding: 16px 20px;
-    background: #FFE3EF;
-    box-shadow: 0 0 0 3px #B8407A;
-    font-size: 17px;
-    line-height: 1.55;
-    color: #5A1F3A;
-  }
 
   .short {
     padding-top: 40px;
@@ -206,10 +200,5 @@ const short = [
     display: flex;
     flex-direction: column;
     gap: 6px;
-  }
-  .choose {
-    padding: 12px 16px;
-    background: #FFF1C9;
-    box-shadow: inset 4px 0 0 var(--gold-deep);
   }
 </style>
