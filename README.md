@@ -34,6 +34,10 @@ Requires Node 22.12+. Astro is pinned to 7.3.x because 7.4 needs Node 22.23+.
 | `public/` | Favicon (the crown) and `robots.txt`. |
 | `design/` | The original design handoff. See its README. |
 
+## Deploys
+
+GitHub Pages, via `.github/workflows/deploy.yml`: on every push to `main`, and on demand from the Actions tab. The custom domain is set in the repo's Pages settings (and in `public/CNAME`). DNS lives in Cloudflare: `princess` is a DNS-only CNAME to `a7ex-turcan.github.io`.
+
 ## Placeholders still to fill
 
 Search for `[` in `src/`: `[APP STORE BADGE]`, the three `[SCREENSHOT: …]` slots, `[SUPPORT EMAIL]`, `[CONFIRM AD DETAILS BEFORE LAUNCH]`, and the privacy policy's `[DATE]`, `[LEGAL NAME OF DEVELOPER]`, `[POSTAL ADDRESS]`, ad network details, `[PERIOD]`, the read-aloud wording and the website note. Also still to add: an Open Graph image and Apple's Smart App Banner meta tag once the App Store ID exists.
