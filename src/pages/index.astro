@@ -7,10 +7,11 @@ import AppStoreButton from '../components/AppStoreButton.astro';
 // next to the princess.
 const sisterBlue = { p: '#4A90E2', P: '#2C5AA0', w: '#DCEBFF' };
 
+// iPad screenshots from the game (4:3, like the slots).
 const peeks = [
-  { slot: 'THE MAZE', caption: 'Tap anywhere on the path and the princess walks there.' },
-  { slot: 'RIDING THE UNICORN', caption: 'Beat the dragon, then ride the unicorn to the crown.' },
-  { slot: 'DRESS UP', caption: 'Pick her dress, her hair, and bring her little sister along.' },
+  { src: '/screens/maze.png', alt: 'A spring maze with pink blossom hedges, the princess, the dragon and the crown', caption: 'Tap anywhere on the path and the princess walks there.' },
+  { src: '/screens/unicorn.png', alt: 'The princess riding the unicorn through a snowy winter maze, leaving a trail of hearts', caption: 'Beat the dragon, then ride the unicorn to the crown.' },
+  { src: '/screens/dress-up.png', alt: 'The dress-up screen with the princess and her little sister', caption: 'Pick her dress, her hair, and bring her little sister along.' },
 ];
 
 const features = [
@@ -18,6 +19,8 @@ const features = [
   { title: 'Reads out loud', text: "Every message is spoken, so children who can't read yet can play on their own.", accent: 'var(--pink)' },
   { title: 'Gentle, never scary', text: 'If the dragon puffs fire, the princess simply hops back to a safe spot and tries again.', accent: 'var(--sky)' },
   { title: 'Dress up', text: 'Choose her dress and hair colour, and bring a little sister who follows her around.', accent: 'var(--mint)' },
+  { title: 'Twelve mazes', text: 'From the lilac castle through a flower garden, a crystal cave and all four seasons, then home again.', accent: 'var(--gold)' },
+  { title: 'Stars to collect', text: 'Keep your hearts to earn up to three stars in each maze, then come back to beat your best.', accent: 'var(--pink)' },
 ];
 
 const helpers = [
@@ -43,13 +46,34 @@ const helpers = [
     tint: '#F6E2B8',
     width: 112,
   },
+  {
+    sprite: 'bunny',
+    name: 'Bunny',
+    text: 'Gives the princess three big hops: bump into a wall and she jumps right over it in a puff of dust.',
+    tint: '#FFE3EF',
+    width: 112,
+  },
+  {
+    sprite: 'kitten',
+    name: 'Kitten',
+    text: 'Teaches her to tiptoe. For a little while she can sneak right past the dragon, leaving tiny paw prints.',
+    tint: '#FFE0C2',
+    width: 112,
+  },
+  {
+    sprite: 'turtle',
+    name: 'Turtle',
+    text: 'Lends her a shiny green shell that blocks one dragon puff, then cracks. No heart lost!',
+    tint: '#D8F5C9',
+    width: 112,
+  },
 ] as const;
 
 const promises = [
-  { title: 'No accounts and no personal data.', text: 'Progress and settings stay on your device.' },
-  { title: 'Grown-up gate.', text: 'Purchases and settings sit behind a quick question only an adult can answer.' },
-  { title: 'Royal Pass: pay once.', text: 'One purchase unlocks every helper and removes ads for good. No subscription.' },
-  { title: 'Ads only when you choose.', text: 'In the free version, a short ad plays only if your child picks a helper. [CONFIRM AD DETAILS BEFORE LAUNCH]' },
+  { title: 'No ads, ever.', text: 'Not even optional ones.' },
+  { title: 'No accounts and no personal data.', text: 'Nothing is collected or tracked. Progress and settings stay on your device.' },
+  { title: 'Grown-up gate.', text: "Purchases, settings and links sit behind a quick question only an adult can answer. Your child never sees a price or a store." },
+  { title: 'Free to play, Royal Pass optional.', text: 'Every maze is free, and the unicorn comes along free once a day. One purchase, the Royal Pass, brings every helper any time. No subscription.' },
 ];
 ---
 
@@ -65,9 +89,9 @@ const promises = [
         <h1 class="title">WHERE'S MY CROWN?</h1>
         <p class="lead">
           The princess has lost her crown somewhere in the maze. Help her find it, tiptoe past the
-          fire-puffing dragon, and make friends with a unicorn, a fairy and a wise old owl along the way.
+          fire-puffing dragon, and make friends with a unicorn, a fairy, a wise old owl and more along the way.
         </p>
-        <p class="ages">A gentle 16-bit maze game for little adventurers, about 3 to 7.</p>
+        <p class="ages">A gentle 16-bit maze game for little adventurers, about 3 to 6.</p>
         <div class="cta">
           <AppStoreButton />
           <a href="#parents" class="ui">Info for parents</a>
@@ -104,7 +128,7 @@ const promises = [
       <div class="grid peeks">
         {peeks.map((p) => (
           <figure>
-            <div class="shot pixel">[SCREENSHOT: {p.slot}]</div>
+            <img class="shot" src={p.src} alt={p.alt} width="2752" height="2064" loading="lazy" decoding="async" />
             <figcaption>{p.caption}</figcaption>
           </figure>
         ))}
@@ -146,7 +170,7 @@ const promises = [
           </div>
         ))}
       </div>
-      <p class="more">More helpers are on the way: a bunny, a kitten and a turtle.</p>
+      <p class="more">The unicorn comes along for free once a day. The Royal Pass brings every helper, any time.</p>
     </div>
   </section>
 
@@ -278,17 +302,12 @@ const promises = [
   .peeks { grid-template-columns: repeat(auto-fit, minmax(min(300px, 100%), 1fr)); }
   figure { display: flex; flex-direction: column; gap: 12px; }
   .shot {
+    display: block;
+    width: 100%;
+    height: auto;
     aspect-ratio: 4 / 3;
     background: var(--panel);
-    box-shadow: inset 0 0 0 4px var(--panel-line);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    padding: 16px;
-    color: var(--on-night-muted);
-    font-size: 12px;
-    line-height: 1.6;
+    box-shadow: 0 0 0 4px var(--panel-line);
   }
   figcaption { font-size: 18px; color: var(--on-night-2); }
 
@@ -296,6 +315,10 @@ const promises = [
   .features {
     grid-template-columns: repeat(auto-fit, minmax(min(240px, 100%), 1fr));
     gap: 20px;
+  }
+  /* Six features: two even rows of three on wide screens. */
+  @media (min-width: 900px) {
+    .features { grid-template-columns: repeat(3, 1fr); }
   }
   .feature {
     background: var(--card);

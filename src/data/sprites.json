@@ -593,6 +593,29 @@
         "..y.."
       ]
     },
+    "rating_star": {
+      "size": [
+        9,
+        9
+      ],
+      "note": "9x9 five-point star for maze ratings; an empty slot recolours y and w",
+      "palette": {
+        "o": "#2B1D4A",
+        "y": "#FFD25A",
+        "w": "#FFF3B0"
+      },
+      "rows": [
+        "....o....",
+        "...oyo...",
+        "...oyo...",
+        "oooywyooo",
+        "oyyyyyyyo",
+        ".oyyyyyo.",
+        "..oyyyo..",
+        ".oyyoyyo.",
+        ".oo...oo."
+      ]
+    },
     "feather": {
       "size": [
         5,
@@ -827,6 +850,284 @@
         "ooo.",
         "oo..",
         "o..."
+      ]
+    },
+    "dragon_puff": {
+      "size": [
+        24,
+        20
+      ],
+      "note": "24x20, faces right; mouth open while it puffs (the catch)",
+      "palette": {
+        "o": "#1C2E1F",
+        "g": "#4CBF5A",
+        "G": "#2E8C3D",
+        "l": "#CDEFA6",
+        "y": "#FFD25A",
+        "w": "#FFFFFF",
+        "W": "#7FD98A",
+        "r": "#E8481C"
+      },
+      "rows": [
+        "...............oy..oy...",
+        "......o........oyo.oyo..",
+        "......oo......oooooooo..",
+        "......oWo....ogggggggggo",
+        "......oWWo...ogggwwggggo",
+        "......oWGWo..ogggwoggggo",
+        "......oWGGWo.ogggggggggo",
+        "......oWGGGWoggggggggggo",
+        "....oooooooooGggggggoooo",
+        "...ogggggggggGgggorrrrro",
+        "..oggggggggggGGggoooooo.",
+        ".oggglllllllggGGo.......",
+        "oogglllllllllggGo.......",
+        "ogGglllllllllggGo.......",
+        "oGGgglllllllggGGo.......",
+        ".oGGggggggggggGo........",
+        "..ooGGgggggggGGo........",
+        "...oGGo.....oGGo........",
+        "...oGGo.....oGGo........",
+        "...oooo.....oooo........"
+      ]
+    },
+    "flower": {
+      "size": [
+        5,
+        5
+      ],
+      "note": "5x5 garden wall decoration",
+      "palette": {
+        "p": "#FF8FAE",
+        "y": "#FFD25A",
+        "g": "#2E7D3A"
+      },
+      "rows": [
+        ".p.p.",
+        "ppypp",
+        ".p.p.",
+        "..g..",
+        ".ggg."
+      ]
+    },
+    "gem": {
+      "size": [
+        5,
+        4
+      ],
+      "note": "5x4 crystal wall decoration: a cut gem (not arrow-like, so it never reads as the owl's guide)",
+      "palette": {
+        "w": "#FFFFFF",
+        "c": "#9EE7FF",
+        "C": "#3FA9F5"
+      },
+      "rows": [
+        ".ccc.",
+        "cwcCc",
+        ".cCc.",
+        "..c.."
+      ]
+    },
+    "blossom": {
+      "size": [
+        5,
+        5
+      ],
+      "note": "5x5 spring wall decoration: a cherry blossom",
+      "palette": {
+        "w": "#FFFFFF",
+        "p": "#FF8FB8",
+        "y": "#FFD25A"
+      },
+      "rows": [
+        ".w.w.",
+        "wpwpw",
+        ".pyp.",
+        "wpwpw",
+        ".w.w."
+      ]
+    },
+    "starfish": {
+      "size": [
+        5,
+        5
+      ],
+      "note": "5x5 summer wall decoration: a starfish",
+      "palette": {
+        "o": "#FF8A4C",
+        "y": "#FFC46B"
+      },
+      "rows": [
+        "..o..",
+        ".oyo.",
+        "ooyoo",
+        ".o.o.",
+        "o...o"
+      ]
+    },
+    "leaf": {
+      "size": [
+        5,
+        5
+      ],
+      "note": "5x5 autumn wall decoration: a fallen leaf, tip up and right, stem down and left",
+      "palette": {
+        "r": "#C0392B",
+        "y": "#FFD25A",
+        "s": "#6B3A1E"
+      },
+      "rows": [
+        "..rrr",
+        ".rryr",
+        "rryrr",
+        ".yrr.",
+        "s...."
+      ]
+    },
+    "pine": {
+      "size": [
+        5,
+        6
+      ],
+      "note": "5x6 winter wall decoration: a little pine with snow",
+      "palette": {
+        "w": "#FFFFFF",
+        "g": "#2E7D5B",
+        "G": "#1F5C42",
+        "s": "#7A4E2E"
+      },
+      "rows": [
+        "..w..",
+        ".wgw.",
+        ".gGg.",
+        "wgggw",
+        "gGgGg",
+        "..s.."
+      ]
+    },
+    "dust": {
+      "size": [
+        6,
+        4
+      ],
+      "note": "6x4 bunny dust puff",
+      "palette": {
+        "w": "#FFF6E0",
+        "d": "#D9CBA8"
+      },
+      "rows": [
+        ".ww...",
+        "wwwdw.",
+        "dwwwwd",
+        ".dddd."
+      ]
+    },
+    "paw": {
+      "size": [
+        5,
+        4
+      ],
+      "note": "5x4 kitten paw print (points up)",
+      "palette": {
+        "o": "#E3A35F"
+      },
+      "rows": [
+        "o.o.o",
+        ".....",
+        ".ooo.",
+        ".ooo."
+      ]
+    },
+    "bubble": {
+      "size": [
+        3,
+        3
+      ],
+      "note": "3x3 turtle trail bubble",
+      "palette": {
+        "g": "#9FE3A8",
+        "w": "#FFFFFF"
+      },
+      "rows": [
+        ".g.",
+        "gwg",
+        ".g."
+      ]
+    },
+    "shell_crack": {
+      "size": [
+        7,
+        7
+      ],
+      "note": "7x7 shell shard flying off when the turtle shield breaks",
+      "palette": {
+        "g": "#4CBF5A",
+        "G": "#2E8C3D",
+        "w": "#C8F5CF"
+      },
+      "rows": [
+        "..g....",
+        ".gwg...",
+        "gwwgG..",
+        ".gGGg..",
+        "..Gg...",
+        "...G...",
+        "......."
+      ]
+    },
+    "unicorn_sleep": {
+      "size": [
+        20,
+        16
+      ],
+      "note": "20x16, unicorn_a with closed eyes (asleep on the helper card)",
+      "palette": {
+        "o": "#3A2A4A",
+        "w": "#FFFFFF",
+        "W": "#D9D2F5",
+        "m": "#F25C9A",
+        "M": "#8B5CF6",
+        "y": "#FFD25A",
+        "p": "#FFB3C7",
+        "h": "#8576C7"
+      },
+      "rows": [
+        ".................oy.",
+        "................oyo.",
+        "..........mmm..oyo..",
+        ".........mMMmooooo..",
+        "........mMMmowwwwwo.",
+        "........mMmowwoowwwo",
+        ".......mMMmowwwwwwpo",
+        ".......mMmowwwwoooo.",
+        "..mm..mMmowwwwo.....",
+        ".mMMooooowwwwwo.....",
+        ".mMowwwwwwwwwwwo....",
+        "mMMowwwwwwwwwwwo....",
+        "mM.oWwwwwwwwwwWo....",
+        "m..oWWWWWWWWWWWo....",
+        "..oWooWo...oWooWo...",
+        "..ohooho...ohooho..."
+      ]
+    },
+    "moon": {
+      "size": [
+        7,
+        7
+      ],
+      "note": "7x7 crescent moon",
+      "palette": {
+        "y": "#FFD25A",
+        "Y": "#E0A93A"
+      },
+      "rows": [
+        "..yyy..",
+        ".yy....",
+        "yy.....",
+        "yY.....",
+        "yY.....",
+        ".yY..y.",
+        "..yyyy."
       ]
     }
   },

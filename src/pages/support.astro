@@ -3,7 +3,7 @@ import Base from '../layouts/Base.astro';
 import Faq from '../components/Faq.astro';
 
 // Keep the in-app paths in these answers in sync with the real app.
-const email = '[SUPPORT EMAIL]';
+const email = 'support@nutrx-labs.com';
 ---
 
 <Base page="support" title="Where's My Crown? – Support" description="Help and answers for Where's My Crown?">
@@ -44,23 +44,40 @@ const email = '[SUPPORT EMAIL]';
       <Faq q="What are helpers?">
         <p>
           Before each maze you can bring a helper. The unicorn chases the dragon away (and can be ridden), the fairy
-          puts it to sleep, and the owl shows the way to the crown. In the free version a helper costs one short ad;
-          with the Royal Pass every helper is free.
+          puts it to sleep, the owl shows the way to the crown, the bunny hops over walls, the kitten sneaks past the
+          dragon and the turtle's shell blocks one puff. The unicorn comes along for free once a day; the Royal Pass,
+          a one-time purchase, brings every helper any time. There are no ads.
+        </p>
+      </Faq>
+
+      <Faq q="Why is the unicorn asleep?">
+        <p>
+          Without the Royal Pass, the unicorn can come along once a day. Once it has helped, it sleeps until
+          midnight (your local time) and wakes up for tomorrow's adventure. If the dragon catches the princess and
+          you tap <strong>TRY AGAIN</strong>, the unicorn comes back for that same maze. The other helpers show a
+          padlock, and tapping them only says "ask a grown-up": your child never sees a price or a store.
+        </p>
+      </Faq>
+
+      <Faq q="What are the stars?">
+        <p>
+          Finding the crown earns one star for every heart the princess still has, so up to three per maze. Each maze
+          keeps its best result, shown on the maze cards. Helpers never cost stars.
         </p>
       </Faq>
 
       <Faq q="Why is there a maths question?">
         <p>
-          That's the grown-up gate. Purchases and settings are behind a quick multiplication question so little ones
-          can't buy anything or change settings by accident.
+          That's the grown-up gate. Purchases, settings and links out of the game are behind a quick multiplication
+          question so little ones can't buy anything, change settings or leave the game by accident.
         </p>
       </Faq>
 
       <Faq q="I bought the Royal Pass. How do I restore it on a new device?">
         <p>
           Sign in with the same Apple Account you used to buy it. Then on the title screen tap
-          <strong>For grown-ups</strong>, answer the question, open <strong>Royal Pass</strong> and tap
-          <strong>Restore purchase</strong>.
+          <strong>For grown-ups</strong>, answer the question, and in the <strong>Royal Pass</strong> box tap
+          <strong>Restore purchases</strong>.
         </p>
       </Faq>
 
@@ -82,15 +99,17 @@ const email = '[SUPPORT EMAIL]';
       <Faq q="How do I start the mazes over?">
         <p>
           Tap <strong>For grown-ups</strong> on the title screen, answer the question and choose
-          <strong>Reset maze progress</strong>. All mazes except the first one lock again. Your Royal Pass and
-          dress-up choices are kept.
+          <strong>Reset maze progress</strong>. All mazes except the first one lock again and the stars are cleared.
+          Your Royal Pass and dress-up choices are kept.
         </p>
       </Faq>
 
       <Faq q="It's a bit too hard for my child. Any tips?">
         <p>
-          Try bringing the fairy or the unicorn: both deal with the dragon so the maze becomes a calm walk. The owl is
-          great for children who get lost, because it draws arrows all the way to the crown.
+          Bring the unicorn (free once a day): it chases the dragon away, so the maze becomes a calm walk, and she
+          can ride it. With the Royal Pass, the fairy puts the dragon to sleep, the owl draws arrows all the way to the
+          crown for children who get lost, and the turtle's shell saves a heart. And there's no rush: the dragon only
+          paces its hallway, so waiting a moment always opens the way.
         </p>
       </Faq>
 
