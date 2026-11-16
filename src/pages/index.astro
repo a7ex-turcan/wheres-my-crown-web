@@ -7,19 +7,20 @@ import AppStoreButton from '../components/AppStoreButton.astro';
 // next to the princess.
 const sisterBlue = { p: '#4A90E2', P: '#2C5AA0', w: '#DCEBFF' };
 
-// iPad screenshots from the game (4:3, like the slots).
+// iPad screenshots from the game (4:3, like the slots), all from what's on the App Store today (1.1).
 const peeks = [
-  { src: '/screens/maze.png', alt: 'A spring maze with pink blossom hedges, the princess, the dragon and the crown', caption: 'Tap anywhere on the path and the princess walks there.' },
-  { src: '/screens/unicorn.png', alt: 'The princess riding the unicorn through a snowy winter maze, leaving a trail of hearts', caption: 'Beat the dragon, then ride the unicorn to the crown.' },
-  { src: '/screens/dress-up.png', alt: 'The dress-up screen with the princess and her little sister', caption: 'Pick her dress, her hair, and bring her little sister along.' },
+  { src: '/screens/maze-spring.jpg', alt: 'A spring maze with pink blossom hedges: the princess and her little sister, the dragon and the crown', caption: 'Tap anywhere on the path and the princess walks there.' },
+  { src: '/screens/santa.jpg', alt: "Santa's sleigh carrying the dragon off through a snowy winter maze, with presents to pick up", caption: "Santa takes the dragon for a sleigh ride and leaves presents to find." },
+  { src: '/screens/duck.jpg', alt: 'A summer maze by the sea: the dragon splashing in a pond, the duck and her ducklings following the princess', caption: 'The duck drops the dragon in a pond. Her ducklings follow you home.' },
+  { src: '/screens/dress-up.jpg', alt: 'Dress up: the princess and her little sister, with lipstick, eyeshadow, blush and sparkles to choose', caption: 'Dresses, hair and makeup, for both princesses.' },
 ];
 
 const features = [
-  { title: 'Big, easy controls', text: 'Tap where to go, swipe, or use the big arrow buttons. No fiddly timing needed.', accent: 'var(--gold)' },
+  { title: 'Big, easy controls', text: 'Tap where to go, swipe, or use the big arrow buttons. Got a game controller? That works too.', accent: 'var(--gold)' },
   { title: 'Reads out loud', text: "Every message is spoken, so children who can't read yet can play on their own.", accent: 'var(--pink)' },
   { title: 'Gentle, never scary', text: 'If the dragon puffs fire, the princess simply hops back to a safe spot and tries again.', accent: 'var(--sky)' },
-  { title: 'Dress up', text: 'Choose her dress and hair colour, and bring a little sister who follows her around.', accent: 'var(--mint)' },
-  { title: 'Twelve mazes', text: 'From the lilac castle through a flower garden, a crystal cave and all four seasons, then home again.', accent: 'var(--gold)' },
+  { title: 'Dress up', text: 'Pick her dress, hair and makeup, and bring a little sister who follows her everywhere.', accent: 'var(--mint)' },
+  { title: 'Twelve mazes', text: 'From the lilac castle through a flower garden, a crystal cave and all four seasons, each with its own painted backdrop.', accent: 'var(--gold)' },
   { title: 'Stars to collect', text: 'Keep your hearts to earn up to three stars in each maze, then come back to beat your best.', accent: 'var(--pink)' },
 ];
 
@@ -30,6 +31,34 @@ const helpers = [
     text: 'Gallops to the dragon and chases it away in a puff of smoke, leaving hearts or a rainbow behind. Then the princess can climb on and ride.',
     tint: '#FFD6E2',
     width: 140,
+  },
+  {
+    sprite: 'unicorn_royal_a',
+    name: 'Unicorn & Baby',
+    text: 'A rainbow unicorn and her baby: the princess rides the mum, and her little sister rides the baby.',
+    tint: '#E9D6FF',
+    width: 140,
+  },
+  {
+    sprite: 'santa',
+    name: 'Santa',
+    text: 'Takes the dragon away on his sleigh, drops presents to collect, and leaves a reindeer to ride.',
+    tint: '#FFD0C9',
+    width: 112,
+  },
+  {
+    sprite: 'duck_a',
+    name: 'Duck',
+    text: 'Drops the dragon in a pond, splash! Then she lays eggs: pick them up, or they hatch into ducklings that follow you.',
+    tint: '#FFF1B8',
+    width: 112,
+  },
+  {
+    sprite: 'swan_a',
+    name: 'Swan',
+    text: 'Gives the dragon a nip on the tail. It gets such a fright that it flies away!',
+    tint: '#E4F1FF',
+    width: 120,
   },
   {
     sprite: 'fairy',
@@ -69,29 +98,45 @@ const helpers = [
   },
 ] as const;
 
+// Jump mode is in testing (version 2.0) and not on the App Store yet: this section says so.
+const jumpShots = [
+  { src: '/screens/jump-christmas.jpg', alt: "Christmas village by night: the princess flying in Santa's sleigh over a row of presents", caption: 'Fly with Santa over the Christmas village.' },
+  { src: '/screens/jump-beach.jpg', alt: 'A sunset beach: the princess riding the unicorn past a crab, with shells to collect', caption: 'Gallop along the beach on the unicorn.' },
+  { src: '/screens/jump-halloween.jpg', alt: 'A friendly Halloween village under a big orange moon, with pumpkins and sweets', caption: 'A friendly pumpkin patch under the Halloween moon.' },
+  { src: '/screens/jump-throne.jpg', alt: 'The castle hall: the princess sitting on a golden throne with her crown, her little sister beside her', caption: 'Win back the crown, then sit on the throne.' },
+];
+
+const jumpPoints = [
+  { title: 'Run and jump', text: 'Side-on levels through the castle, the garden, the crystal cave, all four seasons, Christmas and Halloween.' },
+  { title: 'Just tap to jump', text: 'She can walk by herself, so little ones only tap when to jump. Bigger ones can steer.' },
+  { title: 'Bounce the dragon', text: "Three bounces on its head and it flies off. The crown drops, and she gets to sit on the throne." },
+  { title: 'Helpers come too', text: "Ride the unicorn, steer Santa's sleigh, let the duck carry you over a gap, or float down with the fairy." },
+];
+
 const promises = [
   { title: 'No ads, ever.', text: 'Not even optional ones.' },
   { title: 'No accounts and no personal data.', text: 'Nothing is collected or tracked. Progress and settings stay on your device.' },
   { title: 'Grown-up gate.', text: "Purchases, settings and links sit behind a quick question only an adult can answer. Your child never sees a price or a store." },
   { title: 'Free to play, Royal Pass optional.', text: 'Every maze is free, and the unicorn comes along free once a day. One purchase, the Royal Pass, brings every helper any time. No subscription.' },
+  { title: 'Works offline.', text: 'No internet needed to play.' },
 ];
 ---
 
 <Base
   page="home"
   title="Where's My Crown? – A Princess Maze Adventure"
-  description="Where's My Crown? A gentle 16-bit princess maze adventure for little kids on iPhone and iPad."
+  description="Where's My Crown? A gentle 16-bit princess maze adventure for little kids on iPhone and iPad. Twelve mazes, a silly dragon, and helpers from a unicorn to Santa."
 >
-  <section class="night">
+  <section class="night hero-band">
     <div class="container hero">
       <div class="hero-copy">
         <p class="pixel kicker">A PRINCESS MAZE ADVENTURE</p>
         <h1 class="title">WHERE'S MY CROWN?</h1>
         <p class="lead">
           The princess has lost her crown somewhere in the maze. Help her find it, tiptoe past the
-          fire-puffing dragon, and make friends with a unicorn, a fairy, a wise old owl and more along the way.
+          fire-puffing dragon, and bring a friend along: a unicorn, Santa, a duck, a swan and more.
         </p>
-        <p class="ages">A gentle 16-bit maze game for little adventurers, about 3 to 6.</p>
+        <p class="ages">A gentle 16-bit maze game for little adventurers, about 3 to 6. Free on iPhone and iPad.</p>
         <div class="cta">
           <AppStoreButton />
           <a href="#parents" class="ui">Info for parents</a>
@@ -108,6 +153,17 @@ const promises = [
     </div>
   </section>
 
+  <section class="night banner-band">
+    <img
+      class="banner"
+      src="/art/cast.jpg"
+      alt="The princess and her little sister in the maze by night with the crown, the dragon, two unicorns, Santa's sleigh, a duck with her ducklings and a swan"
+      width="2400"
+      height="1030"
+      decoding="async"
+    />
+  </section>
+
   <section class="cream">
     <div class="container story">
       <Sprite name="heart" class="heart" />
@@ -116,7 +172,8 @@ const promises = [
         <p>
           Nati came up with the princess, the maze and the dragon who puffs fire. Her dad built the game
           around her ideas, one by one: the unicorn that leaves a trail of hearts, the crown the princess
-          has to find, and the little sister who follows her everywhere.
+          has to find, the little sister who follows her everywhere, and mazes through all four seasons.
+          She still tries out every new idea first.
         </p>
       </div>
     </div>
@@ -128,7 +185,7 @@ const promises = [
       <div class="grid peeks">
         {peeks.map((p) => (
           <figure>
-            <img class="shot" src={p.src} alt={p.alt} width="2752" height="2064" loading="lazy" decoding="async" />
+            <img class="shot" src={p.src} alt={p.alt} width="1376" height="1032" loading="lazy" decoding="async" />
             <figcaption>{p.caption}</figcaption>
           </figure>
         ))}
@@ -154,7 +211,7 @@ const promises = [
     <div class="container band">
       <div class="intro">
         <h2 id="helpers-h" class="section-title">Bring a helper</h2>
-        <p>Each helper has its own way of dealing with the dragon, and its own sparkly trail.</p>
+        <p>Ten friends to choose from. Each one has its own way of dealing with the dragon, and its own sparkly trail.</p>
       </div>
       <div class="grid helpers">
         {helpers.map((h) => (
@@ -174,7 +231,37 @@ const promises = [
     </div>
   </section>
 
-  <section id="parents" class="cream" aria-labelledby="parents-h">
+  <section id="jump" class="cream jump-band" aria-labelledby="jump-h">
+    <div class="container band">
+      <div class="jump-intro">
+        <p class="pixel soon">COMING SOON</p>
+        <h2 id="jump-h" class="section-title">Jump mode</h2>
+        <p>
+          Nati's next idea: the same princesses, now running and jumping through side-on levels. It's being
+          tested right now and comes to the game in a future update.
+        </p>
+      </div>
+      <div class="grid jump-points">
+        {jumpPoints.map((p) => (
+          <div class="jump-point">
+            <h3 class="ui">{p.title}</h3>
+            <p>{p.text}</p>
+          </div>
+        ))}
+      </div>
+      <div class="grid peeks">
+        {jumpShots.map((p) => (
+          <figure>
+            <img class="shot" src={p.src} alt={p.alt} width="1376" height="1032" loading="lazy" decoding="async" />
+            <figcaption>{p.caption}</figcaption>
+          </figure>
+        ))}
+      </div>
+      <p class="note">Screens from the version in testing. Not on the App Store yet.</p>
+    </div>
+  </section>
+
+  <section id="parents" class="night" aria-labelledby="parents-h">
     <div class="container parents">
       <div class="parents-copy">
         <h2 id="parents-h" class="section-title">For parents</h2>
@@ -186,7 +273,7 @@ const promises = [
       <ul>
         {promises.map((p) => (
           <li>
-            <Sprite name="check" palette={{ o: '#2E8C3D' }} class="check" />
+            <Sprite name="check" palette={{ o: '#9FE3A8' }} class="check" />
             <span><strong>{p.title}</strong> {p.text}</span>
           </li>
         ))}
@@ -194,8 +281,9 @@ const promises = [
     </div>
   </section>
 
-  <section id="download" class="night">
+  <section id="download" class="download-band">
     <div class="container download">
+      <Sprite name="crown" class="download-crown" />
       <h2 class="title">Ready to find the crown?</h2>
       <p>Free on iPhone and iPad.</p>
       <AppStoreButton />
@@ -204,6 +292,13 @@ const promises = [
 </Base>
 
 <style>
+  /* Hero: the game's title backdrop (night sky, castle, maze), darkened on the left under the words */
+  .hero-band {
+    background:
+      linear-gradient(90deg, rgba(27, 21, 56, 0.94) 0%, rgba(27, 21, 56, 0.78) 45%, rgba(27, 21, 56, 0.35) 100%),
+      url('/art/night.jpg') center 70% / cover no-repeat,
+      var(--night);
+  }
   /* Hero */
   .hero {
     padding-top: 72px;
@@ -269,6 +364,16 @@ const promises = [
     box-shadow: inset 0 -8px 0 var(--stone-deep), 0 4px 0 var(--night-deep);
   }
 
+  /* The whole cast in the maze (the App Store header art) */
+  .banner-band { background: var(--night-deep); }
+  .banner {
+    display: block;
+    width: 100%;
+    max-width: 1600px;
+    height: auto;
+    margin: 0 auto;
+  }
+
   /* Nati */
   .story {
     padding-top: 64px;
@@ -300,6 +405,10 @@ const promises = [
 
   /* Screenshots */
   .peeks { grid-template-columns: repeat(auto-fit, minmax(min(300px, 100%), 1fr)); }
+  /* Four screenshots: two by two on wide screens. */
+  @media (min-width: 800px) {
+    .peeks { grid-template-columns: repeat(2, 1fr); }
+  }
   figure { display: flex; flex-direction: column; gap: 12px; }
   .shot {
     display: block;
@@ -334,20 +443,53 @@ const promises = [
   /* Helpers */
   .intro { display: flex; flex-direction: column; gap: 12px; }
   .intro p { font-size: 20px; line-height: 1.55; color: var(--on-night-2); max-width: 40rem; }
-  .helpers { grid-template-columns: repeat(auto-fit, minmax(min(280px, 100%), 1fr)); }
+  /* Ten helpers: two rows of five on wide screens. */
+  .helpers { grid-template-columns: repeat(auto-fill, minmax(min(200px, 100%), 1fr)); gap: 20px; }
   .helper {
     background: var(--panel);
     box-shadow: inset 0 0 0 4px var(--panel-line);
-    padding: 28px;
+    padding: 22px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 14px;
   }
   .helper :global(.glow) { filter: drop-shadow(0 0 8px var(--sky)); }
-  .helper h3 { font-size: 28px; }
-  .helper p { font-size: 18px; line-height: 1.55; color: var(--tint); }
+  .helper :global(.sprite) { max-width: 100%; }
+  .helper h3 { font-size: 24px; }
+  .helper p { font-size: 17px; line-height: 1.5; color: var(--tint); }
   .more { font-size: 18px; color: var(--on-night-muted); }
+
+  /* Jump mode, coming soon */
+  .jump-band {
+    background:
+      repeating-linear-gradient(45deg, transparent 0 22px, rgba(255, 210, 90, 0.12) 22px 44px),
+      var(--cream);
+  }
+  .jump-intro { display: flex; flex-direction: column; align-items: flex-start; gap: 14px; }
+  .jump-intro p:not(.soon) { font-size: 20px; line-height: 1.6; max-width: 44rem; text-wrap: pretty; }
+  .soon {
+    font-size: 13px;
+    line-height: 1;
+    padding: 10px 14px;
+    background: var(--pink);
+    color: var(--ink);
+    box-shadow: 0 0 0 3px var(--ink);
+  }
+  .jump-points { grid-template-columns: repeat(auto-fit, minmax(min(220px, 100%), 1fr)); gap: 20px; }
+  .jump-point {
+    background: var(--card);
+    box-shadow: 0 0 0 4px var(--ink);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  .jump-point h3 { font-size: 22px; }
+  .jump-point p { font-size: 17px; line-height: 1.5; }
+  .jump-band figcaption { color: var(--ink); }
+  .jump-band .shot { box-shadow: 0 0 0 4px var(--ink); }
+  .note { font-size: 16px; color: var(--link); }
 
   /* Parents */
   .parents {
@@ -384,7 +526,20 @@ const promises = [
     line-height: 1.55;
   }
   li :global(.check) { width: 28px; flex: none; margin-top: 4px; }
+  .parents { color: var(--on-night-2); }
+  .parents strong { color: var(--on-night); }
+  .parents a { color: var(--gold); }
+  .parents a:hover { color: var(--on-night); }
 
+  /* Final call, over the title backdrop */
+  .download-band {
+    background:
+      linear-gradient(rgba(27, 21, 56, 0.55), rgba(27, 21, 56, 0.85)),
+      url('/art/night.jpg') center 80% / cover no-repeat,
+      var(--night);
+    color: var(--on-night);
+  }
+  .download :global(.download-crown) { width: 96px; }
   /* Final call */
   .download {
     padding-top: 80px;

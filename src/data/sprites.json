@@ -15,6 +15,9 @@
         "s": "#FFDCC0",
         "S": "#EBB28F",
         "c": "#FF8FAE",
+        "e": "#FFDCC0",
+        "m": "#2B1B33",
+        "g": "#FFDCC0",
         "p": "#F25C9A",
         "P": "#B8407A",
         "w": "#FFE3EF"
@@ -25,11 +28,11 @@
         "...oyyyyyyyyo...",
         "...oYYYYYYYYo...",
         "..ohhhhhhhhhho..",
-        "..ohhsssssshho..",
+        "..ohhsesseshho..",
         "..ohssossossho..",
-        "..ohssossossho..",
+        "..ohgsossosgho..",
         "..ohcsssssscho..",
-        "..ohsssoosssho..",
+        "..ohsssmmsssho..",
         ".ohhSssssssShho.",
         ".ohhhoSSSSohhho.",
         ".ohhoppppppohho.",
@@ -60,6 +63,9 @@
         "s": "#FFDCC0",
         "S": "#EBB28F",
         "c": "#FF8FAE",
+        "e": "#FFDCC0",
+        "m": "#2B1B33",
+        "g": "#FFDCC0",
         "p": "#F25C9A",
         "P": "#B8407A",
         "w": "#FFE3EF"
@@ -70,11 +76,11 @@
         "................",
         "...oooooooooo...",
         "..ohhhhhhhhhho..",
-        "..ohhsssssshho..",
+        "..ohhsesseshho..",
         "..ohssossossho..",
-        "..ohssossossho..",
+        "..ohgsossosgho..",
         "..ohcsssssscho..",
-        "..ohsssoosssho..",
+        "..ohsssmmsssho..",
         ".ohhSssssssShho.",
         ".ohhhoSSSSohhho.",
         ".ohhoppppppohho.",
@@ -105,6 +111,9 @@
         "s": "#FFDCC0",
         "S": "#EBB28F",
         "c": "#FF8FAE",
+        "e": "#FFDCC0",
+        "m": "#2B1B33",
+        "g": "#FFDCC0",
         "p": "#F25C9A",
         "P": "#B8407A",
         "w": "#FFE3EF"
@@ -113,11 +122,11 @@
         "...y.yy.y...",
         "..oyyyyyyo..",
         ".ohhhhhhhho.",
-        ".ohssssssho.",
-        ".ohsossosho.",
+        ".ohsessesho.",
+        ".ohgossogho.",
         ".ohcsssscho.",
         ".ohssssssho.",
-        ".ohssoossho.",
+        ".ohssmmssho.",
         "..ooSSSSoo..",
         "..ooppppoo..",
         "..osppppso..",
@@ -1005,6 +1014,27 @@
         "..s.."
       ]
     },
+    "pumpkin": {
+      "size": [
+        7,
+        6
+      ],
+      "note": "7x6 a little pumpkin: halloween's wall decoration (and its level card's)",
+      "palette": {
+        "o": "#2B1B33",
+        "p": "#F2913D",
+        "P": "#C8642A",
+        "g": "#5FAE5A"
+      },
+      "rows": [
+        "...g...",
+        ".ooooo.",
+        "oppPppo",
+        "opPpPpo",
+        "oppPppo",
+        ".ooooo."
+      ]
+    },
     "dust": {
       "size": [
         6,
@@ -1128,6 +1158,4218 @@
         "yY.....",
         ".yY..y.",
         "..yyyy."
+      ]
+    },
+    "santa": {
+      "size": [
+        16,
+        20
+      ],
+      "note": "16x20, faces right; waits on the helper spot (and is the helper card's picture)",
+      "palette": {
+        "o": "#3A1F2A",
+        "r": "#E0413F",
+        "R": "#A82A33",
+        "w": "#FFFFFF",
+        "W": "#D9D2F5",
+        "s": "#FFDCC0",
+        "p": "#FF8FAE",
+        "k": "#2B1B33",
+        "y": "#FFD25A"
+      },
+      "rows": [
+        "......oooo......",
+        ".....orrrroo....",
+        "....orrrrrrroo..",
+        "....orrrrrrrRoww",
+        "...owwwwwwwwwoww",
+        "...owsssssssWo..",
+        "...ossosssosso..",
+        "...ospssssspso..",
+        "..owwwwssswwwwo.",
+        "..owwwwwwwwwwwo.",
+        ".orrwwwwwwwwwrro",
+        "orrrowwwwwwwrrro",
+        "owwrrowwwwwrrwwo",
+        ".oorrrowwwrrrro.",
+        "..okkkkkykkkkko.",
+        "..orrrrrrrrrrro.",
+        "..oRrrrrrrrrrRo.",
+        "..oRRwwwwwwwRRo.",
+        "..okkko...okkko.",
+        "..ooooo...ooooo."
+      ]
+    },
+    "sleigh": {
+      "size": [
+        24,
+        16
+      ],
+      "note": "24x16, faces right: Santa in his sleigh with a sack of presents; pulled by reindeer drawn in front",
+      "palette": {
+        "o": "#3A1F2A",
+        "r": "#E0413F",
+        "R": "#A82A33",
+        "w": "#FFFFFF",
+        "W": "#D9D2F5",
+        "s": "#FFDCC0",
+        "y": "#FFD25A",
+        "Y": "#D89B1A",
+        "b": "#3F86B8",
+        "n": "#A8672F",
+        "N": "#7A4A22"
+      },
+      "rows": [
+        "........................",
+        "............oooo........",
+        "...........orrrroo......",
+        "..oo......orrrrrrroww...",
+        ".obbo....owwwwwwwwoww...",
+        ".obyo....owssssssWo.....",
+        "onnnno...osossossoo.....",
+        "onNnnno.owwwwsswwwwo.oo.",
+        "onnnnnoowwwwwwwwwwwoorro",
+        "oRRRRRRrrrrrrrrrrrrrorro",
+        "oRrrrrrrrrrrrrrrrrrrrro.",
+        ".oRrrrrrryyyyyyrrrrrro..",
+        "..oRRrrrrrrrrrrrrrrRo...",
+        "...ooooooooooooooooo....",
+        "..oY..oY.......oY..oY..o",
+        ".oYYYYYYYYYYYYYYYYYYYYo."
+      ]
+    },
+    "reindeer_a": {
+      "size": [
+        20,
+        16
+      ],
+      "note": "20x16, faces right; frame A. Pulls the sleigh, then stays behind to give rides",
+      "palette": {
+        "o": "#3A2410",
+        "b": "#A8672F",
+        "B": "#7A4A22",
+        "l": "#E8C99A",
+        "a": "#D9B07A",
+        "w": "#FFFFFF",
+        "n": "#E8343F",
+        "k": "#2B1B33"
+      },
+      "rows": [
+        "...........a..a.a...",
+        "...........aa.aa....",
+        "............aaa.....",
+        "...........ooaoo....",
+        "..........oBobbbo...",
+        "...........obbbkbo..",
+        "...........obbbbbbbo",
+        "...........obbbbbbbn",
+        "..ww......obbbboooo.",
+        ".owwooooooobbbbo....",
+        ".owbbbbbbbbbbbbo....",
+        "..obbbbbbbbbbbbo....",
+        "..oBblllllllbBbo....",
+        "..oBBBBBBBBBBBBo....",
+        "..oBooBo...oBooBo...",
+        "..okookoo..okookoo.."
+      ]
+    },
+    "reindeer_b": {
+      "size": [
+        20,
+        16
+      ],
+      "note": "20x16, gallop frame B",
+      "palette": {
+        "o": "#3A2410",
+        "b": "#A8672F",
+        "B": "#7A4A22",
+        "l": "#E8C99A",
+        "a": "#D9B07A",
+        "w": "#FFFFFF",
+        "n": "#E8343F",
+        "k": "#2B1B33"
+      },
+      "rows": [
+        "...........a..a.a...",
+        "...........aa.aa....",
+        "............aaa.....",
+        "...........ooaoo....",
+        "..........oBobbbo...",
+        "...........obbbkbo..",
+        "...........obbbbbbbo",
+        "...........obbbbbbbn",
+        "..ww......obbbboooo.",
+        ".owwooooooobbbbo....",
+        ".owbbbbbbbbbbbbo....",
+        "..obbbbbbbbbbbbo....",
+        "..oBblllllllbBbo....",
+        "..oBBBBBBBBBBBBo....",
+        ".oBo..oBo.oBo..oBo..",
+        ".oko..oko.oko..oko.."
+      ]
+    },
+    "present": {
+      "size": [
+        7,
+        7
+      ],
+      "note": "7x7 Santa's present; b and B recoloured per present",
+      "palette": {
+        "o": "#2B1B33",
+        "b": "#E0413F",
+        "B": "#A82A33",
+        "y": "#FFD25A"
+      },
+      "rows": [
+        ".yo.oy.",
+        "..oyo..",
+        "obbybbo",
+        "oyyyyyo",
+        "obbybbo",
+        "oBBybBo",
+        "ooooooo"
+      ]
+    },
+    "unicorn_royal_a": {
+      "size": [
+        20,
+        16
+      ],
+      "note": "20x16, unicorn_a with a rainbow mane and gold hooves: the baby unicorn's mum",
+      "palette": {
+        "o": "#3A2A4A",
+        "w": "#FFFFFF",
+        "W": "#D9D2F5",
+        "y": "#FFD25A",
+        "p": "#FFB3C7",
+        "1": "#FF5C7A",
+        "2": "#FF9E45",
+        "3": "#FFD25A",
+        "4": "#6FD97A",
+        "5": "#5CB8FF",
+        "6": "#B98CFF",
+        "g": "#FFD25A"
+      },
+      "rows": [
+        ".................oy.",
+        "................oyo.",
+        "..........111..oyo..",
+        ".........1111ooooo..",
+        "........2222owwwwwo.",
+        "........222owwowwwwo",
+        ".......3333owwwwwwpo",
+        ".......333owwwwoooo.",
+        "..44..444owwwwo.....",
+        ".444ooooowwwwwo.....",
+        ".55owwwwwwwwwwwo....",
+        "555owwwwwwwwwwwo....",
+        "66.oWwwwwwwwwwWo....",
+        "6..oWWWWWWWWWWWo....",
+        "..oWooWo...oWooWo...",
+        "..ogoogo...ogoogo..."
+      ]
+    },
+    "unicorn_royal_b": {
+      "size": [
+        20,
+        16
+      ],
+      "note": "20x16, gallop frame B",
+      "palette": {
+        "o": "#3A2A4A",
+        "w": "#FFFFFF",
+        "W": "#D9D2F5",
+        "y": "#FFD25A",
+        "p": "#FFB3C7",
+        "1": "#FF5C7A",
+        "2": "#FF9E45",
+        "3": "#FFD25A",
+        "4": "#6FD97A",
+        "5": "#5CB8FF",
+        "6": "#B98CFF",
+        "g": "#FFD25A"
+      },
+      "rows": [
+        ".................oy.",
+        "................oyo.",
+        "..........111..oyo..",
+        ".........1111ooooo..",
+        "........2222owwwwwo.",
+        "........222owwowwwwo",
+        ".......3333owwwwwwpo",
+        ".......333owwwwoooo.",
+        "..44..444owwwwo.....",
+        ".444ooooowwwwwo.....",
+        ".55owwwwwwwwwwwo....",
+        "555owwwwwwwwwwwo....",
+        "66.oWwwwwwwwwwWo....",
+        "6..oWWWWWWWWWWWo....",
+        ".oWo..oWo.oWo..oWo..",
+        ".ogo..ogo.ogo..ogo.."
+      ]
+    },
+    "foal_a": {
+      "size": [
+        12,
+        12
+      ],
+      "note": "12x12, faces right: the baby unicorn; frame A",
+      "palette": {
+        "o": "#3A2A4A",
+        "w": "#FFFFFF",
+        "W": "#D9D2F5",
+        "p": "#FFB3C7",
+        "P": "#F25C9A",
+        "y": "#FFD25A",
+        "h": "#8576C7",
+        "n": "#FF8FAE"
+      },
+      "rows": [
+        "..........y.",
+        "......pp.oy.",
+        ".....pPpooo.",
+        ".....pPowwwo",
+        "....pPowowwo",
+        "....pPowwwwn",
+        ".pp.pPowwoo.",
+        "pPPooooowwo.",
+        "pP.owwwwwwo.",
+        "...oWWWWWWo.",
+        "...oWooooWo.",
+        "...oho..oho."
+      ]
+    },
+    "foal_b": {
+      "size": [
+        12,
+        12
+      ],
+      "note": "12x12, trot frame B",
+      "palette": {
+        "o": "#3A2A4A",
+        "w": "#FFFFFF",
+        "W": "#D9D2F5",
+        "p": "#FFB3C7",
+        "P": "#F25C9A",
+        "y": "#FFD25A",
+        "h": "#8576C7",
+        "n": "#FF8FAE"
+      },
+      "rows": [
+        "..........y.",
+        "......pp.oy.",
+        ".....pPpooo.",
+        ".....pPowwwo",
+        "....pPowowwo",
+        "....pPowwwwn",
+        ".pp.pPowwoo.",
+        "pPPooooowwo.",
+        "pP.owwwwwwo.",
+        "...oWWWWWWo.",
+        "..oWo....oWo",
+        "..oho....oho"
+      ]
+    },
+    "duck_a": {
+      "size": [
+        14,
+        14
+      ],
+      "note": "14x14, faces right: the duck (a white mother duck); waddle frame A",
+      "palette": {
+        "o": "#3A3350",
+        "w": "#FFFFFF",
+        "W": "#D6DCEB",
+        "b": "#FF9A2E",
+        "B": "#D9701E",
+        "k": "#2B1B33",
+        "p": "#FF8FAE"
+      },
+      "rows": [
+        "..............",
+        "........ooo...",
+        ".......owwwo..",
+        "......owwwkwo.",
+        "......owwwwwbb",
+        ".o....owpwwoB.",
+        "owo..owwwwwo..",
+        "owwooowwwwwwo.",
+        "owwwWWWWwwwwo.",
+        ".owwwWWWwwwWo.",
+        "..oWWWWWWWWo..",
+        "...oooooooo...",
+        ".....b...b....",
+        "....bb..bb...."
+      ]
+    },
+    "duck_b": {
+      "size": [
+        14,
+        14
+      ],
+      "note": "14x14, waddle frame B",
+      "palette": {
+        "o": "#3A3350",
+        "w": "#FFFFFF",
+        "W": "#D6DCEB",
+        "b": "#FF9A2E",
+        "B": "#D9701E",
+        "k": "#2B1B33",
+        "p": "#FF8FAE"
+      },
+      "rows": [
+        "..............",
+        "........ooo...",
+        ".......owwwo..",
+        "......owwwkwo.",
+        "......owwwwwbb",
+        ".o....owpwwoB.",
+        "owo..owwwwwo..",
+        "owwooowwwwwwo.",
+        "owwwWWWWwwwwo.",
+        ".owwwWWWwwwWo.",
+        "..oWWWWWWWWo..",
+        "...oooooooo...",
+        "......b.b.....",
+        ".....bb.bb...."
+      ]
+    },
+    "duck_fly": {
+      "size": [
+        14,
+        14
+      ],
+      "note": "14x14, faces right: the duck flying, wing up",
+      "palette": {
+        "o": "#3A3350",
+        "w": "#FFFFFF",
+        "W": "#D6DCEB",
+        "b": "#FF9A2E",
+        "B": "#D9701E",
+        "k": "#2B1B33",
+        "p": "#FF8FAE"
+      },
+      "rows": [
+        ".oo...........",
+        "oWWo....ooo...",
+        "oWwWo..owwwo..",
+        ".oWwWooowwkwo.",
+        ".oWwwWowwwwwbb",
+        "..oWwWowpwwoB.",
+        "o..oWWowwwwo..",
+        "owoooWowwwwwo.",
+        "owwwwoowwwwwo.",
+        ".owwwwwwwwwWo.",
+        "..oWWWWWWWWo..",
+        "...oooooooo...",
+        "..............",
+        ".............."
+      ]
+    },
+    "duckling_a": {
+      "size": [
+        10,
+        9
+      ],
+      "note": "10x9, faces right: a duckling; waddle frame A",
+      "palette": {
+        "o": "#6A4A10",
+        "y": "#FFE14D",
+        "Y": "#E8B53A",
+        "k": "#2B1B33",
+        "b": "#FF9A2E"
+      },
+      "rows": [
+        ".....ooo..",
+        "....oyyyo.",
+        "....oyykob",
+        ".o..oyyyo.",
+        "oyooyyyyo.",
+        "oyyyYyyyo.",
+        ".oyyyyyyo.",
+        "..oooooo..",
+        "...b..b..."
+      ]
+    },
+    "duckling_b": {
+      "size": [
+        10,
+        9
+      ],
+      "note": "10x9, waddle frame B",
+      "palette": {
+        "o": "#6A4A10",
+        "y": "#FFE14D",
+        "Y": "#E8B53A",
+        "k": "#2B1B33",
+        "b": "#FF9A2E"
+      },
+      "rows": [
+        ".....ooo..",
+        "....oyyyo.",
+        "....oyykob",
+        ".o..oyyyo.",
+        "oyooyyyyo.",
+        "oyyyYyyyo.",
+        ".oyyyyyyo.",
+        "..oooooo..",
+        "....bb...."
+      ]
+    },
+    "egg": {
+      "size": [
+        6,
+        7
+      ],
+      "note": "6x7 the duck's egg, pale blue",
+      "palette": {
+        "o": "#2B1B33",
+        "w": "#CFF3F0",
+        "W": "#9ED9D4",
+        "s": "#6FA8A2"
+      },
+      "rows": [
+        "..oo..",
+        ".owwo.",
+        "owwwwo",
+        "owswwo",
+        "owwwso",
+        "oWWWWo",
+        ".oooo."
+      ]
+    },
+    "pond": {
+      "size": [
+        24,
+        8
+      ],
+      "note": "24x8 the duck's pond, as wide as the dragon; it paddles in it (the pond's bottom half is drawn again over the dragon)",
+      "palette": {
+        "o": "#2F6A96",
+        "b": "#5FB4F0",
+        "B": "#3F86C8",
+        "w": "#CFF3FF"
+      },
+      "rows": [
+        "......oooooooooooo......",
+        "...ooobbbbbbbbbbbbooo...",
+        ".oobbbbwwbbbbbbbbbbbboo.",
+        "obbbbbbbbbbbbbbBBbbbbbbo",
+        "obbbBBbbbbbbbbbbbbbbbbbo",
+        ".oobbbbbbbbbbbbbbbwbboo.",
+        "...ooobbbbbbbbbbbbooo...",
+        "......oooooooooooo......"
+      ]
+    },
+    "swan_a": {
+      "size": [
+        16,
+        16
+      ],
+      "note": "16x16, faces right: the swan; walk frame A",
+      "palette": {
+        "o": "#3A3350",
+        "w": "#FFFFFF",
+        "W": "#D6DCEB",
+        "b": "#FF8A2B",
+        "B": "#D9601E",
+        "k": "#2B1B33"
+      },
+      "rows": [
+        "................",
+        "..........oooo..",
+        ".........owwkwo.",
+        ".........owwwkbb",
+        "..........owwoB.",
+        "..........owwo..",
+        ".........owwo...",
+        ".........owwo...",
+        "...oo....owwo...",
+        "..owwoooowwwo...",
+        ".owwwwwwwwwwwo..",
+        "owwWWwwwwwwwwo..",
+        "owwwWWWWwwwwWo..",
+        ".oWWWWWWWWWWo...",
+        "..oooooooooo....",
+        "....b....b......"
+      ]
+    },
+    "swan_b": {
+      "size": [
+        16,
+        16
+      ],
+      "note": "16x16, walk frame B",
+      "palette": {
+        "o": "#3A3350",
+        "w": "#FFFFFF",
+        "W": "#D6DCEB",
+        "b": "#FF8A2B",
+        "B": "#D9601E",
+        "k": "#2B1B33"
+      },
+      "rows": [
+        "................",
+        "..........oooo..",
+        ".........owwkwo.",
+        ".........owwwkbb",
+        "..........owwoB.",
+        "..........owwo..",
+        ".........owwo...",
+        ".........owwo...",
+        "...oo....owwo...",
+        "..owwoooowwwo...",
+        ".owwwwwwwwwwwo..",
+        "owwWWwwwwwwwwo..",
+        "owwwWWWWwwwwWo..",
+        ".oWWWWWWWWWWo...",
+        "..oooooooooo....",
+        ".....b..b......."
+      ]
+    },
+    "swan_fly": {
+      "size": [
+        16,
+        16
+      ],
+      "note": "16x16, faces right: the swan flying, wing up",
+      "palette": {
+        "o": "#3A3350",
+        "w": "#FFFFFF",
+        "W": "#D6DCEB",
+        "b": "#FF8A2B",
+        "B": "#D9601E",
+        "k": "#2B1B33"
+      },
+      "rows": [
+        ".o..............",
+        "oWo.......oooo..",
+        "oWWo.....owwkwo.",
+        ".oWWo....owwwkbb",
+        ".oWWWo....owwoB.",
+        "..oWWWo...owwo..",
+        "...oWWWo.owwo...",
+        "....oWWWoowwo...",
+        "...oooWWwwwwo...",
+        "..owwwwwwwwwo...",
+        ".owwwwwwwwwwwo..",
+        "owwwwwwwwwwwwo..",
+        "owwwwwwwwwwwWo..",
+        ".oWWWWWWWWWWo...",
+        "..oooooooooo....",
+        "................"
+      ]
+    },
+    "exclaim": {
+      "size": [
+        3,
+        9
+      ],
+      "note": "3x9 the dragon's fright: a red exclamation mark",
+      "palette": {
+        "o": "#2B1B33",
+        "r": "#E8343F"
+      },
+      "rows": [
+        "ooo",
+        "oro",
+        "oro",
+        "oro",
+        "ooo",
+        "...",
+        "ooo",
+        "oro",
+        "ooo"
+      ]
+    },
+    "princess_side": {
+      "size": [
+        16,
+        24
+      ],
+      "note": "16x24 jump mode: standing, facing right (princess_bare's keys, so the look recolours her)",
+      "palette": {
+        "o": "#2B1B33",
+        "y": "#FFD25A",
+        "Y": "#D89B1A",
+        "h": "#F0B445",
+        "s": "#FFDCC0",
+        "S": "#EBB28F",
+        "c": "#FF8FAE",
+        "e": "#FFDCC0",
+        "m": "#2B1B33",
+        "g": "#FFDCC0",
+        "p": "#F25C9A",
+        "P": "#B8407A",
+        "w": "#FFE3EF"
+      },
+      "rows": [
+        "................",
+        "................",
+        "....ooooooooo...",
+        "...ohhhhhhhhhoo.",
+        "..ohhhhhhhhhhhho",
+        "..ohhhhhsessesso",
+        "..ohhhhhsossosso",
+        "..ohhhhhgossogso",
+        "..ohhhhhcsssscso",
+        ".ohhhhhhssssmsso",
+        ".ohhhhhhoSSSSSo.",
+        ".ohhhhhoooSSo...",
+        "..ohhhoppppppo..",
+        "..ohhoPpppppPso.",
+        "...ooPppppppPso.",
+        "....oyyyyyyyyo..",
+        "....oPppppppPo..",
+        "...oPpwpppppPo..",
+        "...oPppppwpppPo.",
+        "..oPppppppppppPo",
+        "..oPPPPPPPPPPPPo",
+        "...oooooooooooo.",
+        "......oSo.oSo...",
+        "......ooo.ooo..."
+      ]
+    },
+    "princess_side_blink": {
+      "size": [
+        16,
+        24
+      ],
+      "note": "16x24 jump mode: princess_side with her eyes shut (a blink when she stands)",
+      "palette": {
+        "o": "#2B1B33",
+        "y": "#FFD25A",
+        "Y": "#D89B1A",
+        "h": "#F0B445",
+        "s": "#FFDCC0",
+        "S": "#EBB28F",
+        "c": "#FF8FAE",
+        "e": "#FFDCC0",
+        "m": "#2B1B33",
+        "g": "#FFDCC0",
+        "p": "#F25C9A",
+        "P": "#B8407A",
+        "w": "#FFE3EF"
+      },
+      "rows": [
+        "................",
+        "................",
+        "....ooooooooo...",
+        "...ohhhhhhhhhoo.",
+        "..ohhhhhhhhhhhho",
+        "..ohhhhhsessesso",
+        "..ohhhhhssssssso",
+        "..ohhhhhgossogso",
+        "..ohhhhhcsssscso",
+        ".ohhhhhhssssmsso",
+        ".ohhhhhhoSSSSSo.",
+        ".ohhhhhoooSSo...",
+        "..ohhhoppppppo..",
+        "..ohhoPpppppPso.",
+        "...ooPppppppPso.",
+        "....oyyyyyyyyo..",
+        "....oPppppppPo..",
+        "...oPpwpppppPo..",
+        "...oPppppwpppPo.",
+        "..oPppppppppppPo",
+        "..oPPPPPPPPPPPPo",
+        "...oooooooooooo.",
+        "......oSo.oSo...",
+        "......ooo.ooo..."
+      ]
+    },
+    "princess_run_a": {
+      "size": [
+        16,
+        24
+      ],
+      "note": "16x24 jump mode run 1 of 4",
+      "palette": {
+        "o": "#2B1B33",
+        "y": "#FFD25A",
+        "Y": "#D89B1A",
+        "h": "#F0B445",
+        "s": "#FFDCC0",
+        "S": "#EBB28F",
+        "c": "#FF8FAE",
+        "e": "#FFDCC0",
+        "m": "#2B1B33",
+        "g": "#FFDCC0",
+        "p": "#F25C9A",
+        "P": "#B8407A",
+        "w": "#FFE3EF"
+      },
+      "rows": [
+        "................",
+        "................",
+        "....ooooooooo...",
+        "...ohhhhhhhhhoo.",
+        "..ohhhhhhhhhhhho",
+        "..ohhhhhsessesso",
+        "..ohhhhhsossosso",
+        "..ohhhhhgossogso",
+        "..ohhhhhcsssscso",
+        ".ohhhhhhssssmsso",
+        ".ohhhhhhoSSSSSo.",
+        ".ohhhhhoooSSo...",
+        "..ohhhoppppppo..",
+        "..ohhoPpppppPso.",
+        "...ooPppppppPso.",
+        "....oyyyyyyyyo..",
+        "....oPppppppPo..",
+        "...oPpwpppppPo..",
+        "...oPppppwpppPo.",
+        "..oPppppppppppPo",
+        "..oPPPPPPPPPPPPo",
+        "...oooooooooooo.",
+        ".....oSo....oSo.",
+        ".....oo.....ooo."
+      ]
+    },
+    "princess_run_b": {
+      "size": [
+        16,
+        24
+      ],
+      "note": "16x24 jump mode run 2 of 4 (a pixel up) (her hair bounces out)",
+      "palette": {
+        "o": "#2B1B33",
+        "y": "#FFD25A",
+        "Y": "#D89B1A",
+        "h": "#F0B445",
+        "s": "#FFDCC0",
+        "S": "#EBB28F",
+        "c": "#FF8FAE",
+        "e": "#FFDCC0",
+        "m": "#2B1B33",
+        "g": "#FFDCC0",
+        "p": "#F25C9A",
+        "P": "#B8407A",
+        "w": "#FFE3EF"
+      },
+      "rows": [
+        "................",
+        "....ooooooooo...",
+        "...ohhhhhhhhhoo.",
+        "..ohhhhhhhhhhhho",
+        "..ohhhhhsessesso",
+        "..ohhhhhsossosso",
+        "..ohhhhhgossogso",
+        "..ohhhhhcsssscso",
+        "ohhhhhhhssssmsso",
+        "ohhhhhhhoSSSSSo.",
+        ".ohhhhhoooSSo...",
+        "..ohhhoppppppo..",
+        "...oooPpppppPso.",
+        "....oPppppppPso.",
+        "....oyyyyyyyyo..",
+        "....oPppppppPo..",
+        "...oPpwpppppPo..",
+        "...oPppppwpppPo.",
+        "..oPppppppppppPo",
+        "..oPPPPPPPPPPPPo",
+        "...oooooooooooo.",
+        "........oSoSo...",
+        "........ooooo...",
+        "................"
+      ]
+    },
+    "princess_run_c": {
+      "size": [
+        16,
+        24
+      ],
+      "note": "16x24 jump mode run 3 of 4",
+      "palette": {
+        "o": "#2B1B33",
+        "y": "#FFD25A",
+        "Y": "#D89B1A",
+        "h": "#F0B445",
+        "s": "#FFDCC0",
+        "S": "#EBB28F",
+        "c": "#FF8FAE",
+        "e": "#FFDCC0",
+        "m": "#2B1B33",
+        "g": "#FFDCC0",
+        "p": "#F25C9A",
+        "P": "#B8407A",
+        "w": "#FFE3EF"
+      },
+      "rows": [
+        "................",
+        "................",
+        "....ooooooooo...",
+        "...ohhhhhhhhhoo.",
+        "..ohhhhhhhhhhhho",
+        "..ohhhhhsessesso",
+        "..ohhhhhsossosso",
+        "..ohhhhhgossogso",
+        "..ohhhhhcsssscso",
+        ".ohhhhhhssssmsso",
+        ".ohhhhhhoSSSSSo.",
+        ".ohhhhhoooSSo...",
+        "..ohhhoppppppo..",
+        "..ohhoPpppppPso.",
+        "...ooPppppppPso.",
+        "....oyyyyyyyyo..",
+        "....oPppppppPo..",
+        "...oPpwpppppPo..",
+        "...oPppppwpppPo.",
+        "..oPppppppppppPo",
+        "..oPPPPPPPPPPPPo",
+        "...oooooooooooo.",
+        ".......oSo.oSo..",
+        ".......ooo..oo.."
+      ]
+    },
+    "princess_run_d": {
+      "size": [
+        16,
+        24
+      ],
+      "note": "16x24 jump mode run 4 of 4 (a pixel up) (her hair bounces out)",
+      "palette": {
+        "o": "#2B1B33",
+        "y": "#FFD25A",
+        "Y": "#D89B1A",
+        "h": "#F0B445",
+        "s": "#FFDCC0",
+        "S": "#EBB28F",
+        "c": "#FF8FAE",
+        "e": "#FFDCC0",
+        "m": "#2B1B33",
+        "g": "#FFDCC0",
+        "p": "#F25C9A",
+        "P": "#B8407A",
+        "w": "#FFE3EF"
+      },
+      "rows": [
+        "................",
+        "....ooooooooo...",
+        "...ohhhhhhhhhoo.",
+        "..ohhhhhhhhhhhho",
+        "..ohhhhhsessesso",
+        "..ohhhhhsossosso",
+        "..ohhhhhgossogso",
+        "..ohhhhhcsssscso",
+        "ohhhhhhhssssmsso",
+        "ohhhhhhhoSSSSSo.",
+        ".ohhhhhoooSSo...",
+        "..ohhhoppppppo..",
+        "...oooPpppppPso.",
+        "....oPppppppPso.",
+        "....oyyyyyyyyo..",
+        "....oPppppppPo..",
+        "...oPpwpppppPo..",
+        "...oPppppwpppPo.",
+        "..oPppppppppppPo",
+        "..oPPPPPPPPPPPPo",
+        "...oooooooooooo.",
+        "........oSoSo...",
+        "........ooooo...",
+        "................"
+      ]
+    },
+    "princess_jump": {
+      "size": [
+        16,
+        24
+      ],
+      "note": "16x24 jump mode: going up; her hair lifts",
+      "palette": {
+        "o": "#2B1B33",
+        "y": "#FFD25A",
+        "Y": "#D89B1A",
+        "h": "#F0B445",
+        "s": "#FFDCC0",
+        "S": "#EBB28F",
+        "c": "#FF8FAE",
+        "e": "#FFDCC0",
+        "m": "#2B1B33",
+        "g": "#FFDCC0",
+        "p": "#F25C9A",
+        "P": "#B8407A",
+        "w": "#FFE3EF"
+      },
+      "rows": [
+        "................",
+        "................",
+        "....ooooooooo...",
+        "...ohhhhhhhhhoo.",
+        "..ohhhhhhhhhhhho",
+        "..ohhhhhsessesso",
+        "..ohhhhhsossosso",
+        "..ohhhhhgossogso",
+        "..ohhhhhcsssscso",
+        "ohhhhhhhssssmsso",
+        "ohhhhhhhoSSSSSo.",
+        ".ohhhhhoooSSo...",
+        "..ohhhoppppppo..",
+        "...oooPpppppPso.",
+        "....oPppppppPso.",
+        "....oyyyyyyyyo..",
+        "....oPppppppPo..",
+        "...oPpwpppppPo..",
+        "...oPppppwpppPo.",
+        ".oPppppppppppppo",
+        "oPPPPPPPPPPPPPPo",
+        ".oooooooooooooo.",
+        "........oSSo....",
+        "........oooo...."
+      ]
+    },
+    "princess_fall": {
+      "size": [
+        16,
+        24
+      ],
+      "note": "16x24 jump mode: coming down",
+      "palette": {
+        "o": "#2B1B33",
+        "y": "#FFD25A",
+        "Y": "#D89B1A",
+        "h": "#F0B445",
+        "s": "#FFDCC0",
+        "S": "#EBB28F",
+        "c": "#FF8FAE",
+        "e": "#FFDCC0",
+        "m": "#2B1B33",
+        "g": "#FFDCC0",
+        "p": "#F25C9A",
+        "P": "#B8407A",
+        "w": "#FFE3EF"
+      },
+      "rows": [
+        "................",
+        "................",
+        "....ooooooooo...",
+        "...ohhhhhhhhhoo.",
+        "..ohhhhhhhhhhhho",
+        "..ohhhhhsessesso",
+        "..ohhhhhsossosso",
+        "..ohhhhhgossogso",
+        "..ohhhhhcsssscso",
+        ".ohhhhhhssssmsso",
+        ".ohhhhhhoSSSSSo.",
+        ".ohhhhhoooSSo...",
+        "..ohhhoppppppo..",
+        "..ohhoPpppppPso.",
+        "...ooPppppppPso.",
+        "....oyyyyyyyyo..",
+        "....oPppppppPo..",
+        "...oPpwpppppPo..",
+        "...oPppppwpppPo.",
+        ".oPppppppppppppo",
+        "oPPPPPPPPPPPPPPo",
+        ".oooooooooooooo.",
+        ".....oSo....oSo.",
+        ".....oo.....ooo."
+      ]
+    },
+    "jump_ground_top": {
+      "size": [
+        16,
+        16
+      ],
+      "note": "16x16 jump mode: the ground's top tile (wall_block's keys, so themes recolour it)",
+      "palette": {
+        "H": "#B8ADEA",
+        "T": "#9C8EDC",
+        "t": "#8576C7",
+        "F": "#5E4F9C",
+        "f": "#4A3D85",
+        "m": "#33285F"
+      },
+      "rows": [
+        "HHHHHHHHHHHHHHHt",
+        "HTTTTTTtTTTTTTTt",
+        "TTTTTTTTTTTTtTTt",
+        "tttttttttttttttt",
+        "FFFFFFFmFFFFFFFm",
+        "fffffffmfffffffm",
+        "mmmmmmmmmmmmmmmm",
+        "FFFmFFFFFFFmFFFF",
+        "fffmfffffffmffff",
+        "mmmmmmmmmmmmmmmm",
+        "FFFFFFFmFFFFFFFm",
+        "fffffffmfffffffm",
+        "mmmmmmmmmmmmmmmm",
+        "FFFmFFFFFFFmFFFF",
+        "fffmfffffffmffff",
+        "mmmmmmmmmmmmmmmm"
+      ]
+    },
+    "jump_ground": {
+      "size": [
+        16,
+        16
+      ],
+      "note": "16x16 jump mode: the ground under its top tile",
+      "palette": {
+        "H": "#B8ADEA",
+        "T": "#9C8EDC",
+        "t": "#8576C7",
+        "F": "#5E4F9C",
+        "f": "#4A3D85",
+        "m": "#33285F"
+      },
+      "rows": [
+        "FFFFFFFmFFFFFFFm",
+        "fffffffmfffffffm",
+        "mmmmmmmmmmmmmmmm",
+        "FFFmFFFFFFFmFFFF",
+        "fffmfffffffmffff",
+        "mmmmmmmmmmmmmmmm",
+        "FFFFFFFmFFFFFFFm",
+        "fffffffmfffffffm",
+        "mmmmmmmmmmmmmmmm",
+        "FFFmFFFFFFFmFFFF",
+        "fffmfffffffmffff",
+        "mmmmmmmmmmmmmmmm",
+        "FFFFFFFmFFFFFFFm",
+        "fffffffmfffffffm",
+        "mmmmmmmmmmmmmmmm",
+        "FFFmFFFFFFFmFFFF"
+      ]
+    },
+    "jump_block": {
+      "size": [
+        16,
+        16
+      ],
+      "note": "16x16 jump mode: a block standing on its own",
+      "palette": {
+        "H": "#B8ADEA",
+        "T": "#9C8EDC",
+        "t": "#8576C7",
+        "F": "#5E4F9C",
+        "f": "#4A3D85",
+        "m": "#33285F"
+      },
+      "rows": [
+        "mmmmmmmmmmmmmmmm",
+        "mHHHHHHHHHHHHHtm",
+        "mHTTTTTTTTTTTTtm",
+        "mHTTTTTTTTTTTTtm",
+        "mHTTtTTTTTTTTTtm",
+        "mHTTTTTTTTTTTTtm",
+        "mHTTTTTTTTTtTTtm",
+        "mHTTTTTTTTTTTTtm",
+        "mHTTTTTTTTTTTTtm",
+        "mHTTTTTtTTTTTTtm",
+        "mHTTTTTTTTTTTTtm",
+        "mHTTTTTTTTTTTTtm",
+        "mHTTTTTTTTTTTTtm",
+        "mttttttttttttttm",
+        "mFFFFFFFFFFFFFFm",
+        "mmmmmmmmmmmmmmmm"
+      ]
+    },
+    "jump_platform": {
+      "size": [
+        16,
+        6
+      ],
+      "note": "16x6 jump mode: a one-way platform, drawn at the top of its tile",
+      "palette": {
+        "H": "#B8ADEA",
+        "T": "#9C8EDC",
+        "t": "#8576C7",
+        "F": "#5E4F9C",
+        "f": "#4A3D85",
+        "m": "#33285F"
+      },
+      "rows": [
+        "HHHHHHHHHHHHHHHt",
+        "HTTTTTTTTTTTTTTt",
+        "tttttttttttttttt",
+        "FFFFFFFmFFFFFFFm",
+        "mmmmmmmmmmmmmmmm",
+        ".m............m."
+      ]
+    },
+    "jump_earth_top": {
+      "size": [
+        16,
+        16
+      ],
+      "note": "16x16 jump mode: earth ground's top tile (grass in the garden; themes recolour it)",
+      "palette": {
+        "G": "#B6EE7A",
+        "g": "#6CCB4E",
+        "d": "#3F9A3E",
+        "k": "#3B2416",
+        "E": "#B5814F",
+        "e": "#946039",
+        "s": "#77492A",
+        "p": "#E3D3A6",
+        "P": "#AD9A6C",
+        "x": "#A6E36A"
+      },
+      "rows": [
+        "GGGGGGGGGGGGGGGG",
+        "gggggggggxgggggg",
+        "gggxgggggggggggg",
+        "gggdggggggdgggdg",
+        "dgdkdgxgddkdgdkd",
+        "kdkekdgdkkekdkek",
+        "ekeeekdkeeeekeee",
+        "eeeeeekeeeeeeeee",
+        "eeeeeeeeeseeeeee",
+        "eeeeeeeeeeeeeeEe",
+        "eeepPeeeeeeeeeee",
+        "eeePseeeeeeeeeee",
+        "eeeeeeEeeeeeeeee",
+        "eeeeeeeeeeepPeee",
+        "eseeeeeeeeePseee",
+        "eeeeeeeeseeeeeee"
+      ]
+    },
+    "jump_earth_top_b": {
+      "size": [
+        16,
+        16
+      ],
+      "note": "16x16 jump mode: earth ground's top tile, second look",
+      "palette": {
+        "G": "#B6EE7A",
+        "g": "#6CCB4E",
+        "d": "#3F9A3E",
+        "k": "#3B2416",
+        "E": "#B5814F",
+        "e": "#946039",
+        "s": "#77492A",
+        "p": "#E3D3A6",
+        "P": "#AD9A6C",
+        "x": "#A6E36A"
+      },
+      "rows": [
+        "GGGGGGGGGGGGGGGG",
+        "gggggggggggggggg",
+        "ggggggggggggxggg",
+        "gdggxgdgggggdggg",
+        "dkdggdkdgggdkdgd",
+        "kekddkekdgdkekdk",
+        "eeekkeeekdkeeeke",
+        "eeeeeeeeekeeeeee",
+        "eeeeeeEeeeeeeeee",
+        "eeseeeeeeeeeeeee",
+        "eeeeeeeeeeeeEeee",
+        "eeeeeeeepPeeeeee",
+        "eeeeeeeePseeeees",
+        "eeeeEeeeeeeeeeee",
+        "eeeeeeeeeeeeesee",
+        "eeeeeeeeeeeeeeee"
+      ]
+    },
+    "jump_earth": {
+      "size": [
+        16,
+        16
+      ],
+      "note": "16x16 jump mode: the earth under its top tile",
+      "palette": {
+        "G": "#B6EE7A",
+        "g": "#6CCB4E",
+        "d": "#3F9A3E",
+        "k": "#3B2416",
+        "E": "#B5814F",
+        "e": "#946039",
+        "s": "#77492A",
+        "p": "#E3D3A6",
+        "P": "#AD9A6C",
+        "x": "#A6E36A"
+      },
+      "rows": [
+        "eeeeeeeeeeeseeee",
+        "eeeeeeeeeeeeeeee",
+        "eeeepPeeeeeeeeee",
+        "eeeePseeeeeeeeee",
+        "eeeeeeeeeeeeeeee",
+        "eeeeeeeeeeeeeEee",
+        "eseeeeeeeeeeeeee",
+        "eeeeeeeeeeeeeeee",
+        "eeeeeeeseeeeeeee",
+        "eeeeeeeeeeeeeeee",
+        "eeeeeeeeeepPeeee",
+        "eeeeeeeeeePseeee",
+        "eeeeeeeeeeeeeeee",
+        "eeeEeeeeeeeeeeee",
+        "eeeeeeeeeeeeeese",
+        "eeeeeeeeeeeeeeee"
+      ]
+    },
+    "jump_earth_b": {
+      "size": [
+        16,
+        16
+      ],
+      "note": "16x16 jump mode: the earth under its top tile, second look",
+      "palette": {
+        "G": "#B6EE7A",
+        "g": "#6CCB4E",
+        "d": "#3F9A3E",
+        "k": "#3B2416",
+        "E": "#B5814F",
+        "e": "#946039",
+        "s": "#77492A",
+        "p": "#E3D3A6",
+        "P": "#AD9A6C",
+        "x": "#A6E36A"
+      },
+      "rows": [
+        "eeeeeeeeeeeeeeee",
+        "eeEeeeeeeeeeeeee",
+        "eeeeeeeeeeeeeeee",
+        "eeeeeeeeeeeeesee",
+        "eeeeeeeeeeeeeeee",
+        "eeeeeeeeepPeeeee",
+        "eeeeeeeeePseeeee",
+        "eeeeeeeeeeeeeeee",
+        "eeeeeeeeeeeeeeee",
+        "eeeseeeeeeeeeeee",
+        "eeeeeeeeeeeeeeee",
+        "eeeeeeeeeeeeeeeE",
+        "eeeeeeeEeeeeeeee",
+        "eeeeeeeeeeeeeeee",
+        "eeeeeeeeeeeeseee",
+        "eseeeeeeeeeeeeee"
+      ]
+    },
+    "jump_earth_c": {
+      "size": [
+        16,
+        16
+      ],
+      "note": "16x16 jump mode: the earth under its top tile, with a stone",
+      "palette": {
+        "G": "#B6EE7A",
+        "g": "#6CCB4E",
+        "d": "#3F9A3E",
+        "k": "#3B2416",
+        "E": "#B5814F",
+        "e": "#946039",
+        "s": "#77492A",
+        "p": "#E3D3A6",
+        "P": "#AD9A6C",
+        "x": "#A6E36A"
+      },
+      "rows": [
+        "eeeeeeeeeeeeeeee",
+        "eeeeeeeeeeeeeeee",
+        "eeseeeeeeeeeeeee",
+        "eeeeeeeeeeeeEeee",
+        "eeeeeeeeeeeeeeee",
+        "eeeeeeeeeeeeeeee",
+        "eeeeeeeeeeeeeeee",
+        "eeeeeeeeeeeeeeee",
+        "eeeeeepPeeeeeeee",
+        "eeeeepPPseeeeeee",
+        "eeeeePPsseeeeeee",
+        "eeeeeesseeeeeeee",
+        "eeeeeeeeeeeeeeee",
+        "eeeeeeeeeeeeesee",
+        "eeEeeeeeeeeeeeee",
+        "eeeeeeeeeeeeeeee"
+      ]
+    },
+    "jump_earth_top_edge": {
+      "size": [
+        16,
+        16
+      ],
+      "note": "16x16 jump mode: earth ground's top tile at a left end (flipped for a right end)",
+      "palette": {
+        "G": "#B6EE7A",
+        "g": "#6CCB4E",
+        "d": "#3F9A3E",
+        "k": "#3B2416",
+        "E": "#B5814F",
+        "e": "#946039",
+        "s": "#77492A",
+        "p": "#E3D3A6",
+        "P": "#AD9A6C",
+        "x": "#A6E36A"
+      },
+      "rows": [
+        ".kGGGGGGGGGGGGGG",
+        "kGgggggggxgggggg",
+        "kGgxgggggggggggg",
+        "kGgdggggggdgggdg",
+        "kGdkdgxgddkdgdkd",
+        "kdkekdgdkkekdkek",
+        "kkeeekdkeeeekeee",
+        "kseeeekeeeeeeeee",
+        "kseeeeeeeseeeeee",
+        "kseeeeeeeeeeeeEe",
+        "ksepPeeeeeeeeeee",
+        "ksePseeeeeeeeeee",
+        "kseeeeEeeeeeeeee",
+        "kseeeeeeeeepPeee",
+        "kseeeeeeeeePseee",
+        "kseeeeeeseeeeeee"
+      ]
+    },
+    "jump_earth_edge": {
+      "size": [
+        16,
+        16
+      ],
+      "note": "16x16 jump mode: the earth at a left end (flipped for a right end)",
+      "palette": {
+        "G": "#B6EE7A",
+        "g": "#6CCB4E",
+        "d": "#3F9A3E",
+        "k": "#3B2416",
+        "E": "#B5814F",
+        "e": "#946039",
+        "s": "#77492A",
+        "p": "#E3D3A6",
+        "P": "#AD9A6C",
+        "x": "#A6E36A"
+      },
+      "rows": [
+        "kseeeeeeeeeseeee",
+        "kseeeeeeeeeeeeee",
+        "kseepPeeeeeeeeee",
+        "kseePseeeeeeeeee",
+        "kseeeeeeeeeeeeee",
+        "kseeeeeeeeeeeEee",
+        "kseeeeeeeeeeeeee",
+        "kseeeeeeeeeeeeee",
+        "kseeeeeseeeeeeee",
+        "kseeeeeeeeeeeeee",
+        "kseeeeeeeepPeeee",
+        "kseeeeeeeePseeee",
+        "kseeeeeeeeeeeeee",
+        "kseEeeeeeeeeeeee",
+        "kseeeeeeeeeeeese",
+        "kseeeeeeeeeeeeee"
+      ]
+    },
+    "jump_ground_top_edge": {
+      "size": [
+        16,
+        16
+      ],
+      "note": "16x16 jump mode: the brick ground's top tile at a left end (flipped for a right end)",
+      "palette": {
+        "H": "#B8ADEA",
+        "T": "#9C8EDC",
+        "t": "#8576C7",
+        "F": "#5E4F9C",
+        "f": "#4A3D85",
+        "m": "#33285F"
+      },
+      "rows": [
+        ".mHHHHHHHHHHHHHt",
+        "mTTTTTTtTTTTTTTt",
+        "mTTTTTTTTTTTtTTt",
+        "mttttttttttttttt",
+        "mFFFFFFmFFFFFFFm",
+        "mffffffmfffffffm",
+        "mmmmmmmmmmmmmmmm",
+        "mFFmFFFFFFFmFFFF",
+        "mffmfffffffmffff",
+        "mmmmmmmmmmmmmmmm",
+        "mFFFFFFmFFFFFFFm",
+        "mffffffmfffffffm",
+        "mmmmmmmmmmmmmmmm",
+        "mFFmFFFFFFFmFFFF",
+        "mffmfffffffmffff",
+        "mmmmmmmmmmmmmmmm"
+      ]
+    },
+    "jump_ground_edge": {
+      "size": [
+        16,
+        16
+      ],
+      "note": "16x16 jump mode: the brick ground at a left end (flipped for a right end)",
+      "palette": {
+        "H": "#B8ADEA",
+        "T": "#9C8EDC",
+        "t": "#8576C7",
+        "F": "#5E4F9C",
+        "f": "#4A3D85",
+        "m": "#33285F"
+      },
+      "rows": [
+        "mFFFFFFmFFFFFFFm",
+        "mffffffmfffffffm",
+        "mmmmmmmmmmmmmmmm",
+        "mFFmFFFFFFFmFFFF",
+        "mffmfffffffmffff",
+        "mmmmmmmmmmmmmmmm",
+        "mFFFFFFmFFFFFFFm",
+        "mffffffmfffffffm",
+        "mmmmmmmmmmmmmmmm",
+        "mFFmFFFFFFFmFFFF",
+        "mffmfffffffmffff",
+        "mmmmmmmmmmmmmmmm",
+        "mFFFFFFmFFFFFFFm",
+        "mffffffmfffffffm",
+        "mmmmmmmmmmmmmmmm",
+        "mFFmFFFFFFFmFFFF"
+      ]
+    },
+    "jump_plank": {
+      "size": [
+        16,
+        6
+      ],
+      "note": "16x6 jump mode: a wooden one-way platform for the outdoor themes (winter's has snow on top)",
+      "palette": {
+        "W": "#F0C890",
+        "w": "#C98E52",
+        "v": "#9A6438",
+        "n": "#5A3620"
+      },
+      "rows": [
+        "WWWWWWWWWWWWWWWW",
+        "wwwwwwwvwwwwwwwv",
+        "wnwwwwwvwnwwwwwv",
+        "vvvvvvvnvvvvvvvn",
+        "nnnnnnnnnnnnnnnn",
+        ".n............n."
+      ]
+    },
+    "jump_far_hills": {
+      "size": [
+        128,
+        80
+      ],
+      "note": "128x80 jump mode scenery behind the level (repeats across): rolling hills with bushes",
+      "palette": {
+        "a": "#4E7A5A",
+        "b": "#355C44",
+        "c": "#284A37",
+        "d": "#1C3528"
+      },
+      "rows": [
+        "................................................................................................................................",
+        "................................................................................................................................",
+        "................................................................................................................................",
+        "................................................................................................................................",
+        "................................................................................................................................",
+        "................................................................................................................................",
+        "................................................................................................................................",
+        "................................................................................................................................",
+        "................................................................................................................................",
+        "................................................................................................................................",
+        "................................................................................................................................",
+        "................................................................................................................................",
+        "................................................................................................................................",
+        "................................................................................................................................",
+        "................................................................................................................................",
+        "................................................................................................................................",
+        "................................................................................................................................",
+        "................................................................................................................................",
+        "................................................................................................................................",
+        ".............aaa...........................................aaaaa................................................................",
+        "...........aabbcaa.......................................aabbbbcaa..............................................................",
+        "....aaaaaaabbbbccca.....................................abbbbbbccca.............................................................",
+        "...abbbbbbbbbbbbccc.aaaaa.............................aabbbbbbbbccc.............................................................",
+        ".aabbbbbbbbbbbbbbbcabbbbca..aa......................aabbbbbbbbbbbbc.............................................................",
+        "abbbbbbbbbbbbbbbbbbcbbbbccaabcaaaa................aabbbbbbbbbbbbbbb.............................................................",
+        "bbbbbbbbbbbbbbbbbbbcbbbbbccbbccbbcaa.............abbbbbbbbbbbbbbbbba...........................................................a",
+        "bbbbbbbbbbbbbbbbbbbbbbbbbbcbbbcbbcccaa.........aabbbbbbbbbbbbbbbbbbc...........................................................b",
+        "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbccccaaa....aabbbbbbbbbbbbbbbbbbbbcaaaaa.....................................................ab",
+        "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbcccbcaaaabbbbbbbbbbbbbbbbbbbbbbbcbbbca...................................................abb",
+        "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbcbccbbbbbbbbbbbbbbbbbbbbbbbbbbcbbbcc..................................................abbb",
+        "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbcbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbc.................................................abbbb",
+        "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbaa..............................................abbbbb",
+        "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbccaaa..........................................abbbbbb",
+        "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbcccbcaa.......................................abbbbbbb",
+        "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbcbccca....................................aabbbbbbbb",
+        "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbcccaa.................................abbbbbbbbbb",
+        "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbccca.............................aaabbbbbbbbbbb",
+        "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbccca.........................aaabbbbbbbbbbbbbb",
+        "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbcc.......................aabbbbbbbbbbbbbbbbb",
+        "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbca..............a.....aabbbbbbbbbbbbbbbbbbb",
+        "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbca..........aaabaaa.abbbbbbbbbbbbbbbbbbbbb",
+        "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbcca........abbbbcbcabbbbbbbbbbbbbbbbbbbbbb",
+        "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbcca.......bbbbbcbcbbbbbbbbbbbbbbbbbbbbbbb",
+        "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbcca......bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+        "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbccaa...abbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+        "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbcccaa.bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+        "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbccccabbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+        "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbccbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+        "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+        "bcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbc",
+        "cbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcb",
+        "bcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbc",
+        "cbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcb",
+        "bcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbc",
+        "cbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcb",
+        "cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc",
+        "cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc",
+        "cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc",
+        "cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc",
+        "cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc",
+        "cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc",
+        "cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc",
+        "cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc",
+        "cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc",
+        "cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc",
+        "cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc",
+        "cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc",
+        "cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc",
+        "cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc",
+        "cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc",
+        "cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc",
+        "cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc",
+        "cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc",
+        "cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc",
+        "cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc",
+        "cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc",
+        "cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc",
+        "cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc",
+        "cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc",
+        "cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc"
+      ]
+    },
+    "jump_far_castle": {
+      "size": [
+        128,
+        80
+      ],
+      "note": "128x80 jump mode scenery behind the level (repeats across): castle walls and towers",
+      "palette": {
+        "a": "#4E7A5A",
+        "b": "#355C44",
+        "c": "#284A37",
+        "d": "#1C3528"
+      },
+      "rows": [
+        "..............................................................................aaa...aaa...aaa...aaa.............................",
+        "..............................................................................bbb...bbb...bbb...bbb.............................",
+        "..............................................................................bbb...bbb...bbb...bbb.............................",
+        "..............................................................................bbb...bbb...bbb...bbb.............................",
+        "..................aaa...aaa...aaa.............................................bbbaaabbbaaabbbaaabccc............................",
+        "..................bbb...bbb...bbb.............................................bbbbbbbbbbbbbbbbbbbccc............................",
+        "..................bbb...bbb...bbb.............................................bbbbbbbbbbbbbbbbbbbccc............................",
+        "..................bbb...bbb...bbb.............................................bbbbbbbbbbbbbbbbbbbccc............................",
+        "..................bbbaaabbbaaabbbccc..........................................bbbbbbbbbbbbbbbbbbbccc............................",
+        "..................bbbbbbbbbbbbbbbccc..........................................bbbbbbbbbbbbbbbbbbbccc............................",
+        "..................bbbbbbbbbbbbbbbccc..........................................bbbbbbbbbbbbbbbbbbbccc............................",
+        "..................bbbbbbbbbbbbbbbccc..........................................bbbbbbbbbbddbbbbbbbccc............................",
+        "..................bbbbbbbbbbbbbbbccc..........................................bbbbbbbbbddddbbbbbbccc............................",
+        "..................bbbbbbbbbbbbbbbccc..........................................bbbbbbbbbddddbbbbbbccc............................",
+        "..................bbbbbbbbbbbbbbbccc..........................................bbbbbbbbbddddbbbbbbccc............................",
+        "..................bbbbbbbbddbbbbbccc..........................................bbbbbbbbbddddbbbbbbccc............................",
+        "..................bbbbbbbddddbbbbccc..........................................bbbbbbbbbddddbbbbbbccc............................",
+        "..................bbbbbbbddddbbbbccc..........................................bbbbbbbbbddddbbbbbbccc............................",
+        "..................bbbbbbbddddbbbbccc..........................................bbbbbbbbbddddbbbbbbccc............................",
+        "..................bbbbbbbddddbbbbccc..........................................bbbbbbbbbbbbbbbbbbbccc............................",
+        "..................bbbbbbbddddbbbbccc..........................................bbbbbbbbbbbbbbbbbbbccc............................",
+        "..................bbbbbbbddddbbbbccc..........................................bbbbbbbbbbbbbbbbbbbccc............................",
+        "..................bbbbbbbddddbbbbccc..........................................bbbbbbbbbbbbbbbbbbbccc............................",
+        "..................bbbbbbbbbbbbbbbccc..........................................bbbbbbbbbbbbbbbbbbbccc............................",
+        "..................bbbbbbbbbbbbbbbccc..........................................bbbbbbbbbbbbbbbbbbbccc............................",
+        "..................bbbbbbbbbbbbbbbccc..........................................bbbbbbbbbbbbbbbbbbbccc............................",
+        "aaaa....aaaa....aabbbbbbbbbbbbbbbccc....aaaa....aaaa....aaaa....aaaa....aaaa..bbbbbbbbbbbbbbbbbbbccc....aaaa....aaaa....aaaa....",
+        "bbbb....bbbb....bbbbbbbbbbbbbbbbbccc....bbbb....bbbb....bbbb....bbbb....bbbb..bbbbbbbbbbbbbbbbbbbccc....bbbb....bbbb....bbbb....",
+        "bbbb....bbbb....bbbbbbbbbbbbbbbbbccc....bbbb....bbbb....bbbb....bbbb....bbbb..bbbbbbbbbbbbbbbbbbbccc....bbbb....bbbb....bbbb....",
+        "bbbb....bbbb....bbbbbbbbbbbbbbbbbccc....bbbb....bbbb....bbbb....bbbb....bbbb..bbbbbbbbbbbbbbbbbbbccc....bbbb....bbbb....bbbb....",
+        "bbbbaaaabbbbaaaabbbbbbbbbbbbbbbbbcccaaaabbbbaaaabbbbaaaabbbbaaaabbbbaaaabbbbaabbbbbbbbbbbbbbbbbbbcccaaaabbbbaaaabbbbaaaabbbbaaaa",
+        "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbcccbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbcccbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+        "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbcccbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbcccbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+        "bbbbbbccbbbbbbbbbbbbbbccbbbbbbbbbcccbbccbbbbbbbbbbbbbbccbbbbbbbbbbbbbbccbbbbbbbbbbbbbbccbbbbbbbbbcccbbccbbbbbbbbbbbbbbccbbbbbbbb",
+        "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbcccbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbcccbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+        "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbcccbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbcccbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+        "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbcccbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbcccbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+        "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbcccbbbbbbbbbbbbbdbbbbbbbbbbbdbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbcccbbbbbbbbbbbbbdbbbbbbbbbbbbbb",
+        "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbcccbbbbbbbbbbbbdddbbbbbbbbbdddbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbcccbbbbbbbbbbbbdddbbbbbbbbbbbbb",
+        "bbbbccbbbbbbbbbbbbbbccbbbbbbbbbbbcccccbbbbbbbbbbdddbccbbbbbbdddbbbbbccbbbbbbbbbbbbbbccbbbbbbbbbbbcccccbbbbbbbbbbdddbccbbbbbbbbbb",
+        "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbcccbbbbbbbbbbbbdddbbbbbbbbbdddbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbcccbbbbbbbbbbbbdddbbbbbbbbbbbbb",
+        "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbcccbbbbbbbbbbbbdddbbbbbbbbbdddbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbcccbbbbbbbbbbbbdddbbbbbbbbbbbbb",
+        "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbcccbbbbbbbbbbbbdddbbbbbbbbbdddbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbcccbbbbbbbbbbbbdddbbbbbbbbbbbbb",
+        "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbcccbbbbbbbbbbbbdddbbbbbbbbbdddbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbcccbbbbbbbbbbbbdddbbbbbbbbbbbbb",
+        "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbcccbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbcccbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+        "bbccbbbbbbbbbbbbbbccbbbbbbbbbbbbbcccbbbbbbbbbbbbbbccbbbbbbbbbbbbbbccbbbbbbbbbbbbbbccbbbbbbbbbbbbbcccbbbbbbbbbbbbbbccbbbbbbbbbbbb",
+        "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbcccbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbcccbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+        "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbcccbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbcccbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+        "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbcccbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbcccbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+        "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbcccbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbcccbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+        "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbcccbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbcccbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+        "ccbbbbbbbbbbbbbbccbbbbbbbbbbbbbbccccbbbbbbbbbbbbccbbbbbbbbbbbbbbccbbbbbbbbbbbbbbccbbbbbbbbbbbbbbccccbbbbbbbbbbbbccbbbbbbbbbbbbbb",
+        "cbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcccccbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcccccbcbcbcbcbcbcbcbcbcbcbcbcbcb",
+        "bcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcccbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcccbcbcbcbcbcbcbcbcbcbcbcbcbcbc",
+        "cbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcccccbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcccccbcbcbcbcbcbcbcbcbcbcbcbcbcb",
+        "bcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcccbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcccbcbcbcbcbcbcbcbcbcbcbcbcbcbc",
+        "cbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcccccbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcccccbcbcbcbcbcbcbcbcbcbcbcbcbcb",
+        "bcbcbcbcbcbcbcccbcbcbcbcbcbcbcccbcccbcbcbcbcbcccbcbcbcbcbcbcbcccbcbcbcbcbcbcbcccbcbcbcbcbcbcbcccbcccbcbcbcbcbcccbcbcbcbcbcbcbccc",
+        "cbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcccccbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcccccbcbcbcbcbcbcbcbcbcbcbcbcbcb",
+        "bcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcccbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcccbcbcbcbcbcbcbcbcbcbcbcbcbcbc",
+        "cbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcccccbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcccccbcbcbcbcbcbcbcbcbcbcbcbcbcb",
+        "bcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcccbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcccbcbcbcbcbcbcbcbcbcbcbcbcbcbc",
+        "cbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcccccbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcccccbcbcbcbcbcbcbcbcbcbcbcbcbcb",
+        "bcbcbcbcbcbcccbcbcbcbcbcbcbcccbcbcccbcbcbcbcccbcbcbcbcbcbcbcccbcbcbcbcbcbcbcccbcbcbcbcbcbcbcccbcbcccbcbcbcbcccbcbcbcbcbcbcbcccbc",
+        "cbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcccccbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcccccbcbcbcbcbcbcbcbcbcbcbcbcbcb",
+        "bcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcccbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcccbcbcbcbcbcbcbcbcbcbcbcbcbcbc",
+        "cbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcccccbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcccccbcbcbcbcbcbcbcbcbcbcbcbcbcb",
+        "bcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcccbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcccbcbcbcbcbcbcbcbcbcbcbcbcbcbc",
+        "cbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcccccbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcccccbcbcbcbcbcbcbcbcbcbcbcbcbcb",
+        "bcbcbcbcbcccbcbcbcbcbcbcbcccbcbcbcccbcbcbcccbcbcbcbcbcbcbcccbcbcbcbcbcbcbcccbcbcbcbcbcbcbcccbcbcbcccbcbcbcccbcbcbcbcbcbcbcccbcbc",
+        "cbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcccccbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcccccbcbcbcbcbcbcbcbcbcbcbcbcbcb",
+        "bcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcccbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcccbcbcbcbcbcbcbcbcbcbcbcbcbcbc",
+        "cbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcccccbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcccccbcbcbcbcbcbcbcbcbcbcbcbcbcb",
+        "bcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcccbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcccbcbcbcbcbcbcbcbcbcbcbcbcbcbc",
+        "cbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcccccbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcccccbcbcbcbcbcbcbcbcbcbcbcbcbcb",
+        "bcbcbcbcccbcbcbcbcbcbcbcccbcbcbcbcccbcbcccbcbcbcbcbcbcbcccbcbcbcbcbcbcbcccbcbcbcbcbcbcbcccbcbcbcbcccbcbcccbcbcbcbcbcbcbcccbcbcbc",
+        "cbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcccccbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcccccbcbcbcbcbcbcbcbcbcbcbcbcbcb",
+        "bcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcccbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcccbcbcbcbcbcbcbcbcbcbcbcbcbcbc",
+        "cbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcccccbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcccccbcbcbcbcbcbcbcbcbcbcbcbcbcb",
+        "bcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcccbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcccbcbcbcbcbcbcbcbcbcbcbcbcbcbc"
+      ]
+    },
+    "jump_far_spikes": {
+      "size": [
+        128,
+        80
+      ],
+      "note": "128x80 jump mode scenery behind the level (repeats across): crystal spires",
+      "palette": {
+        "a": "#4E7A5A",
+        "b": "#355C44",
+        "c": "#284A37",
+        "d": "#1C3528"
+      },
+      "rows": [
+        "................................................................................................................................",
+        "................................................................................................................................",
+        "................................................................................................................................",
+        "................................................................................................................................",
+        "............................................................a...................................................................",
+        "............................................................a...................................................................",
+        "...........................................................abc..................................................................",
+        "..........................................................abbcc.................................................................",
+        "..........................................................abbcc...................................................a.............",
+        ".........................................................abbbccc..................................................a.............",
+        "....................a...................................abbbbcccc................................................abc............",
+        "....................a...................................abbbbcccc................................................abc............",
+        "...................abc.................................abbbbbccccc......................a.......................abbcc...........",
+        "...................abc................................abbbbbbcccccc.....................a.......................abbcc...........",
+        "..................abbcc...............................abbbbbbcccccc....................abc.....................abbbccc..........",
+        "..................abbcc..............................abbbbbbbccccccc...................abc....................abbbbcccc.........",
+        ".................abbbccc.......................a....abbbbbbbbcccccccc.................abbcc...................abbbbcccc.........",
+        ".................abbbccc.......................a....abbbbbbbbcccccccc.................abbcc..................abbbbbccccc........",
+        "................abbbbcccc.....................abc..abbbbbbbbbccccccccc...............abbbccc.................abbbbbccccc........",
+        "................abbbbcccc.....................abc.abbbbbbbbbbcccccccccc.............abbbbcccc...............abbbbbbcccccc.......",
+        "...............abbbbbccccc...................abbccabbbbbbbbbbcccccccccc.............abbbbcccc..............abbbbbbbccccccc......",
+        "...............abbbbbccccc...................abbccbbbbbbbbbbbccccccccccc...........abbbbbccccc.............abbbbbbbccccccc......",
+        "........a.....abbbbbbcccccc.................abbbcccbbbbbbbbbbcccccccccccc..........abbbbbccccc............abbbbbbbbcccccccc.....",
+        "........a.....abbbbbbcccccc................abbbbccccbbbbbbbbbcccccccccccc.........abbbbbbcccccc...........abbbbbbbbcccccccc.....",
+        ".......abc...abbbbbbbccccccc...............abbbbccccbbbbbbbbbccccccccccccca......abbbbbbbccccccc.........abbbbbbbbbccccccccc....",
+        ".......abc...abbbbbbbccccccc..............abbbbbcccccbbbbbbbbccccccccccccca......abbbbbbbccccccc.........abbbbbbbbbccccccccc....",
+        "......abbcc.abbbbbbbbcccccccc.............abbbbbcccccbbbbbbbbccccccccccccabc....abbbbbbbbcccccccc.......abbbbbbbbbbcccccccccc...",
+        "......abbcc.abbbbbbbbcccccccc............abbbbbbccccccbbbbbbbccccccccccccabc....abbbbbbbbcccccccc......abbbbbbbbbbbccccccccccc..",
+        ".....abbbcccbbbbbbbbbccccccccc..........abbbbbbbcccccccbbbbbbcccccccccccabbcc..abbbbbbbbbccccccccc...a.abbbbbbbbbbbccccccccccc..",
+        "....abbbbccccbbbbbbbbccccccccc..........abbbbbbbcccccccbbbbbbcccccccccccabbcc..abbbbbbbbbccccccccc...aabbbbbbbbbbbbcccccccccccc.",
+        "....abbbbccccbbbbbbbbcccccccccc..a.....abbbbbbbbccccccccbbbbbccccccccccabbbcccabbbbbbbbbbcccccccccc..aabbbbbbbbbbbbcccccccccccc.",
+        "...abbbbbcccccbbbbbbbcccccccccc..a.....abbbbbbbbccccccccbbbbbccccccccccabbbcccbbbbbbbbbbbcccccccccccabcbbbbbbbbbbbbccccccccccccc",
+        "c..abbbbbcccccbbbbbbbccccccccccc.a....abbbbbbbbbcccccccccbbbbcccccccccabbbbccccbbbbbbbbbbcccccccccccabcbbbbbbbbbbbbccccccccccccc",
+        "c.abbbbbbccccccbbbbbbcccccccccccabc...abbbbbbbbbcccccccccbbbbcccccccccabbbbccccbbbbbbbbbbccccccccccabbccbbbbbbbbbbbccccccccccccc",
+        "cabbbbbbbcccccccbbbbbcccccccccccabc..abbbbbbbbbbccccccccccbbbccccccccabbbbbcccccbbbbbbbbbccccccccccabbccbbbbbbbbbbbccccccccccccc",
+        "cabbbbbbbcccccccbbbbbccccccccccabbccabbbbbbbbbbbcccccccccccbbccccccccabbbbbcccccbbbbbbbbbccccccccccabbccbbbbbbbbbbbccccccccccccc",
+        "abbbbbbbbccccccccbbbbccccccccccabbccabbbbbbbbbbbcccccccccccbbcccccccabbbbbbccccccbbbbbbbbcccccccccabbbcccbbbbbbbbbbccccccccccccc",
+        "abbbbbbbbccccccccbbbbccccccccccabbccbbbbbbbbbbbbccccccccccccbcccccccabbbbbbccccccbbbbbbbbcccccccccabbbcccbbbbbbbbbbccccccccccccc",
+        "bbbbbbbbbcccccccccbbbcccccccccabbbcccbbbbbbbbbbbccccccccccccbccccccabbbbbbbcccccccbbbbbbbccccccccabbbbccccbbbbbbbbbcccccccccccca",
+        "bbbbbbbbbcccccccccbbbcccccccccabbbcccbbbbbbbbbbbcccccccccccccccccccabbbbbbbcccccccbbbbbbbccccccccabbbbccccbbbbbbbbbcccccccccccca",
+        "bbbbbbbbbccccccccccbbccccccccabbbbccccbbbbbbbbbbccccccccccccccccccabbbbbbbbccccccccbbbbbbcccccccabbbbbcccccbbbbbbbbcccccccccccab",
+        "bbbbbbbbbcccccccccccbccccccccabbbbccccbbbbbbbbbbccccccccccccccccccabbbbbbbbccccccccbbbbbbcccccccabbbbbcccccbbbbbbbbccccccccccabb",
+        "bbbbbbbbbcccccccccccbcccccccabbbbbcccccbbbbbbbbbcccccccccccccccccabbbbbbbbbcccccccccbbbbbcccccccabbbbbcccccbbbbbbbbccccccccccabb",
+        "bbbbbbbbbcccccccccccccccccccabbbbbcccccbbbbbbbbbcccccccccccccccccabbbbbbbbbcccccccccbbbbbccccccabbbbbbccccccbbbbbbbcccccccccabbb",
+        "bbbbbbbbbcccccccccccccccccccabbbbbcccccbbbbbbbbbccccccccccccccccabbbbbbbbbbccccccccccbbbbccccccabbbbbbccccccbbbbbbbcccccccccabbb",
+        "bbbbbbbbbccccccccccccccccccabbbbbbccccccbbbbbbbbccccccccccccccccabbbbbbbbbbccccccccccbbbbcccccabbbbbbbcccccccbbbbbbccccccccabbbb",
+        "bbbbbbbbbccccccccccccccccccabbbbbbccccccbbbbbbbbcccccccccccccccabbbbbbbbbbbcccccccccccbbbcccccabbbbbbbcccccccbbbbbbcccccccabbbbb",
+        "bbbbbbbbbcccccccccccccccccabbbbbbbcccccccbbbbbbbcccccccccccccccabbbbbbbbbbbcccccccccccbbbcccccabbbbbbbcccccccbbbbbbcccccccabbbbb",
+        "bbbbbbbbbcccccccccccccccccabbbbbbbcccccccbbbbbbbccccccccccccccabbbbbbbbbbbbccccccccccccbbccccabbbbbbbbccccccccbbbbbccccccabbbbbb",
+        "bbbbbbbbbcccccccccccccccccabbbbbbbcccccccbbbbbbbccccccccccccccabbbbbbbbbbbbccccccccccccbbccccabbbbbbbbccccccccbbbbbccccccabbbbbb",
+        "bbbbbbbbbccccccccccccccccabbbbbbbbccccccccbbbbbbcccccccccccccabbbbbbbbbbbbbcccccccccccccbcccabbbbbbbbbcccccccccbbbbcccccabbbbbbb",
+        "bbbbbbbbbccccccccccccccccabbbbbbbbccccccccbbbbbbcccccccccccccabbbbbbbbbbbbbcccccccccccccbcccabbbbbbbbbcccccccccbbbbcccccabbbbbbb",
+        "bbbbbbbbbcccccccccccccccabbbbbbbbbcccccccccbbbbbccccccccccccabbbbbbbbbbbbbbccccccccccccccccabbbbbbbbbbccccccccccbbbccccabbbbbbbb",
+        "bcbcbcbcbcccccccccccccccacbcbcbcbcccccccccccbcbcccccccccccccacbcbcbcbcbcbcbcccccccccccccccccbcbcbcbcbcccccccccccbcbcccacbcbcbcbc",
+        "cbcbcbcbcccccccccccccccacbcbcbcbcbcccccccccccbcbcccccccccccacbcbcbcbcbcbcbcccccccccccccccccacbcbcbcbcbcccccccccccbcccccbcbcbcbcb",
+        "bcbcbcbcbcccccccccccccccbcbcbcbcbcccccccccccbcbcccccccccccccbcbcbcbcbcbcbcbcccccccccccccccacbcbcbcbcbcccccccccccccbcccbcbcbcbcbc",
+        "cbcbcbcbcccccccccccccccacbcbcbcbcbcccccccccccbcbcccccccccccbcbcbcbcbcbcbcbcccccccccccccccccbcbcbcbcbcbcccccccccccccccacbcbcbcbcb",
+        "bcbcbcbcbcccccccccccccacbcbcbcbcbcccccccccccccbcccccccccccacbcbcbcbcbcbcbcbcccccccccccccccbcbcbcbcbcbcccccccccccccccacbcbcbcbcbc",
+        "cbcbcbcbcccccccccccccccbcbcbcbcbcbcccccccccccbcbcccccccccacbcbcbcbcbcbcbcbcccccccccccccccacbcbcbcbcbcbcccccccccccccacbcbcbcbcbcb",
+        "bcbcbcbcbcccccccccccccbcbcbcbcbcbcccccccccccccbcccccccccccbcbcbcbcbcbcbcbcbcccccccccccccccbcbcbcbcbcbcccccccccccccccbcbcbcbcbcbc",
+        "cbcbcbcbcccccccccccccacbcbcbcbcbcbcccccccccccccbcccccccccbcbcbcbcbcbcbcbcbcccccccccccccccbcbcbcbcbcbcbcccccccccccccbcbcbcbcbcbcb",
+        "bcbcbcbcbcccccccccccccbcbcbcbcbcbcccccccccccccbcccccccccacbcbcbcbcbcbcbcbcbcccccccccccccacbcbcbcbcbcbcccccccccccccccbcbcbcbcbcbc",
+        "cbcbcbcbcccccccccccccbcbcbcbcbcbcbcccccccccccccbcccccccacbcbcbcbcbcbcbcbcbcccccccccccccacbcbcbcbcbcbcbcccccccccccccccbcbcbcbcbcb",
+        "bcbcbcbcbcccccccccccacbcbcbcbcbcbcccccccccccccccccccccccbcbcbcbcbcbcbcbcbcbcccccccccccccbcbcbcbcbcbcbcccccccccccccccbcbcbcbcbcbc",
+        "cbcbcbcbcccccccccccacbcbcbcbcbcbcbcccccccccccccccccccccbcbcbcbcbcbcbcbcbcbcccccccccccccbcbcbcbcbcbcbcbcccccccccccccccbcbcbcbcbcb",
+        "bcbcbcbcbcccccccccccbcbcbcbcbcbcbcccccccccccccccccccccacbcbcbcbcbcbcbcbcbcbcccccccccccacbcbcbcbcbcbcbcccccccccccccccccbcbcbcbcbc",
+        "cbcbcbcbcccccccccccbcbcbcbcbcbcbcbcccccccccccccccccccacbcbcbcbcbcbcbcbcbcbcccccccccccccbcbcbcbcbcbcbcbcccccccccccccccbcbcbcbcbcb",
+        "bcbcbcbcbcccccccccacbcbcbcbcbcbcbcccccccccccccccccccccbcbcbcbcbcbcbcbcbcbcbcccccccccccbcbcbcbcbcbcbcbcccccccccccccccccbcbcbcbcbc",
+        "cbcbcbcbcccccccccccbcbcbcbcbcbcbcbcccccccccccccccccccbcbcbcbcbcbcbcbcbcbcbcccccccccccacbcbcbcbcbcbcbcbcccccccccccccccccbcbcbcbcb",
+        "bcbcbcbcbcccccccccbcbcbcbcbcbcbcbcccccccccccccccccccacbcbcbcbcbcbcbcbcbcbcbcccccccccacbcbcbcbcbcbcbcbcccccccccccccccccccbcbcbcbc",
+        "cbcbcbcbcccccccccacbcbcbcbcbcbcbcbcccccccccccccccccacbcbcbcbcbcbcbcbcbcbcbcccccccccccbcbcbcbcbcbcbcbcbcccccccccccccccccbcbcbcbcb",
+        "bcbcbcbcbcccccccacbcbcbcbcbcbcbcbcccccccccccccccccccbcbcbcbcbcbcbcbcbcbcbcbcccccccccacbcbcbcbcbcbcbcbcccccccccccccccccccbcbcbcbc",
+        "cbcbcbcbcccccccccbcbcbcbcbcbcbcbcbcccccccccccccccccbcbcbcbcbcbcbcbcbcbcbcbcccccccccacbcbcbcbcbcbcbcbcbcccccccccccccccccccbcbcbcb",
+        "bcbcbcbcbcccccccacbcbcbcbcbcbcbcbcccccccccccccccccccbcbcbcbcbcbcbcbcbcbcbcbcccccccccbcbcbcbcbcbcbcbcbcccccccccccccccccccbcbcbcbc",
+        "cbcbcbcbcccccccacbcbcbcbcbcbcbcbcbcccccccccccccccccccbcbcbcbcbcbcbcbcbcbcbcccccccccbcbcbcbcbcbcbcbcbcbcccccccccccccccccccbcbcbcb",
+        "bcbcbcbcbcccccccbcbcbcbcbcbcbcbcbcccccccccccccccccccbcbcbcbcbcbcbcbcbcbcbcbcccccccacbcbcbcbcbcbcbcbcbcccccccccccccccccccccbcbcbc",
+        "cbcbcbcbcccccccbcbcbcbcbcbcbcbcbcbcccccccccccccccccccbcbcbcbcbcbcbcbcbcbcbcccccccacbcbcbcbcbcbcbcbcbcbcccccccccccccccccccccbcbcb",
+        "bcbcbcbcbcccccacbcbcbcbcbcbcbcbcbcccccccccccccccccccccbcbcbcbcbcbcbcbcbcbcbcccccccbcbcbcbcbcbcbcbcbcbcccccccccccccccccccccbcbcbc",
+        "cbcbcbcbcccccacbcbcbcbcbcbcbcbcbcbcccccccccccccccccccccbcbcbcbcbcbcbcbcbcbcccccccacbcbcbcbcbcbcbcbcbcbcccccccccccccccccccccbcbcb",
+        "bcbcbcbcbcccccbcbcbcbcbcbcbcbcbcbcccccccccccccccccccccbcbcbcbcbcbcbcbcbcbcbcccccacbcbcbcbcbcbcbcbcbcbcccccccccccccccccccccccbcbc"
+      ]
+    },
+    "jump_far_pines": {
+      "size": [
+        128,
+        80
+      ],
+      "note": "128x80 jump mode scenery behind the level (repeats across): snowy hills and pines",
+      "palette": {
+        "a": "#4E7A5A",
+        "b": "#355C44",
+        "c": "#284A37",
+        "d": "#1C3528"
+      },
+      "rows": [
+        "................................................................................................................................",
+        "................................................................................................................................",
+        "................................................................................................................................",
+        "................................................................................................................................",
+        "................................................................................................................................",
+        "................................................................................................................................",
+        "................................................................................................................................",
+        "................................................................................................................................",
+        "................................................................................................................................",
+        "................................................................................................................................",
+        ".........................................................aaa....................................................................",
+        ".........................................................aaa....................................................................",
+        ".........................................................abc....................................................................",
+        ".........................................................abc......................aaa...........................................",
+        ".........aaa............................................abbcc.....................aaa...........................................",
+        ".........aaa............................................abbcc.....................abc...........................................",
+        ".........abc......................aaa...................abbcc.....................abc...........................................",
+        ".........abc......................aaa...................abbcc.....................abc...........................................",
+        "........abbcc.....................abc..................abaaacc...................abbcc.................aaa......................",
+        "........abbcc.....................abc..................abaaacc...................abbcc.................aaa......................",
+        "........aaaac....................abbcc.................ababccc.......aaa.........abbcc.................abc......................",
+        ".......abaaacc...................abbcc.................aabbccc.......aaa.........abbcc.................abc......................",
+        ".......ababccc.........aaa.......aaaac................ababbcccc......abc........abaaacc...............abbcc.....................",
+        ".......aabbccc.........aaa......abaaacc.................abbcc........abc........abaaacc...............abbcc.....................",
+        "......ababbcccc........abc......ababccc................abbbccc......abbcc.......ababccc...............abbcc.........aaa.........",
+        ".......abbbccc........abbcc.....aabbccc................abbbccc......abbcc.......ababccc...............aaaac.........aaa.........",
+        ".......abbbccc........abbcc....ababbcccc...............abaaacc......abbcc......ababbcccc.............abaaacc........abc.........",
+        ".......abaaacc........aaaac.....abbbccc...............abbaaaccc.....aaaac........abbcc...............ababccc.......abbcc........",
+        "......abbaaaccc......abaaacc....abbbccc...............abbabcccc....abaaacc.......abbcc...............aabbccc.......abbcc........",
+        "......ababbcccc......aabbccc....abaaacc...............ababbcccc....ababccc......abbbccc.............ababbcccc......abbcc........",
+        ".....abbabbccccc....ababbcccc..abbaaaccc.............abbabbccccc...aabbccc......abbbccc...............abbcc.......abaaacc.......",
+        ".......abbbccc.......abbbccc...ababbcccc...............abbbccc....ababbcccc.....abaaacc..............abbbccc......abaaacc.......",
+        ".......abbbccc.......abaaacc..abbabbccccc..............abbbccc......abbcc......abbaaaccc.............abbbccc......ababccc.......",
+        "......abbbbcccc.....abbaaaccc...abbbccc................abbbccc.....abbbccc.....abbabcccc.............abaaacc.....ababbcccc......",
+        "......abbbbcccc.....ababbcccc...abbbccc...............abbbbcccc....abbbccc.....ababbcccc............abbaaaccc......abbcc........",
+        ".....abbbbbccccc...abbabbccccc.abbbbcccc..............abbbbcccc....abaaacc....abbabbccccc...........abbabcccc.....abbbccc.......",
+        ".....abbbbbccccc.....abbbccc...abbbbcccc.............abbbbbccccc..abbaaaccc......abbcc.............abbabbccccc....abaaacc.......",
+        "....abbbbbbcccccc...abbbbcccc.abbbbbccccc............abbbbbccccc..abbabcccc.....abbbccc...............abbcc......abbaaaccc......",
+        "............aa......abbbbcccc.abbbbbccccc...........abbbbbbccccccabbabbccccc....abbbccc..............abbbccc.....ababbcccc......",
+        ".......aaadabbaaaaaabbbbbccccabbbbbbcccccc..........................abbcc......abbbbcccc.............abbbccc....abbabbccccc.....",
+        "....aaabbbdbbbbbbbabbbbbbcccccc....................................abbbccc.....abbbbcccc............abbbbcccc.....abbbccc.......",
+        "..aabbbbbbdbbbbbbbbbbbbbdaa....................aaaa................abbbccc.....abbbbcccc............abbbbcccc.....abbbccc.......",
+        "aabbbbbbbbdbbbbbbbbbbbbbdbbaaaaaa.....aaaaaaaaabbbbaaaaa..........abbbbcccc...abbbbbccccc..........abbbbbccccc...abbbbcccc......",
+        "bbbbbbbbbbbbbbbbbbbbbbbbdbbbbbbbbaadaabbbbbbbbbbbbbbbbbbaad.......abbbbcccc...abbbbbccccc..........abbbbbccccc...abbbbcccc...aaa",
+        "bbbbbbbbbbbbbbbbbbbbbbbbdbbbbbbbbbbdbbbbbbbbbbbbbbbbbbbbbbdaa....abbbbbccccc.abbbbbbcccccc........abbbbbbcccccc.abbbbbcccccaabbb",
+        "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbdbbbbbbbbbbbbbbbbbbbbbbdbbaaa.abbbbbccccc.....................aaaaa.........abbbbbbccccccbbbb",
+        "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbdbbbbbbbbbbbbbbbbbbbbbbdbbbbbabbbbbbcccccc..............aaaaaabbbbbaadaaaaaa....aadaabbbbbbbb",
+        "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbaa....................aaabbbbbbbbbbbbbdbbbbbbaaaabbdbbbbbbbbbb",
+        "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbaad.............aaaabbbbbbbbbbbbbbbbdbbbbbbbbbbbbdbbbbbbbbbb",
+        "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbdaaaaa..aaaaadbbbbbbbbbbbbbbbbbbbbdbbbbbbbbbbbbdbbbbbbbbbb",
+        "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbdbbbbbaabbbbbdbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+        "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbdbbbbbbbbbbbbdbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+        "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbdbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+        "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+        "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+        "bcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbc",
+        "cbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcb",
+        "bcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbc",
+        "cbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcb",
+        "bcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbc",
+        "cbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcb",
+        "bcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbc",
+        "cbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcb",
+        "bcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbc",
+        "cbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcb",
+        "bcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbc",
+        "cbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcb",
+        "bcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbc",
+        "cbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcb",
+        "bcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbc",
+        "cbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcb",
+        "bcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbc",
+        "cbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcb",
+        "bcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbc",
+        "cbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcb",
+        "bcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbc",
+        "cbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcb",
+        "bcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbc",
+        "cbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcb",
+        "bcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbcbc"
+      ]
+    },
+    "flag": {
+      "size": [
+        10,
+        16
+      ],
+      "note": "10x16 jump mode checkpoint flag (raised: `flag_up`)",
+      "palette": {
+        "o": "#2B1B33",
+        "w": "#F4F0FF",
+        "p": "#F25C9A",
+        "P": "#B8407A",
+        "y": "#FFD25A"
+      },
+      "rows": [
+        ".oo.......",
+        "oyyo......",
+        ".oo.......",
+        ".ow.......",
+        ".ow.......",
+        ".ow.......",
+        ".ow.......",
+        ".ow.......",
+        ".ow.......",
+        ".ow.......",
+        ".ow.......",
+        ".ow.......",
+        ".ow.......",
+        ".ow.......",
+        "oooo......",
+        "owwo......"
+      ]
+    },
+    "flag_up": {
+      "size": [
+        10,
+        16
+      ],
+      "note": "10x16 jump mode checkpoint flag, reached: the pennant is up",
+      "palette": {
+        "o": "#2B1B33",
+        "w": "#F4F0FF",
+        "p": "#F25C9A",
+        "P": "#B8407A",
+        "y": "#FFD25A"
+      },
+      "rows": [
+        ".oo.......",
+        "oyyooooo..",
+        ".oopppppo.",
+        ".owpppyppo",
+        ".owppyyypo",
+        ".owpppyppo",
+        ".owPPPPPo.",
+        ".owooooo..",
+        ".ow.......",
+        ".ow.......",
+        ".ow.......",
+        ".ow.......",
+        ".ow.......",
+        ".ow.......",
+        "oooo......",
+        "owwo......"
+      ]
+    },
+    "pedestal": {
+      "size": [
+        16,
+        8
+      ],
+      "note": "16x8 jump mode: the crown's pedestal at the end of a level",
+      "palette": {
+        "o": "#2B1B33",
+        "H": "#FFF1C2",
+        "T": "#FFD25A",
+        "t": "#D89B1A",
+        "F": "#B07A12"
+      },
+      "rows": [
+        ".oooooooooooooo.",
+        "oHHHHHHHHHHHHHTo",
+        "otttttttttttttto",
+        ".ooFFFFFFFFFFoo.",
+        "...oTTTTTTTTo...",
+        "...oTtTTTTtTo...",
+        "..ooFFFFFFFFoo..",
+        "..oooooooooooo.."
+      ]
+    },
+    "throne": {
+      "size": [
+        26,
+        40
+      ],
+      "note": "26x40 jump mode: the throne in the arena, two tiles past the crown; she sits on it with the crown",
+      "palette": {
+        "o": "#2B1B33",
+        "T": "#FFD25A",
+        "t": "#D89B1A",
+        "H": "#FFF1C2",
+        "F": "#B07A12",
+        "r": "#D8405E",
+        "R": "#9C2448",
+        "b": "#3FA9F5"
+      },
+      "rows": [
+        ".oo....................oo.",
+        "oTHo........oo........oHTo",
+        "oTTo.......oTTo.......oTTo",
+        ".oTo......oTbbTo......oTo.",
+        ".oTo.....ooTbbToo.....oTo.",
+        ".oTo...ooTTTTTTTToo...oTo.",
+        ".oTo.ooTTTttttttTTToo.oTo.",
+        ".oTooTTttoooooooottTTooTo.",
+        ".oTotTtooRRRRRRRRootTtoTo.",
+        ".oTotoRRRRrrrrrrRRRRotoTo.",
+        ".oTotoRrrrrrrrrrrrrRotoTo.",
+        ".oTotoRrrrrrrrrrrrrRotoTo.",
+        ".oTotoRrrrrrrrrrrrrRotoTo.",
+        ".oTotoRrrrrrrrrrrrrRotoTo.",
+        ".oTotoRrrrrrrrrrrrrRotoTo.",
+        ".oTotoRrrrrrrrrrrrrRotoTo.",
+        ".oTotoRrrrrrrrrrrrrRotoTo.",
+        ".oTotoRrrrrrrrrrrrrRotoTo.",
+        ".oTotoRrrrrrrrrrrrrRotoTo.",
+        ".oTotoRrrrrrrrrrrrrRotoTo.",
+        "ooTotoRrrrrrrrrrrrrRotoToo",
+        "oTTTtoRrrrrrrrrrrrrRotTTTo",
+        "oHTTToRrrrrrrrrrrrrRoTTTHo",
+        "otttToRrrrrrrrrrrrrRoTttto",
+        ".oooTtoRRRRRRRRRRRRotTooo.",
+        "..oTtooooooooooooooootTo..",
+        "..oTtorrrrrrrrrrrrrrotTo..",
+        ".ooTtorrrrrrrrrrrrrrotToo.",
+        "oTTTTTTTTTTTTTTTTTTTTTTTTo",
+        "oHHHHHHHHHHHHHHHHHHHHHHHHo",
+        "otttttttttttttttttttttttto",
+        ".oFFFFFFFFFFFFFFFFFFFFFFo.",
+        "..oTtooooooooooooooootTo..",
+        "..oTto..............otTo..",
+        "..oTto..............otTo..",
+        "..oTto..............otTo..",
+        "..oTto..............otTo..",
+        ".oTTtto............ottTTo.",
+        ".oFFFFo............oFFFFo.",
+        "..oooo..............oooo.."
+      ]
+    },
+    "bat_a": {
+      "size": [
+        14,
+        10
+      ],
+      "note": "14x10 castle baddie, wings up",
+      "palette": {
+        "o": "#2B1B33",
+        "b": "#7A5CC9",
+        "B": "#5A3FA0",
+        "w": "#FFFFFF",
+        "p": "#FF8FAE"
+      },
+      "rows": [
+        "o............o",
+        "obo...oo...obo",
+        "obbo.obbo.obbo",
+        "obbbobbbbobbbo",
+        ".obbbwobwobbo.",
+        "..obbbbbbbbo..",
+        "...obpbbpbo...",
+        "....oboobo....",
+        ".....o..o.....",
+        ".............."
+      ]
+    },
+    "bat_b": {
+      "size": [
+        14,
+        10
+      ],
+      "note": "14x10 castle baddie, wings down",
+      "palette": {
+        "o": "#2B1B33",
+        "b": "#7A5CC9",
+        "B": "#5A3FA0",
+        "w": "#FFFFFF",
+        "p": "#FF8FAE"
+      },
+      "rows": [
+        "..............",
+        "......oo......",
+        ".....obbo.....",
+        "...oobbbboo...",
+        "..obbbwbbwbbo.",
+        ".obBbbbbbbbBbo",
+        "obBBobpbbpoBBo",
+        "oBo.oboobo.oBo",
+        "oo...o..o...oo",
+        ".............."
+      ]
+    },
+    "jump_gem": {
+      "size": [
+        9,
+        9
+      ],
+      "note": "9x9 castle collectible: a pink gem",
+      "palette": {
+        "o": "#2B1B33",
+        "w": "#FFFFFF",
+        "c": "#FF8FD0",
+        "C": "#D9468F",
+        "d": "#A82E6C"
+      },
+      "rows": [
+        "..ooooo..",
+        ".owwccCo.",
+        "owwcccCCo",
+        "occcccCCo",
+        "oCccccCdo",
+        ".oCcccdo.",
+        "..oCcdo..",
+        "...odo...",
+        "....o...."
+      ]
+    },
+    "snail_a": {
+      "size": [
+        14,
+        12
+      ],
+      "note": "14x12 garden baddie: a grumpy snail",
+      "palette": {
+        "o": "#2B1B33",
+        "s": "#E8913A",
+        "S": "#B8601E",
+        "y": "#FFD25A",
+        "b": "#9FD86B",
+        "B": "#5FA33A",
+        "w": "#FFFFFF"
+      },
+      "rows": [
+        "......oooo....",
+        ".....osssso...",
+        "....ossSSsso..",
+        ".o.ossSyySsso.",
+        "bo.osSyssySso.",
+        "oboosSySSySso.",
+        "owboosSyySsso.",
+        "oobboosSSSso..",
+        ".obbboosssoo..",
+        ".obbbbbooobbo.",
+        ".obbbbbbbbbbbo",
+        "..ooooooooooo."
+      ]
+    },
+    "snail_b": {
+      "size": [
+        14,
+        12
+      ],
+      "note": "14x12 garden baddie, second frame (stretched along)",
+      "palette": {
+        "o": "#2B1B33",
+        "s": "#E8913A",
+        "S": "#B8601E",
+        "y": "#FFD25A",
+        "b": "#9FD86B",
+        "B": "#5FA33A",
+        "w": "#FFFFFF"
+      },
+      "rows": [
+        "..............",
+        "......oooo....",
+        ".....osssso...",
+        ".o..ossSSsso..",
+        "bo.ossSyySsso.",
+        "oboosSyssySso.",
+        "owbosSySSySso.",
+        "obboosSyySsso.",
+        ".obboosSSSso..",
+        ".obbbboooobbo.",
+        "obbbbbbbbbbbbo",
+        ".oooooooooooo."
+      ]
+    },
+    "slime_a": {
+      "size": [
+        14,
+        12
+      ],
+      "note": "14x12 crystal baddie: a bouncy slime",
+      "palette": {
+        "o": "#2B1B33",
+        "c": "#7FD8F5",
+        "C": "#3FA9F5",
+        "w": "#FFFFFF",
+        "k": "#1E4466"
+      },
+      "rows": [
+        "..............",
+        "..............",
+        ".....oooo.....",
+        "...oocwwcoo...",
+        "..occwccccco..",
+        ".occcccccccco.",
+        ".occkccccckco.",
+        "occckccccckcco",
+        "occcccccccccco",
+        "oCccccooccccCo",
+        "oCCCCCCCCCCCCo",
+        ".oooooooooooo."
+      ]
+    },
+    "slime_b": {
+      "size": [
+        14,
+        12
+      ],
+      "note": "14x12 crystal baddie, squished down before a hop",
+      "palette": {
+        "o": "#2B1B33",
+        "c": "#7FD8F5",
+        "C": "#3FA9F5",
+        "w": "#FFFFFF",
+        "k": "#1E4466"
+      },
+      "rows": [
+        "..............",
+        "..............",
+        "..............",
+        "..............",
+        "....oooooo....",
+        "..oocwwcccoo..",
+        ".occkccccckco.",
+        "occckccccckcco",
+        "occcccooccccco",
+        "oCcccccccccCCo",
+        "oCCCCCCCCCCCCo",
+        ".oooooooooooo."
+      ]
+    },
+    "ladybird_a": {
+      "size": [
+        14,
+        10
+      ],
+      "note": "14x10 spring baddie: a ladybird",
+      "palette": {
+        "o": "#2B1B33",
+        "r": "#E8343F",
+        "R": "#A8202B",
+        "k": "#2B1B33",
+        "w": "#FFFFFF",
+        "b": "#3A3346"
+      },
+      "rows": [
+        ".....oooo.....",
+        "...oorrrroo...",
+        "..orrkrrkrro..",
+        ".orrrrkkrrrro.",
+        "oobrkrrkrrkro.",
+        "owbrrrkkrrrro.",
+        "obbrkrrkrrkro.",
+        ".oorrrrkkrrRo.",
+        "..oRRRRRRRRo..",
+        "...o.o..o.o..."
+      ]
+    },
+    "ladybird_b": {
+      "size": [
+        14,
+        10
+      ],
+      "note": "14x10 spring baddie, legs the other way",
+      "palette": {
+        "o": "#2B1B33",
+        "r": "#E8343F",
+        "R": "#A8202B",
+        "k": "#2B1B33",
+        "w": "#FFFFFF",
+        "b": "#3A3346"
+      },
+      "rows": [
+        ".....oooo.....",
+        "...oorrrroo...",
+        "..orrkrrkrro..",
+        ".orrrrkkrrrro.",
+        "oobrkrrkrrkro.",
+        "owbrrrkkrrrro.",
+        "obbrkrrkrrkro.",
+        ".oorrrrkkrrRo.",
+        "..oRRRRRRRRo..",
+        "..o.o....o.o.."
+      ]
+    },
+    "crab_a": {
+      "size": [
+        16,
+        12
+      ],
+      "note": "16x12 summer baddie: a crab, claws up",
+      "palette": {
+        "o": "#2B1B33",
+        "c": "#F2683D",
+        "C": "#B8401E",
+        "w": "#FFFFFF",
+        "k": "#2B1B33"
+      },
+      "rows": [
+        ".oo..........oo.",
+        "occo........occo",
+        "occo..o..o..occo",
+        ".oco.owo.owo.oco",
+        "..oo.oko.oko.oo.",
+        "...oocooooccoo..",
+        "..occcccccccccoo",
+        ".occcccccccccco.",
+        ".oCcccccccccCCo.",
+        "..oCCCCCCCCCCo..",
+        "..o.o.o..o.o.o..",
+        "................"
+      ]
+    },
+    "crab_b": {
+      "size": [
+        16,
+        12
+      ],
+      "note": "16x12 summer baddie, claws down",
+      "palette": {
+        "o": "#2B1B33",
+        "c": "#F2683D",
+        "C": "#B8401E",
+        "w": "#FFFFFF",
+        "k": "#2B1B33"
+      },
+      "rows": [
+        "................",
+        "................",
+        "......o..o......",
+        ".oo..owo.owo..oo",
+        "occo.oko.oko.occ",
+        "occooocooooccocc",
+        ".occcccccccccco.",
+        ".occcccccccccco.",
+        ".oCcccccccccCCo.",
+        "..oCCCCCCCCCCo..",
+        "...o.o.o..o.o...",
+        "................"
+      ]
+    },
+    "hedgehog_a": {
+      "size": [
+        14,
+        12
+      ],
+      "note": "14x12 autumn baddie: a hedgehog",
+      "palette": {
+        "o": "#2B1B33",
+        "b": "#8B5A2B",
+        "B": "#5E3A1A",
+        "s": "#F0CFA0",
+        "S": "#C9A06A",
+        "p": "#FF8FAE"
+      },
+      "rows": [
+        "......o.o.o...",
+        ".....obobobo..",
+        "....obbBbBbbo.",
+        "...obbBbbbbBbo",
+        ".oosbbbbBbBbbo",
+        "osossbbBbbbbBo",
+        "ososssbbbbBbbo",
+        "ossspsbbBbbbBo",
+        ".oSssssbbbbbbo",
+        "..oSSSSSSSSSo.",
+        "...o.o...o.o..",
+        ".............."
+      ]
+    },
+    "hedgehog_b": {
+      "size": [
+        14,
+        12
+      ],
+      "note": "14x12 autumn baddie, second step",
+      "palette": {
+        "o": "#2B1B33",
+        "b": "#8B5A2B",
+        "B": "#5E3A1A",
+        "s": "#F0CFA0",
+        "S": "#C9A06A",
+        "p": "#FF8FAE"
+      },
+      "rows": [
+        "......o.o.o...",
+        ".....obobobo..",
+        "....obbBbBbbo.",
+        "...obbBbbbbBbo",
+        ".oosbbbbBbBbbo",
+        "osossbbBbbbbBo",
+        "ososssbbbbBbbo",
+        "ossspsbbBbbbBo",
+        ".oSssssbbbbbbo",
+        "..oSSSSSSSSSo.",
+        "..o.o.....o.o.",
+        ".............."
+      ]
+    },
+    "snowball_a": {
+      "size": [
+        12,
+        12
+      ],
+      "note": "12x12 winter baddie: a rolling snowball with a scarf",
+      "palette": {
+        "o": "#2B1B33",
+        "w": "#FFFFFF",
+        "W": "#D3E2F5",
+        "b": "#9FB4D8",
+        "k": "#2B1B33",
+        "r": "#E8343F",
+        "R": "#A8202B"
+      },
+      "rows": [
+        "....oooo....",
+        "..oowwwwoo..",
+        ".owwwwwwWWo.",
+        ".owwkwwkwWo.",
+        "owwwkwwkwwWo",
+        "owwwwwwwwwWo",
+        "orrrrrrrrrro",
+        "oRRRRRRRRrro",
+        "owwwwwwwRrWo",
+        ".oWwwwwwRWo.",
+        "..ooWWWWoo..",
+        "....oooo...."
+      ]
+    },
+    "snowball_b": {
+      "size": [
+        12,
+        12
+      ],
+      "note": "12x12 winter baddie, rolled a little (the scarf end swings)",
+      "palette": {
+        "o": "#2B1B33",
+        "w": "#FFFFFF",
+        "W": "#D3E2F5",
+        "b": "#9FB4D8",
+        "k": "#2B1B33",
+        "r": "#E8343F",
+        "R": "#A8202B"
+      },
+      "rows": [
+        "....oooo....",
+        "..oowwwwoo..",
+        ".owwwwwwWWo.",
+        ".owwkwwkwWo.",
+        "owwwkwwkwwWo",
+        "owwwwwwwwwWo",
+        "orrrrrrrrrro",
+        "oRRRRRRRRrro",
+        "owwwwwwwwRrW",
+        ".oWwwwwwwRo.",
+        "..ooWWWWoo..",
+        "....oooo...."
+      ]
+    },
+    "bat_flat": {
+      "size": [
+        14,
+        5
+      ],
+      "note": "14x5 jump mode: the bat squashed flat when she bounces on it",
+      "palette": {
+        "o": "#2B1B33",
+        "b": "#7A5CC9",
+        "B": "#5A3FA0",
+        "w": "#FFFFFF",
+        "p": "#FF8FAE"
+      },
+      "rows": [
+        "o............o",
+        "obbo.obbo.obbo",
+        ".obbbwobwobbo.",
+        "...obpbbpbo...",
+        ".....o..o....."
+      ]
+    },
+    "snail_flat": {
+      "size": [
+        14,
+        7
+      ],
+      "note": "14x7 jump mode: the snail squashed flat when she bounces on it",
+      "palette": {
+        "o": "#2B1B33",
+        "s": "#E8913A",
+        "S": "#B8601E",
+        "y": "#FFD25A",
+        "b": "#9FD86B",
+        "B": "#5FA33A",
+        "w": "#FFFFFF"
+      },
+      "rows": [
+        "......oooo....",
+        "....ossSSsso..",
+        "bo.osSyssySso.",
+        "owboosSyySsso.",
+        ".obbboosssoo..",
+        ".obbbbbbbbbbbo",
+        "..ooooooooooo."
+      ]
+    },
+    "slime_flat": {
+      "size": [
+        14,
+        6
+      ],
+      "note": "14x6 jump mode: the slime squashed flat when she bounces on it",
+      "palette": {
+        "o": "#2B1B33",
+        "c": "#7FD8F5",
+        "C": "#3FA9F5",
+        "w": "#FFFFFF",
+        "k": "#1E4466"
+      },
+      "rows": [
+        ".....oooo.....",
+        "..occwccccco..",
+        ".occkccccckco.",
+        "occcccccccccco",
+        "oCCCCCCCCCCCCo",
+        ".oooooooooooo."
+      ]
+    },
+    "ladybird_flat": {
+      "size": [
+        14,
+        6
+      ],
+      "note": "14x6 jump mode: the ladybird squashed flat when she bounces on it",
+      "palette": {
+        "o": "#2B1B33",
+        "r": "#E8343F",
+        "R": "#A8202B",
+        "k": "#2B1B33",
+        "w": "#FFFFFF",
+        "b": "#3A3346"
+      },
+      "rows": [
+        ".....oooo.....",
+        "..orrkrrkrro..",
+        "oobrkrrkrrkro.",
+        "obbrkrrkrrkro.",
+        "..oRRRRRRRRo..",
+        "...o.o..o.o..."
+      ]
+    },
+    "crab_flat": {
+      "size": [
+        16,
+        6
+      ],
+      "note": "16x6 jump mode: the crab squashed flat when she bounces on it",
+      "palette": {
+        "o": "#2B1B33",
+        "c": "#F2683D",
+        "C": "#B8401E",
+        "w": "#FFFFFF",
+        "k": "#2B1B33"
+      },
+      "rows": [
+        ".oo..........oo.",
+        "occo..o..o..occo",
+        "..oo.oko.oko.oo.",
+        "..occcccccccccoo",
+        ".oCcccccccccCCo.",
+        "..o.o.o..o.o.o.."
+      ]
+    },
+    "hedgehog_flat": {
+      "size": [
+        14,
+        6
+      ],
+      "note": "14x6 jump mode: the hedgehog squashed flat when she bounces on it",
+      "palette": {
+        "o": "#2B1B33",
+        "b": "#8B5A2B",
+        "B": "#5E3A1A",
+        "s": "#F0CFA0",
+        "S": "#C9A06A",
+        "p": "#FF8FAE"
+      },
+      "rows": [
+        "......o.o.o...",
+        "....obbBbBbbo.",
+        ".oosbbbbBbBbbo",
+        "ososssbbbbBbbo",
+        ".oSssssbbbbbbo",
+        "...o.o...o.o.."
+      ]
+    },
+    "snowball_flat": {
+      "size": [
+        12,
+        7
+      ],
+      "note": "12x7 jump mode: the snowball squashed flat when she bounces on it",
+      "palette": {
+        "o": "#2B1B33",
+        "w": "#FFFFFF",
+        "W": "#D3E2F5",
+        "b": "#9FB4D8",
+        "k": "#2B1B33",
+        "r": "#E8343F",
+        "R": "#A8202B"
+      },
+      "rows": [
+        "....oooo....",
+        ".owwwwwwWWo.",
+        "owwwkwwkwwWo",
+        "orrrrrrrrrro",
+        "owwwwwwwRrWo",
+        "..ooWWWWoo..",
+        "....oooo...."
+      ]
+    },
+    "gingerbread_a": {
+      "size": [
+        12,
+        12
+      ],
+      "note": "12x12 jump mode: christmas's baddie, a gingerbread man walking (legs apart)",
+      "palette": {
+        "o": "#2B1B33",
+        "g": "#C8783C",
+        "G": "#94522A",
+        "w": "#FFFFFF",
+        "k": "#2B1B33",
+        "r": "#E8343F"
+      },
+      "rows": [
+        "....oooo....",
+        "...oggggo...",
+        "...okggko...",
+        "...ogwwgo...",
+        ".oooggggooo.",
+        "owggggggggwo",
+        ".ooogrggooo.",
+        "...ogrgGo...",
+        "...oggggo...",
+        "..oggooggo..",
+        ".owgo..ogwo.",
+        ".ooo....ooo."
+      ]
+    },
+    "gingerbread_b": {
+      "size": [
+        12,
+        12
+      ],
+      "note": "12x12 jump mode: the gingerbread man's other step (legs together)",
+      "palette": {
+        "o": "#2B1B33",
+        "g": "#C8783C",
+        "G": "#94522A",
+        "w": "#FFFFFF",
+        "k": "#2B1B33",
+        "r": "#E8343F"
+      },
+      "rows": [
+        "....oooo....",
+        "...oggggo...",
+        "...okggko...",
+        "...ogwwgo...",
+        ".oooggggooo.",
+        "owggggggggwo",
+        ".ooogrggooo.",
+        "...ogrgGo...",
+        "...oggggo...",
+        "...oggggo...",
+        "...owggwo...",
+        "...oooooo..."
+      ]
+    },
+    "gingerbread_flat": {
+      "size": [
+        12,
+        6
+      ],
+      "note": "12x6 jump mode: the gingerbread man squashed flat when she bounces on it",
+      "palette": {
+        "o": "#2B1B33",
+        "g": "#C8783C",
+        "G": "#94522A",
+        "w": "#FFFFFF",
+        "k": "#2B1B33",
+        "r": "#E8343F"
+      },
+      "rows": [
+        "....oooo....",
+        ".oooggggooo.",
+        "owggkggkggwo",
+        "owggggggggwo",
+        ".oogrggrgoo.",
+        "..oooooooo.."
+      ]
+    },
+    "pumpkin_a": {
+      "size": [
+        14,
+        12
+      ],
+      "note": "14x12 jump mode: halloween's baddie, a smiling jack-o'-lantern hopping (up)",
+      "palette": {
+        "o": "#2B1B33",
+        "p": "#F2913D",
+        "P": "#C8642A",
+        "g": "#5FAE5A",
+        "k": "#FFE38A"
+      },
+      "rows": [
+        "..............",
+        "......oo......",
+        ".....oggo.....",
+        "...oooooooo...",
+        "..oppPppPppo..",
+        ".opppPppPpppo.",
+        "opkkpPppPpkkpo",
+        "oppkpPppPpkppo",
+        "opkppppppppkpo",
+        "oppkkkkkkkkppo",
+        ".oPPppppppPPo.",
+        "..oooooooooo.."
+      ]
+    },
+    "pumpkin_b": {
+      "size": [
+        14,
+        12
+      ],
+      "note": "14x12 jump mode: the jack-o'-lantern squashed as it lands",
+      "palette": {
+        "o": "#2B1B33",
+        "p": "#F2913D",
+        "P": "#C8642A",
+        "g": "#5FAE5A",
+        "k": "#FFE38A"
+      },
+      "rows": [
+        "..............",
+        "..............",
+        "......oo......",
+        ".....oggo.....",
+        "..oooooooooo..",
+        ".oppPPppPPppo.",
+        "opkkpPppPpkkpo",
+        "oppkpPppPpkppo",
+        "opkppppppppkpo",
+        "oppkkkkkkkkppo",
+        "oPPppppppppPPo",
+        ".oooooooooooo."
+      ]
+    },
+    "pumpkin_flat": {
+      "size": [
+        14,
+        6
+      ],
+      "note": "14x6 jump mode: the jack-o'-lantern squashed flat when she bounces on it",
+      "palette": {
+        "o": "#2B1B33",
+        "p": "#F2913D",
+        "P": "#C8642A",
+        "g": "#5FAE5A",
+        "k": "#FFE38A"
+      },
+      "rows": [
+        "......oo......",
+        "..oooooooooo..",
+        ".opkkppppkkpo.",
+        "opkkkkkkkkkkpo",
+        "oPPppppppppPPo",
+        ".oooooooooooo."
+      ]
+    },
+    "jump_flower": {
+      "size": [
+        9,
+        9
+      ],
+      "note": "9x9 garden collectible: a flower",
+      "palette": {
+        "o": "#2B1B33",
+        "p": "#FF8FAE",
+        "P": "#E2507E",
+        "y": "#FFD25A",
+        "w": "#FFFFFF",
+        "g": "#4CBF5A"
+      },
+      "rows": [
+        "...ooo...",
+        "..opwpo..",
+        ".oopppoo.",
+        "opppyppPo",
+        "owpyyypPo",
+        "opppyppPo",
+        ".ooPpPoo.",
+        "..oPPPo..",
+        "...ooo..."
+      ]
+    },
+    "jump_crystal": {
+      "size": [
+        9,
+        9
+      ],
+      "note": "9x9 crystal collectible: a blue crystal",
+      "palette": {
+        "o": "#2B1B33",
+        "w": "#FFFFFF",
+        "c": "#9EE7FF",
+        "C": "#3FA9F5",
+        "d": "#1E6FB0"
+      },
+      "rows": [
+        "....o....",
+        "...owo...",
+        "..owcco..",
+        ".owccCCo.",
+        "owcccCCdo",
+        ".occcCdo.",
+        "..occdo..",
+        "...odo...",
+        "....o...."
+      ]
+    },
+    "jump_blossom": {
+      "size": [
+        9,
+        9
+      ],
+      "note": "9x9 spring collectible: a cherry blossom",
+      "palette": {
+        "o": "#2B1B33",
+        "p": "#FFD1E3",
+        "P": "#F59AC0",
+        "y": "#FFD25A",
+        "w": "#FFFFFF"
+      },
+      "rows": [
+        "...ooo...",
+        "..owppo..",
+        "ooopppooo",
+        "owpPyPppo",
+        "oppyyypPo",
+        ".opPyPpo.",
+        "opppoppPo",
+        "oPPo.oPPo",
+        ".oo...oo."
+      ]
+    },
+    "jump_shell": {
+      "size": [
+        9,
+        9
+      ],
+      "note": "9x9 summer collectible: a sea shell",
+      "palette": {
+        "o": "#2B1B33",
+        "s": "#FFD8C2",
+        "S": "#F2A98A",
+        "w": "#FFFFFF",
+        "d": "#C9785A"
+      },
+      "rows": [
+        "...ooo...",
+        "..owsso..",
+        ".owsSsSo.",
+        "oswSsSsdo",
+        "osSsSsSdo",
+        "osSsSsSdo",
+        ".oSsSsdo.",
+        "..odddo..",
+        ".ooo.ooo."
+      ]
+    },
+    "jump_acorn": {
+      "size": [
+        9,
+        9
+      ],
+      "note": "9x9 autumn collectible: an acorn",
+      "palette": {
+        "o": "#2B1B33",
+        "c": "#8B5A2B",
+        "C": "#5E3A1A",
+        "n": "#E8A05A",
+        "N": "#B8702E",
+        "w": "#FFE0B0"
+      },
+      "rows": [
+        "....o....",
+        "...oCo...",
+        ".ooccCoo.",
+        "occcccCCo",
+        "oCCCCCCCo",
+        ".onwnnNo.",
+        ".onnnnNo.",
+        "..onnNo..",
+        "...ooo..."
+      ]
+    },
+    "jump_snowflake": {
+      "size": [
+        9,
+        9
+      ],
+      "note": "9x9 winter collectible: a snowflake",
+      "palette": {
+        "o": "#2B1B33",
+        "w": "#FFFFFF",
+        "b": "#9FD8FF"
+      },
+      "rows": [
+        "...owo...",
+        ".o.obo.o.",
+        ".owowowo.",
+        "..owbwo..",
+        "owbwwwbwo",
+        "..owbwo..",
+        ".owowowo.",
+        ".o.obo.o.",
+        "...owo..."
+      ]
+    },
+    "jump_present": {
+      "size": [
+        9,
+        9
+      ],
+      "note": "9x9 jump mode: christmas's treasure, a wrapped present with a gold bow",
+      "palette": {
+        "o": "#2B1B33",
+        "r": "#E8343F",
+        "R": "#A8202B",
+        "y": "#FFD25A",
+        "Y": "#D89B1A"
+      },
+      "rows": [
+        "..oo.oo..",
+        ".oyyoyyo.",
+        "..ooyoo..",
+        "ooooyoooo",
+        "orrryrrRo",
+        "orrryrrRo",
+        "oyyyyyyYo",
+        "orrryrrRo",
+        "ooooooooo"
+      ]
+    },
+    "jump_candy": {
+      "size": [
+        9,
+        9
+      ],
+      "note": "9x9 jump mode: halloween's treasure, a wrapped sweet",
+      "palette": {
+        "o": "#2B1B33",
+        "w": "#B57BFF",
+        "c": "#FF8FC0",
+        "C": "#FFFFFF"
+      },
+      "rows": [
+        ".........",
+        "o..ooo..o",
+        "ooocwcooo",
+        "owocccowo",
+        "owcCcCcwo",
+        "owocccowo",
+        "ooocCcooo",
+        "o..ooo..o",
+        "........."
+      ]
+    },
+    "sister_side": {
+      "size": [
+        12,
+        19
+      ],
+      "note": "12x19 jump mode: the little sister standing, facing right (little_sister's keys)",
+      "palette": {
+        "o": "#2B1B33",
+        "y": "#FFD25A",
+        "Y": "#D89B1A",
+        "h": "#F0B445",
+        "s": "#FFDCC0",
+        "S": "#EBB28F",
+        "c": "#FF8FAE",
+        "e": "#FFDCC0",
+        "m": "#2B1B33",
+        "g": "#FFDCC0",
+        "p": "#F25C9A",
+        "P": "#B8407A",
+        "w": "#FFE3EF"
+      },
+      "rows": [
+        "............",
+        "....y.yy.y..",
+        "...oyyyyyyo.",
+        "..ohhhhhhhho",
+        ".ohhhhseseso",
+        ".ohhhhsososo",
+        ".ohhhhgcsgco",
+        ".ohhhhsssmso",
+        "..ohhhoSSSo.",
+        "..ohoppppo..",
+        "...oPpppso..",
+        "...oyyyyyo..",
+        "...oPppppo..",
+        "..oPpwpppPo.",
+        ".oPppppwpppo",
+        ".oPPPPPPPPPo",
+        "..ooooooooo.",
+        "....oSo.oSo.",
+        "....ooo.ooo."
+      ]
+    },
+    "sister_side_blink": {
+      "size": [
+        12,
+        19
+      ],
+      "note": "12x19 jump mode: sister_side with her eyes shut (a blink when she stands)",
+      "palette": {
+        "o": "#2B1B33",
+        "y": "#FFD25A",
+        "Y": "#D89B1A",
+        "h": "#F0B445",
+        "s": "#FFDCC0",
+        "S": "#EBB28F",
+        "c": "#FF8FAE",
+        "e": "#FFDCC0",
+        "m": "#2B1B33",
+        "g": "#FFDCC0",
+        "p": "#F25C9A",
+        "P": "#B8407A",
+        "w": "#FFE3EF"
+      },
+      "rows": [
+        "............",
+        "....y.yy.y..",
+        "...oyyyyyyo.",
+        "..ohhhhhhhho",
+        ".ohhhhseseso",
+        ".ohhhhsSsSso",
+        ".ohhhhgcsgco",
+        ".ohhhhsssmso",
+        "..ohhhoSSSo.",
+        "..ohoppppo..",
+        "...oPpppso..",
+        "...oyyyyyo..",
+        "...oPppppo..",
+        "..oPpwpppPo.",
+        ".oPppppwpppo",
+        ".oPPPPPPPPPo",
+        "..ooooooooo.",
+        "....oSo.oSo.",
+        "....ooo.ooo."
+      ]
+    },
+    "sister_run_a": {
+      "size": [
+        12,
+        19
+      ],
+      "note": "12x19 jump mode: the little sister, run a",
+      "palette": {
+        "o": "#2B1B33",
+        "y": "#FFD25A",
+        "Y": "#D89B1A",
+        "h": "#F0B445",
+        "s": "#FFDCC0",
+        "S": "#EBB28F",
+        "c": "#FF8FAE",
+        "e": "#FFDCC0",
+        "m": "#2B1B33",
+        "g": "#FFDCC0",
+        "p": "#F25C9A",
+        "P": "#B8407A",
+        "w": "#FFE3EF"
+      },
+      "rows": [
+        "............",
+        "....y.yy.y..",
+        "...oyyyyyyo.",
+        "..ohhhhhhhho",
+        ".ohhhhseseso",
+        ".ohhhhsososo",
+        ".ohhhhgcsgco",
+        ".ohhhhsssmso",
+        "..ohhhoSSSo.",
+        "..ohoppppo..",
+        "...oPpppso..",
+        "...oyyyyyo..",
+        "...oPppppo..",
+        "..oPpwpppPo.",
+        ".oPppppwpppo",
+        ".oPPPPPPPPPo",
+        "..ooooooooo.",
+        "...oSo...oSo",
+        "...oo....ooo"
+      ]
+    },
+    "sister_run_b": {
+      "size": [
+        12,
+        19
+      ],
+      "note": "12x19 jump mode: the little sister, run b",
+      "palette": {
+        "o": "#2B1B33",
+        "y": "#FFD25A",
+        "Y": "#D89B1A",
+        "h": "#F0B445",
+        "s": "#FFDCC0",
+        "S": "#EBB28F",
+        "c": "#FF8FAE",
+        "e": "#FFDCC0",
+        "m": "#2B1B33",
+        "g": "#FFDCC0",
+        "p": "#F25C9A",
+        "P": "#B8407A",
+        "w": "#FFE3EF"
+      },
+      "rows": [
+        "....y.yy.y..",
+        "...oyyyyyyo.",
+        "..ohhhhhhhho",
+        ".ohhhhseseso",
+        ".ohhhhsososo",
+        ".ohhhhgcsgco",
+        ".ohhhhsssmso",
+        "..ohhhoSSSo.",
+        "..ohoppppo..",
+        "...oPpppso..",
+        "...oyyyyyo..",
+        "...oPppppo..",
+        "..oPpwpppPo.",
+        ".oPppppwpppo",
+        ".oPPPPPPPPPo",
+        "..ooooooooo.",
+        ".....oSoSo..",
+        ".....ooooo..",
+        "............"
+      ]
+    },
+    "sister_run_c": {
+      "size": [
+        12,
+        19
+      ],
+      "note": "12x19 jump mode: the little sister, run c",
+      "palette": {
+        "o": "#2B1B33",
+        "y": "#FFD25A",
+        "Y": "#D89B1A",
+        "h": "#F0B445",
+        "s": "#FFDCC0",
+        "S": "#EBB28F",
+        "c": "#FF8FAE",
+        "e": "#FFDCC0",
+        "m": "#2B1B33",
+        "g": "#FFDCC0",
+        "p": "#F25C9A",
+        "P": "#B8407A",
+        "w": "#FFE3EF"
+      },
+      "rows": [
+        "............",
+        "....y.yy.y..",
+        "...oyyyyyyo.",
+        "..ohhhhhhhho",
+        ".ohhhhseseso",
+        ".ohhhhsososo",
+        ".ohhhhgcsgco",
+        ".ohhhhsssmso",
+        "..ohhhoSSSo.",
+        "..ohoppppo..",
+        "...oPpppso..",
+        "...oyyyyyo..",
+        "...oPppppo..",
+        "..oPpwpppPo.",
+        ".oPppppwpppo",
+        ".oPPPPPPPPPo",
+        "..ooooooooo.",
+        "....oSo.oSo.",
+        "....ooo..oo."
+      ]
+    },
+    "sister_run_d": {
+      "size": [
+        12,
+        19
+      ],
+      "note": "12x19 jump mode: the little sister, run d",
+      "palette": {
+        "o": "#2B1B33",
+        "y": "#FFD25A",
+        "Y": "#D89B1A",
+        "h": "#F0B445",
+        "s": "#FFDCC0",
+        "S": "#EBB28F",
+        "c": "#FF8FAE",
+        "e": "#FFDCC0",
+        "m": "#2B1B33",
+        "g": "#FFDCC0",
+        "p": "#F25C9A",
+        "P": "#B8407A",
+        "w": "#FFE3EF"
+      },
+      "rows": [
+        "....y.yy.y..",
+        "...oyyyyyyo.",
+        "..ohhhhhhhho",
+        ".ohhhhseseso",
+        ".ohhhhsososo",
+        ".ohhhhgcsgco",
+        ".ohhhhsssmso",
+        "..ohhhoSSSo.",
+        "..ohoppppo..",
+        "...oPpppso..",
+        "...oyyyyyo..",
+        "...oPppppo..",
+        "..oPpwpppPo.",
+        ".oPppppwpppo",
+        ".oPPPPPPPPPo",
+        "..ooooooooo.",
+        ".....oSoSo..",
+        ".....ooooo..",
+        "............"
+      ]
+    },
+    "sister_jump": {
+      "size": [
+        12,
+        19
+      ],
+      "note": "12x19 jump mode: the little sister, jump",
+      "palette": {
+        "o": "#2B1B33",
+        "y": "#FFD25A",
+        "Y": "#D89B1A",
+        "h": "#F0B445",
+        "s": "#FFDCC0",
+        "S": "#EBB28F",
+        "c": "#FF8FAE",
+        "e": "#FFDCC0",
+        "m": "#2B1B33",
+        "g": "#FFDCC0",
+        "p": "#F25C9A",
+        "P": "#B8407A",
+        "w": "#FFE3EF"
+      },
+      "rows": [
+        "............",
+        "....y.yy.y..",
+        "...oyyyyyyo.",
+        "..ohhhhhhhho",
+        ".ohhhhseseso",
+        ".ohhhhsososo",
+        ".ohhhhgcsgco",
+        ".ohhhhsssmso",
+        "..ohhhoSSSo.",
+        "..ohoppppo..",
+        "...oPpppso..",
+        "...oyyyyyo..",
+        "...oPppppo..",
+        ".oPpwppppPo.",
+        "oPpppppwpppo",
+        "oPPPPPPPPPPo",
+        ".oooooooooo.",
+        ".....oSSo...",
+        ".....oooo..."
+      ]
+    },
+    "sister_fall": {
+      "size": [
+        12,
+        19
+      ],
+      "note": "12x19 jump mode: the little sister, fall",
+      "palette": {
+        "o": "#2B1B33",
+        "y": "#FFD25A",
+        "Y": "#D89B1A",
+        "h": "#F0B445",
+        "s": "#FFDCC0",
+        "S": "#EBB28F",
+        "c": "#FF8FAE",
+        "e": "#FFDCC0",
+        "m": "#2B1B33",
+        "g": "#FFDCC0",
+        "p": "#F25C9A",
+        "P": "#B8407A",
+        "w": "#FFE3EF"
+      },
+      "rows": [
+        "............",
+        "....y.yy.y..",
+        "...oyyyyyyo.",
+        "..ohhhhhhhho",
+        ".ohhhhseseso",
+        ".ohhhhsososo",
+        ".ohhhhgcsgco",
+        ".ohhhhsssmso",
+        "..ohhhoSSSo.",
+        "..ohoppppo..",
+        "...oPpppso..",
+        "...oyyyyyo..",
+        "...oPppppo..",
+        ".oPpwppppPo.",
+        "oPpppppwpppo",
+        "oPPPPPPPPPPo",
+        ".oooooooooo.",
+        "...oSo...oSo",
+        "...oo....ooo"
+      ]
+    },
+    "princess_bump": {
+      "size": [
+        16,
+        24
+      ],
+      "note": "16x24 jump mode: knocked back by a baddie, eyes squeezed shut",
+      "palette": {
+        "o": "#2B1B33",
+        "y": "#FFD25A",
+        "Y": "#D89B1A",
+        "h": "#F0B445",
+        "s": "#FFDCC0",
+        "S": "#EBB28F",
+        "c": "#FF8FAE",
+        "e": "#FFDCC0",
+        "m": "#2B1B33",
+        "g": "#FFDCC0",
+        "p": "#F25C9A",
+        "P": "#B8407A",
+        "w": "#FFE3EF"
+      },
+      "rows": [
+        "................",
+        "................",
+        "....ooooooooo...",
+        "...ohhhhhhhhhoo.",
+        "..ohhhhhhhhhhhho",
+        "..ohhhhhsessesso",
+        "..ohhhhhssssssso",
+        "..ohhhhhgoosoogo",
+        "..ohhhhhcsssscso",
+        ".ohhhhhhssssmsso",
+        ".ohhhhhhoSSSSSo.",
+        ".ohhhhhoooSSo...",
+        "..ohhhoppppppo..",
+        "..ohhoPpppppPso.",
+        "...ooPppppppPso.",
+        "....oyyyyyyyyo..",
+        "....oPppppppPo..",
+        "...oPpwpppppPo..",
+        "...oPppppwpppPo.",
+        "..oPppppppppppPo",
+        "..oPPPPPPPPPPPPo",
+        "...oooooooooooo.",
+        "......oSo.oSo...",
+        "......ooo.ooo..."
+      ]
+    },
+    "princess_land": {
+      "size": [
+        16,
+        24
+      ],
+      "note": "16x24 jump mode: landing, a pixel lower for a moment",
+      "palette": {
+        "o": "#2B1B33",
+        "y": "#FFD25A",
+        "Y": "#D89B1A",
+        "h": "#F0B445",
+        "s": "#FFDCC0",
+        "S": "#EBB28F",
+        "c": "#FF8FAE",
+        "e": "#FFDCC0",
+        "m": "#2B1B33",
+        "g": "#FFDCC0",
+        "p": "#F25C9A",
+        "P": "#B8407A",
+        "w": "#FFE3EF"
+      },
+      "rows": [
+        "................",
+        "................",
+        "................",
+        "....ooooooooo...",
+        "...ohhhhhhhhhoo.",
+        "..ohhhhhhhhhhhho",
+        "..ohhhhhsessesso",
+        "..ohhhhhsossosso",
+        "..ohhhhhgossogso",
+        "..ohhhhhcsssscso",
+        ".ohhhhhhssssmsso",
+        ".ohhhhhhoSSSSSo.",
+        ".ohhhhhoooSSo...",
+        "..ohhhoppppppo..",
+        "..ohhoPpppppPso.",
+        "...ooPppppppPso.",
+        "....oyyyyyyyyo..",
+        "...oPpwpppppPo..",
+        "...oPppppwpppPo.",
+        "..oPppppppppppPo",
+        "..oPPPPPPPPPPPPo",
+        "...oooooooooooo.",
+        "......oSo.oSo...",
+        "......ooo.ooo..."
+      ]
+    },
+    "sister_land": {
+      "size": [
+        12,
+        19
+      ],
+      "note": "12x19 jump mode: the little sister landing, a pixel lower for a moment",
+      "palette": {
+        "o": "#2B1B33",
+        "y": "#FFD25A",
+        "Y": "#D89B1A",
+        "h": "#F0B445",
+        "s": "#FFDCC0",
+        "S": "#EBB28F",
+        "c": "#FF8FAE",
+        "e": "#FFDCC0",
+        "m": "#2B1B33",
+        "g": "#FFDCC0",
+        "p": "#F25C9A",
+        "P": "#B8407A",
+        "w": "#FFE3EF"
+      },
+      "rows": [
+        "............",
+        "............",
+        "....y.yy.y..",
+        "...oyyyyyyo.",
+        "..ohhhhhhhho",
+        ".ohhhhseseso",
+        ".ohhhhsososo",
+        ".ohhhhgcsgco",
+        ".ohhhhsssmso",
+        "..ohhhoSSSo.",
+        "..ohoppppo..",
+        "...oPpppso..",
+        "...oyyyyyo..",
+        "..oPpwpppPo.",
+        ".oPppppwpppo",
+        ".oPPPPPPPPPo",
+        "..ooooooooo.",
+        "....oSo.oSo.",
+        "....ooo.ooo."
+      ]
+    },
+    "princess_seated": {
+      "size": [
+        16,
+        22
+      ],
+      "note": "16x22 jump mode: sitting on the throne, crowned, facing us",
+      "palette": {
+        "o": "#2B1B33",
+        "y": "#FFD25A",
+        "Y": "#D89B1A",
+        "h": "#F0B445",
+        "s": "#FFDCC0",
+        "S": "#EBB28F",
+        "c": "#FF8FAE",
+        "e": "#FFDCC0",
+        "m": "#2B1B33",
+        "g": "#FFDCC0",
+        "p": "#F25C9A",
+        "P": "#B8407A",
+        "w": "#FFE3EF"
+      },
+      "rows": [
+        "....o..oo..o....",
+        "...oyooyyooyo...",
+        "...oyyyyyyyyo...",
+        "...oYYYYYYYYo...",
+        "..ohhhhhhhhhho..",
+        "..ohhsesseshho..",
+        "..ohssossossho..",
+        "..ohgsossosgho..",
+        "..ohcsssssscho..",
+        "..ohsssmmsssho..",
+        ".ohhSssssssShho.",
+        ".ohhhoSSSSohhho.",
+        ".ohhoppppppohho.",
+        ".ohoPppppppPoho.",
+        "..osPppppppPso..",
+        "..osyyyyyyyyso..",
+        "..oPppppppppPo..",
+        ".oPpwppppppwpPo.",
+        ".oPPPPPPPPPPPPo.",
+        "..oooooooooooo..",
+        "....oSo..oSo....",
+        "....ooo..ooo...."
+      ]
+    },
+    "sister_seated": {
+      "size": [
+        12,
+        18
+      ],
+      "note": "12x18 jump mode: the little sister sitting on the throne, facing us",
+      "palette": {
+        "o": "#2B1B33",
+        "y": "#FFD25A",
+        "Y": "#D89B1A",
+        "h": "#F0B445",
+        "s": "#FFDCC0",
+        "S": "#EBB28F",
+        "c": "#FF8FAE",
+        "e": "#FFDCC0",
+        "m": "#2B1B33",
+        "g": "#FFDCC0",
+        "p": "#F25C9A",
+        "P": "#B8407A",
+        "w": "#FFE3EF"
+      },
+      "rows": [
+        "...y.yy.y...",
+        "..oyyyyyyo..",
+        ".ohhhhhhhho.",
+        ".ohsessesho.",
+        ".ohgossogho.",
+        ".ohcsssscho.",
+        ".ohssssssho.",
+        ".ohssmmssho.",
+        "..ooSSSSoo..",
+        "..ooppppoo..",
+        "..osppppso..",
+        "..oyyyyyyo..",
+        ".oPppppppPo.",
+        ".oPpwppwpPo.",
+        ".oPPPPPPPPo.",
+        "..oooooooo..",
+        "..oSo..oSo..",
+        "..ooo..ooo.."
+      ]
+    },
+    "dragon_walk": {
+      "size": [
+        24,
+        20
+      ],
+      "note": "24x20 jump mode: the dragon's second walking step (legs apart)",
+      "palette": {
+        "o": "#1C2E1F",
+        "g": "#4CBF5A",
+        "G": "#2E8C3D",
+        "l": "#CDEFA6",
+        "y": "#FFD25A",
+        "w": "#FFFFFF",
+        "W": "#7FD98A"
+      },
+      "rows": [
+        "...............oy..oy...",
+        "...............oyo.oyo..",
+        "..............oooooooo..",
+        ".............ogggggggggo",
+        ".............ogggwwggggo",
+        "......oooooo.ogggwoggggo",
+        ".....oWWWWWWoogggggggggo",
+        "......oWGGGWoggggggggggo",
+        "....oooooooooGggggggoggo",
+        "...ogggggggggGgggoooooo.",
+        "..oggggggggggGGggggggo..",
+        ".oggglllllllggGGo.......",
+        "oogglllllllllggGo.......",
+        "ogGglllllllllggGo.......",
+        "oGGgglllllllggGGo.......",
+        ".oGGggggggggggGo........",
+        "..ooGGgggggggGGoo.......",
+        ".oGGo.........oGGo......",
+        "oGGo...........oGGo.....",
+        "oooo...........oooo....."
+      ]
+    },
+    "dragon_hop": {
+      "size": [
+        24,
+        20
+      ],
+      "note": "24x20 jump mode: the dragon hopping (legs tucked up)",
+      "palette": {
+        "o": "#1C2E1F",
+        "g": "#4CBF5A",
+        "G": "#2E8C3D",
+        "l": "#CDEFA6",
+        "y": "#FFD25A",
+        "w": "#FFFFFF",
+        "W": "#7FD98A"
+      },
+      "rows": [
+        "...............oy..oy...",
+        "...............oyo.oyo..",
+        "..............oooooooo..",
+        ".............ogggggggggo",
+        ".............ogggwwggggo",
+        "......oooooo.ogggwoggggo",
+        ".....oWWWWWWoogggggggggo",
+        "......oWGGGWoggggggggggo",
+        "....oooooooooGggggggoggo",
+        "...ogggggggggGgggoooooo.",
+        "..oggggggggggGGggggggo..",
+        ".oggglllllllggGGo.......",
+        "oogglllllllllggGo.......",
+        "ogGglllllllllggGo.......",
+        "oGGgglllllllggGGo.......",
+        ".oGGggggggggggGo........",
+        "..ooGGgggggggGGo........",
+        "...oGGGo...oGGGo........",
+        "....ooo.....ooo.........",
+        "........................"
+      ]
+    },
+    "dragon_ouch": {
+      "size": [
+        24,
+        20
+      ],
+      "note": "24x20 jump mode: the dragon bounced on: eyes squeezed shut, seeing stars",
+      "palette": {
+        "o": "#1C2E1F",
+        "g": "#4CBF5A",
+        "G": "#2E8C3D",
+        "l": "#CDEFA6",
+        "y": "#FFD25A",
+        "w": "#FFFFFF",
+        "W": "#7FD98A"
+      },
+      "rows": [
+        "........y......oy..oy...",
+        ".......yyy.....oyo.oyo..",
+        "........y.....oooooooo..",
+        "....y.oWo....ogggggggggo",
+        "......oWWo...ogggogggggo",
+        "......oWGWo..oggggoggggo",
+        "......oWGGWo.ogggogggggo",
+        "......oWGGGWoggggggggggo",
+        "....oooooooooGggggggoggo",
+        "...ogggggggggGgggoooooo.",
+        "..oggggggggggGGggggggo..",
+        ".oggglllllllggGGo.......",
+        "oogglllllllllggGo.......",
+        "ogGglllllllllggGo.......",
+        "oGGgglllllllggGGo.......",
+        ".oGGggggggggggGo........",
+        "..ooGGgggggggGGo........",
+        "...oGGo.....oGGo........",
+        "...oGGo.....oGGo........",
+        "...oooo.....oooo........"
+      ]
+    },
+    "dragon_crown": {
+      "size": [
+        9,
+        6
+      ],
+      "note": "9x6 jump mode: the crown the dragon wears in the arena",
+      "palette": {
+        "o": "#6B3A00",
+        "y": "#FFD25A",
+        "Y": "#D89B1A",
+        "r": "#E8481C",
+        "b": "#3FA9F5"
+      },
+      "rows": [
+        "o...o...o",
+        "oy.oyo.yo",
+        "oyyyyyyyo",
+        "oyrybyryo",
+        "oYYYYYYYo",
+        ".ooooooo."
+      ]
+    },
+    "smoke_a": {
+      "size": [
+        14,
+        12
+      ],
+      "note": "14x12 jump mode: the dragon's puff of smoke rolling along the floor",
+      "palette": {
+        "o": "#7E7398",
+        "w": "#F4F0FA",
+        "l": "#CFC6E2"
+      },
+      "rows": [
+        "....oo..oo....",
+        "...owwoowwo...",
+        "..owwwwwwwwo..",
+        ".owwlwwwwwwwo.",
+        "owwwllwwwwwwwo",
+        "owwwwwwwwwlwwo",
+        ".owwwwwwwlllo.",
+        "owwwwwwwwwwwwo",
+        "owwllwwwwwwwwo",
+        ".owwwwwwwwwwo.",
+        "..oowwoowwoo..",
+        "....oo..oo...."
+      ]
+    },
+    "smoke_b": {
+      "size": [
+        14,
+        12
+      ],
+      "note": "14x12 jump mode: the puff of smoke, rolled on a bit (smoke_a turned over)",
+      "palette": {
+        "o": "#7E7398",
+        "w": "#F4F0FA",
+        "l": "#CFC6E2"
+      },
+      "rows": [
+        "....oo..oo....",
+        "..oowwoowwoo..",
+        ".owwwwwwwwwwo.",
+        "owwwwwwwwllwwo",
+        "owwwwwwwwwwwwo",
+        ".olllwwwwwwwo.",
+        "owwlwwwwwwwwwo",
+        "owwwwwwwllwwwo",
+        ".owwwwwwwlwwo.",
+        "..owwwwwwwwo..",
+        "...owwoowwo...",
+        "....oo..oo...."
+      ]
+    },
+    "float_bubble": {
+      "size": [
+        24,
+        28
+      ],
+      "note": "24x28 jump mode: the bubble a princess floats back to the other in (drawn over her; see-through but for its rim and shine)",
+      "palette": {
+        "o": "#5FB8E8",
+        "l": "#BFE6F8",
+        "w": "#FFFFFF"
+      },
+      "rows": [
+        ".........oooooo.........",
+        ".......oolllllloo.......",
+        ".....ooll......lloo.....",
+        "....oll..........llo....",
+        "...ol.ww...........lo...",
+        "..ol.w...........w..lo..",
+        "..olw.............w.lo..",
+        ".ol.w................lo.",
+        ".olw.................lo.",
+        ".olw.................lo.",
+        "ol....................lo",
+        "ol....................lo",
+        "ol....................lo",
+        "ol....................lo",
+        "ol....................lo",
+        "ol....................lo",
+        "ol....................lo",
+        "ol....................lo",
+        ".ol..................lo.",
+        ".ol..................lo.",
+        ".ol..................lo.",
+        "..ol................lo..",
+        "..ol................lo..",
+        "...ol..............lo...",
+        "....oll..........llo....",
+        ".....ooll......lloo.....",
+        ".......oolllllloo.......",
+        ".........oooooo........."
+      ]
+    },
+    "amb_mote": {
+      "size": [
+        1,
+        1
+      ],
+      "note": "1x1 jump mode ambience: a speck of dust (castle), pollen (garden) or a cyan mote (crystal), by palette swap",
+      "palette": {
+        "w": "#FFF1C9"
+      },
+      "rows": [
+        "w"
+      ]
+    },
+    "amb_ember": {
+      "size": [
+        1,
+        2
+      ],
+      "note": "1x2 jump mode ambience: an ember rising in the castle",
+      "palette": {
+        "y": "#FFD25A",
+        "r": "#FF7A3C"
+      },
+      "rows": [
+        "y",
+        "r"
+      ]
+    },
+    "amb_butterfly_a": {
+      "size": [
+        5,
+        4
+      ],
+      "note": "5x4 jump mode ambience: a butterfly, wings open (palette-swapped per butterfly)",
+      "palette": {
+        "w": "#FF8FD0",
+        "W": "#C75BA6",
+        "b": "#2B1B33"
+      },
+      "rows": [
+        "ww.ww",
+        "wWbWw",
+        ".wbw.",
+        "..b.."
+      ]
+    },
+    "amb_butterfly_b": {
+      "size": [
+        5,
+        4
+      ],
+      "note": "5x4 jump mode ambience: a butterfly, wings up",
+      "palette": {
+        "w": "#FF8FD0",
+        "W": "#C75BA6",
+        "b": "#2B1B33"
+      },
+      "rows": [
+        ".w.w.",
+        ".wbw.",
+        ".WbW.",
+        "..b.."
+      ]
+    },
+    "amb_petal": {
+      "size": [
+        3,
+        2
+      ],
+      "note": "3x2 jump mode ambience: a blossom petal drifting down (spring)",
+      "palette": {
+        "p": "#FFC2D9",
+        "P": "#F28DB2"
+      },
+      "rows": [
+        "pp.",
+        ".pP"
+      ]
+    },
+    "amb_leaf": {
+      "size": [
+        4,
+        3
+      ],
+      "note": "4x3 jump mode ambience: an autumn leaf falling (orange, red or yellow by palette swap)",
+      "palette": {
+        "l": "#F28A2E",
+        "L": "#B8561B"
+      },
+      "rows": [
+        "..ll",
+        ".lLl",
+        "lL.."
+      ]
+    },
+    "amb_snow_small": {
+      "size": [
+        1,
+        1
+      ],
+      "note": "1x1 jump mode ambience: a snowflake far off",
+      "palette": {
+        "w": "#FFFFFF"
+      },
+      "rows": [
+        "w"
+      ]
+    },
+    "amb_snow_big": {
+      "size": [
+        3,
+        3
+      ],
+      "note": "3x3 jump mode ambience: a snowflake near",
+      "palette": {
+        "w": "#FFFFFF",
+        "W": "#DDEBFF"
+      },
+      "rows": [
+        ".W.",
+        "WwW",
+        ".W."
+      ]
+    },
+    "amb_twinkle": {
+      "size": [
+        3,
+        3
+      ],
+      "note": "3x3 jump mode ambience: a twinkle in the crystal caves",
+      "palette": {
+        "w": "#FFFFFF",
+        "c": "#9EE7FF"
+      },
+      "rows": [
+        ".c.",
+        "cwc",
+        ".c."
+      ]
+    },
+    "amb_glint": {
+      "size": [
+        3,
+        1
+      ],
+      "note": "3x1 jump mode ambience: a glint on the summer sea",
+      "palette": {
+        "w": "#FFFFFF",
+        "W": "#CFEFFF"
+      },
+      "rows": [
+        "WwW"
+      ]
+    },
+    "amb_seagull_a": {
+      "size": [
+        7,
+        3
+      ],
+      "note": "7x3 jump mode ambience: a seagull far off, wings up",
+      "palette": {
+        "o": "#E8E6F0"
+      },
+      "rows": [
+        "o.....o",
+        ".o...o.",
+        "..ooo.."
+      ]
+    },
+    "amb_seagull_b": {
+      "size": [
+        7,
+        3
+      ],
+      "note": "7x3 jump mode ambience: a seagull far off, wings down",
+      "palette": {
+        "o": "#E8E6F0"
+      },
+      "rows": [
+        ".......",
+        "ooo.ooo",
+        "...o..."
+      ]
+    },
+    "bunny_side_a": {
+      "size": [
+        16,
+        14
+      ],
+      "note": "16x14 jump mode: the bunny side-on, facing right (a: sitting up, b: mid-hop)",
+      "palette": {
+        "o": "#3A2A4A",
+        "w": "#FFFFFF",
+        "W": "#D9D2F5",
+        "p": "#FFB3C7"
+      },
+      "rows": [
+        "........oo......",
+        ".......opo.oo...",
+        ".......opoopo...",
+        "........oopo....",
+        "........owwoo...",
+        ".......owwwwwo..",
+        ".......owwwowwo.",
+        "..ooooowwwwwwpo.",
+        ".owwwwwwwwwwwo..",
+        "oWowwwwwwwwwo...",
+        "oWwwwwwwwwwwo...",
+        ".owwwwwwwwwwo...",
+        "..oWWooooWWWo...",
+        "...oo....ooo...."
+      ]
+    },
+    "bunny_side_b": {
+      "size": [
+        16,
+        14
+      ],
+      "note": "16x14 jump mode: the bunny side-on, facing right (a: sitting up, b: mid-hop)",
+      "palette": {
+        "o": "#3A2A4A",
+        "w": "#FFFFFF",
+        "W": "#D9D2F5",
+        "p": "#FFB3C7"
+      },
+      "rows": [
+        "......oo........",
+        ".....opo.oo.....",
+        "......opoopo....",
+        ".......oopo.....",
+        "........owwoo...",
+        ".......owwwwwo..",
+        "..ooo..owwwowwo.",
+        ".owwwooowwwwwpo.",
+        "oWowwwwwwwwwwo..",
+        "oWwwwwwwwwwwo...",
+        ".owwwwwwwwwo....",
+        "..owwwwwwwwo....",
+        ".oWWo...oWWo....",
+        ".oo......oo....."
+      ]
+    },
+    "kitten_side_a": {
+      "size": [
+        16,
+        12
+      ],
+      "note": "16x12 jump mode: the kitten side-on, facing right, walking (two steps)",
+      "palette": {
+        "o": "#3A2410",
+        "k": "#FF9A3C",
+        "K": "#D9701E",
+        "w": "#FFF4E0",
+        "g": "#4CBF5A",
+        "p": "#FF8FAE"
+      },
+      "rows": [
+        "...........o..o.",
+        "..........oko.ko",
+        ".o........okkkko",
+        "oko......okkkkko",
+        "oko......okgkgko",
+        ".oko.....okkkpko",
+        "..oooooooowwwwo.",
+        "..okkKkkKkkkko..",
+        "..okkkkkkkkkko..",
+        "..okKkkKkkKkko..",
+        "..owkwo..owkwo..",
+        "..oo.oo..oo.oo.."
+      ]
+    },
+    "kitten_side_b": {
+      "size": [
+        16,
+        12
+      ],
+      "note": "16x12 jump mode: the kitten side-on, facing right, walking (two steps)",
+      "palette": {
+        "o": "#3A2410",
+        "k": "#FF9A3C",
+        "K": "#D9701E",
+        "w": "#FFF4E0",
+        "g": "#4CBF5A",
+        "p": "#FF8FAE"
+      },
+      "rows": [
+        "...........o..o.",
+        ".o........oko.ko",
+        "oko.......okkkko",
+        "oko......okkkkko",
+        ".oko.....okgkgko",
+        "..oko....okkkpko",
+        "..oooooooowwwwo.",
+        "..okkKkkKkkkko..",
+        "..okkkkkkkkkko..",
+        "..okKkkKkkKkko..",
+        "...owkwoowkwo...",
+        "...oo.oooo.oo..."
+      ]
+    },
+    "turtle_side_a": {
+      "size": [
+        16,
+        8
+      ],
+      "note": "16x8 jump mode: the turtle side-on, facing right, walking (two steps)",
+      "palette": {
+        "o": "#1F3A2A",
+        "s": "#2E8C3D",
+        "S": "#7FD98A",
+        "k": "#CDEFA6"
+      },
+      "rows": [
+        "....oooooo......",
+        "...osSsSSso.....",
+        "..osSssssSso.oo.",
+        ".osssSssSsssokko",
+        ".osSssSSssSsokoo",
+        "oooooooooooookko",
+        ".okko....okko.o.",
+        ".oko......oko..."
+      ]
+    },
+    "turtle_side_b": {
+      "size": [
+        16,
+        8
+      ],
+      "note": "16x8 jump mode: the turtle side-on, facing right, walking (two steps)",
+      "palette": {
+        "o": "#1F3A2A",
+        "s": "#2E8C3D",
+        "S": "#7FD98A",
+        "k": "#CDEFA6"
+      },
+      "rows": [
+        "....oooooo......",
+        "...osSsSSso.....",
+        "..osSssssSso.oo.",
+        ".osssSssSsssokko",
+        ".osSssSSssSsokoo",
+        "oooooooooooookko",
+        "..okko..okko..o.",
+        "...oko...oko...."
+      ]
+    },
+    "jump_gate": {
+      "size": [
+        16,
+        16
+      ],
+      "note": "16x16 jump mode: the arena's gate (castle, crystal), bars and a crossbar; stacks",
+      "palette": {
+        "o": "#2A2150",
+        "H": "#B8ADEA",
+        "h": "#7E70C2"
+      },
+      "rows": [
+        "oHo.oHo.oHo.oHo.",
+        "oHo.oHo.oHo.oHo.",
+        "oHo.oHo.oHo.oHo.",
+        "oHo.oHo.oHo.oHo.",
+        "oHo.oHo.oHo.oHo.",
+        "oooooooooooooooo",
+        "oHHHHHHHHHHHHHHo",
+        "ohhhhhhhhhhhhhho",
+        "oooooooooooooooo",
+        "oHo.oHo.oHo.oHo.",
+        "oHo.oHo.oHo.oHo.",
+        "oHo.oHo.oHo.oHo.",
+        "oHo.oHo.oHo.oHo.",
+        "oHo.oHo.oHo.oHo.",
+        "oHo.oHo.oHo.oHo.",
+        "oHo.oHo.oHo.oHo."
+      ]
+    },
+    "jump_gate_top": {
+      "size": [
+        16,
+        16
+      ],
+      "note": "16x16 jump mode: the gate's top, the bars ending in points",
+      "palette": {
+        "o": "#2A2150",
+        "H": "#B8ADEA",
+        "h": "#7E70C2"
+      },
+      "rows": [
+        "................",
+        ".o...o...o...o..",
+        "oHo.oHo.oHo.oHo.",
+        "oHo.oHo.oHo.oHo.",
+        "oHo.oHo.oHo.oHo.",
+        "oooooooooooooooo",
+        "oHHHHHHHHHHHHHHo",
+        "ohhhhhhhhhhhhhho",
+        "oooooooooooooooo",
+        "oHo.oHo.oHo.oHo.",
+        "oHo.oHo.oHo.oHo.",
+        "oHo.oHo.oHo.oHo.",
+        "oHo.oHo.oHo.oHo.",
+        "oHo.oHo.oHo.oHo.",
+        "oHo.oHo.oHo.oHo.",
+        "oHo.oHo.oHo.oHo."
+      ]
+    },
+    "jump_hedge": {
+      "size": [
+        16,
+        16
+      ],
+      "note": "16x16 jump mode: the arena's hedge (outdoor themes), leafy with a few flowers; stacks",
+      "palette": {
+        "k": "#1E4A2A",
+        "g": "#3E9E4A",
+        "G": "#6CCB5F",
+        "d": "#2C7A3A",
+        "x": "#FFFFFF"
+      },
+      "rows": [
+        "kgGGggggggGGgggk",
+        "kGGggggggGGggggk",
+        "kgggggggggggxggk",
+        "kgggdgggggggdggk",
+        "kgdddgggggdddggk",
+        "kgggggGGggggggGk",
+        "kggggGGggggggGGk",
+        "kggggggggggggggk",
+        "kgggxgggdggggggk",
+        "kgggggdddgggggdk",
+        "kgGGggggggGGgggk",
+        "kGGggggggGGggggk",
+        "kggggggggggggxgk",
+        "kgggdgggggggdggk",
+        "kgdddgggggdddggk",
+        "kgggggGGggggggGk"
+      ]
+    },
+    "jump_hedge_top": {
+      "size": [
+        16,
+        16
+      ],
+      "note": "16x16 jump mode: the hedge's rounded top",
+      "palette": {
+        "k": "#1E4A2A",
+        "g": "#3E9E4A",
+        "G": "#6CCB5F",
+        "d": "#2C7A3A",
+        "x": "#FFFFFF"
+      },
+      "rows": [
+        "................",
+        "...kkk....kkk...",
+        "..kGGGk..kGGGk..",
+        ".kGGgGGkkGGgGGk.",
+        "kgGggggGGggggGgk",
+        "kgggggGGggggggGk",
+        "kggggGGggggggGGk",
+        "kggggggggggggggk",
+        "kgggxgggdggggggk",
+        "kgggggdddgggggdk",
+        "kgGGggggggGGgggk",
+        "kGGggggggGGggggk",
+        "kggggggggggggxgk",
+        "kgggdgggggggdggk",
+        "kgdddgggggdddggk",
+        "kgggggGGggggggGk"
       ]
     }
   },
